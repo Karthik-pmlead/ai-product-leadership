@@ -1,6 +1,10 @@
 # 👨‍💼 AI Product Leader | Technical PRD Manager
 
-**I blend engineering rigor, MBA strategy, and senior product leadership—guiding cross-functional teams from product to successful launches while bridging technical complexity with business objectives.**
+> I lead product organizations at enterprise scale, blending deep engineering expertise, MBA-level strategic frameworks, and senior product leadership to deliver multimillion-dollar business impact.
+
+> **Led teams across Engg/DS/Design** from customer discovery through production launches, achieving **95% on-time delivery** and **significant business results**. 
+
+> Specialize in architecting production-grade PRDs, C-suite aligned roadmaps, and scalable operating models that translate complex technical requirements into stakeholder business objectives.
 
 ## 📊 AI Product Leadership - Competency Map
 
