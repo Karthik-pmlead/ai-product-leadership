@@ -11,6 +11,8 @@
 | **[Velocity Scaling](02-velocity-scaling/)** | Team maturity progression | **Consistent sprint capacity** |
 | **[Program Governance](03-program-governance/)** | Risk register + planning templates | **Zero scope creep** |
 
+**[Detailed Executive Summary → [overview](overview.md)**
+
 ## 🚀 Generic Operating Model
 MULTI-TEAM OPERATING MODEL
 -  ├── 20% CAPACITY: Tech debt + innovation
