@@ -49,7 +49,7 @@ This repo is structured so each `.md` file can stand alone, yet they form a cohe
 
 ---
 
-[01]: GDPR-101/01-basics-and-terminologies.md  
+[01]: 01-basics-and-terminologies.md  
 [02]: GDPR-101/02-gdpr-key-principles.md  
 [03]: GDPR-101/03-privacy-by-design.md  
 [04]: GDPR-101/04-data-controller-processor.md  
