@@ -10,7 +10,7 @@ This folder (`ai-product-leadership/security-compliance/`) gathers narratives an
 - **Engineering and security leaders** in IoT‑manufacturing, SaaS, and connected‑device organisations who integrate **VAPT, OWASP‑secure‑coding, and ISMS‑style processes** into product‑design and SDLC.
 
 ---
-## Video resources (optional external learning)
+## Video resources (Skills, My Experience)
 
 - GDPR skills and case studies → [`videos/gdpr-videos.md`][gdprvideos]
 - ISO 27001 / ISMS basics → [`videos/isms-videos.md`][ismsvideos]
