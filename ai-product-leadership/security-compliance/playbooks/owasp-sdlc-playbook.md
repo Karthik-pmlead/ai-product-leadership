@@ -1,141 +1,114 @@
-# CE‑Style Safety + Security Playbook (IoT / Cyber‑Physical Products)
+# OWASP‑Aligned SDLC Playbook
 
-Use this playbook when designing or redesigning **IoT, embedded, or cyber‑physical products** (e.g., smart lock, sensor, industrial‑controller) that must meet **CE‑Marking‑style product‑safety and security expectations**.
+Use this playbook to **embed OWASP‑Top‑10‑style thinking into your SDLC** — from PRD to production — for any web, API, or microservices‑based product.
 
 ---
 
 ## 1. When to run this playbook
 
-- Before **launching a new IoT variant** or significantly changing:
-  - Firmware, safety‑logic, access‑control, or connectivity.  
-- During **product‑design reviews**, **DFMEA‑style meetings**, and **pre‑test‑campaign** planning.
+- During **feature‑kickoff** for any component that:
+  - Handles user‑inputs (forms, APIs, search, upload).  
+  - Involves auth, sessions, payments, or admin‑interfaces.  
+  - Uses libraries or external‑services.  
+- During **design‑reviews**, **sprint‑planning**, and **pre‑release** hardening.
 
 ---
 
-## 2. Step 1 – Define safety‑and‑security scope
+## 2. Step 1 – Map OWASP‑categories to the feature
 
-Ask and document:
+For each feature, tag which **OWASP‑Top‑10 categories** are relevant:
 
-- **What is the product?**  
-  - e.g., “Smart lock controlling residential doors, connected via Bluetooth/Wi‑Fi.”  
+- **A01: Broken Access Control**  
+  - Any endpoint that serves user‑specific‑data or admin‑functions.
 
-- **What are the “safety‑relevant” functions?**  
-  - e.g., “Lock‑and‑unlock commands”, “Emergency‑unlock”, “Tamper‑response”.
+- **A03: Injection**  
+  - Any API, search, or user‑input‑to‑SQL / OS‑command / template‑path.
 
-- **What are the “security‑relevant” functions?**  
-  - e.g., “Auth‑and‑session‑management”, “OTA‑firmware‑update”, “Communication‑with‑gateway”.
+- **A07: Identification and Authentication Failures**  
+  - Login, MFA, password‑reset, token‑management.
 
-- **What are the “hazardous situations”?**  
-  - e.g., “User trapped behind locked door”, “Unauthorized‑unlock”, “Device‑bricked‑remotely”.
+- **A10: SSRF**  
+  - Any endpoint that uses user‑provided‑URLs (webhooks, imports, scrapers).
 
-Add this as a **CE‑section** in the PRD or design‑document.
+- Others (A02, A05, A06, A08, A09) as relevant.
 
----
-
-## 3. Step 2 – Perform CE‑style risk‑assessment
-
-Use and expand `risk-management/registers/example-ce-risk-register.md`:
-
-- **Hazard‑analysis**  
-  - Brainstorm:
-    - Mechanical‑hazards (pinching, force).  
-    - Electrical‑hazards (overheating, power‑fault).  
-    - Environmental‑hazards (moisture, dust, IP‑rating needs).  
-    - Software‑hazards (firmware‑bricked, unexpected‑unlock, faulty‑state‑machine).  
-
-- **Risk‑matrix**  
-  - Rate each hazard by **Likelihood × Impact** (e.g., 1–5).  
-  - Classify as **Low / Medium / High / Critical**.
-
-- **Risk‑treatment**  
-  - Choose:
-    - **Mitigate** (e.g., add sensor, safe‑default‑state).  
-    - **Avoid** (e.g., remove feature).  
-    - **Accept** (with evidence and rationale).
-
-Tie each risk‑item to a **design‑requirement** and **test‑case**.
+Document this in a **PRD‑section** or JIRA‑field.
 
 ---
 
-## 4. Step 3 – Design safety‑plus‑security controls
+## 3. Step 2 – Define OWASP‑style requirements
 
-Translate risks into product‑requirements:
+Turn OWASP‑categories into **product‑level requirements**:
 
-- **Safe‑default‑states**  
-  - Define what the device should do in failure‑modes:
-    - Power‑loss, low‑battery, comms‑loss, bricked‑firmware, etc.  
-  - Example: “In low‑battery scenario, lock remains unlockable via mechanical‑key.”
+- **A01 – Access control**  
+  - “User cannot access data or admin‑functions they shouldn’t.”  
+  - Implement RBAC checks on every sensitive endpoint.
 
-- **Hardware‑and‑firmware‑design**  
-  - Include:
-    - Overcurrent‑and‑over‑temperature‑protection.  
-    - Watchdog‑timer‑based‑reboot.  
-    - Secure‑boot and signed‑firmware‑updates.
+- **A03 – Injection**  
+  - “All user‑input used in queries or commands must be parameterized or strongly‑sanitized.”  
+  - Use schema‑validation and strict escaping.
 
-- **Access‑control and auth**  
-  - Ensure:
-    - Only authorised‑users can initiate unlock.  
-    - MFA or strong‑auth for admin‑operations.  
+- **A07 – Authentication**  
+  - “All auth‑endpoints use strong‑password‑rules and MFA where applicable.”  
+  - Logs capture failed‑login attempts.
 
-- **Logging and diagnostics**  
-  - Device‑and‑gateway logs capture:
-    - Unlock‑events.  
-    - Tamper‑attempts.  
-    - Firmware‑update‑status.
+- **A10 – SSRF**  
+  - “URL‑fields must be allow‑listed or sandboxed; no direct‑internal‑calls.”
+
+Bind these to specific **acceptance‑criteria**.
 
 ---
 
-## 5. Step 4 – Plan tests and evidence‑generation
+## 4. Step 3 – Embed into SDLC stages
 
-For each high‑and‑critical‑risk:
+### Discovery / PRD
 
-- **Physical‑and‑environmental‑tests**  
-  - IP‑rating tests (e.g., IP65).  
-  - Heat‑and‑cold‑tests.  
-  - Mechanical‑stress‑tests (e.g., repeated‑locking).
+- Run a **threat‑model** using `risk-management/threat-model-template.md`.  
+- Add **OWASP‑risk‑items** to `risk-management/registers/example-owasp-risk-register.md`.
 
-- **Firmware‑and‑security‑tests**  
-  - Safe‑failure‑mode‑test (e.g., low‑battery‑scenario, power‑off‑during‑update).  
-  - Auth‑bypass / tampering‑tests (e.g., brute‑force, spoofed‑gateway).
+### Design
 
-- **User‑documentation**  
-  - Safety‑warnings in manual and in‑app messages.  
-  - Clear instructions for mechanical‑override and emergency‑unlock.
+- Finalize **data‑contracts and schemas**; enforce input‑validation at borders.  
+- Sketch **auth‑and‑RBAC** models (e.g., roles, scopes).
 
-Document **test‑plans and test‑reports** as part of the **Technical File**.
+### Development
+
+- Follow **secure‑coding‑guidelines** (`secure-coding-guidelines.md`).  
+- Use **linter‑plugins** for SAST / secrets‑scan.  
+- Do **manual‑checks** for OWASP‑patterns before PRs.
+
+### PR Review
+
+- Add a **security‑checklist** to PR templates:
+  - Is auth‑present on all sensitive endpoints?  
+  - Are all inputs parameterized and escaped?  
+  - Are secrets externalised and not hardcoded?
+
+### Testing
+
+- QA‑plan should include:
+  - Auth‑bypass tests.  
+  - Injection‑type tests.  
+  - SSRF‑style tests (if applicable).  
+- Use DAST / VAPT‑style scanning for high‑risk features.
+
+### Pre‑release
+
+- Verify **OWASP‑risk‑register** is up‑to‑date; all high‑and‑critical items either mitigated or accepted.  
+- Ensure **logging for security‑events** (failed‑logins, admin‑actions, errors).
 
 ---
 
-## 6. Step 5 – Align with CE‑documentation and audits
+## 5. Example in a sprint
 
-- **Technical File**  
-  - Ensure the CE‑risk‑register, design‑requirements, test‑plans, and reports are assembled.  
+- **Sprint‑0**  
+  - Tag OWASP‑categories on PRD tickets; update risk‑register.
 
-- **Declaration of Conformity (DoC)**  
-  - Verify that:
-    - Risk‑assessment and controls are documented.  
-    - Testing‑evidence is attached.  
-    - CE‑Marking‑guidelines for relevant‑directives are followed.
+- **Sprint‑1–2**  
+  - Implement controls, write tests, and run SAST.  
+  - Mark OWASP‑fixes in PRs (e.g., `OWASP‑003`).
 
-- **Audits**  
-  - Use this playbook and the CE‑risk‑register as the **single source of truth** for:
-    - Product‑safety‑and‑security‑design.  
-    - Evidence‑of‑due‑diligence.
+- **Post‑release**  
+  - Track OWASP‑risk‑status in quarterly‑releases; review missing‑pieces.
 
----
-
-## 7. Example in an IoT‑sprint
-
-- **Sprint‑0 (Discovery)**  
-  - Run this playbook to define hazards and safe‑default‑states; update `example-ce-risk-register.md`.
-
-- **Sprint‑1–3 (Design & build)**  
-  - Implement hardware‑protections, firmware‑safe‑modes, and logging.  
-
-- **Sprint‑4 (Test)**  
-  - Execute physical‑and‑firmware‑test‑plans; update Technical File.
-
-- **Post‑launch**  
-  - Track new‑hazards via incident‑RCA and update risk‑register.
-
-This playbook bridges **product‑leadership**, **engineering**, and **CE‑compliance** into one repeatable routine for safety‑plus‑security‑by‑design.
+This playbook makes **OWASP** a **product‑level habit**, not just a security‑team checklist.
