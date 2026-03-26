@@ -41,11 +41,12 @@ This collection reflects my hands‑on leadership across:
 | [`ISMS/ISMS27001.md`][isms27001]                                                 | ISMS 101: core concepts, awareness, roles, and responsibilities.                          |
 | [`ISMS/secure-coding-and-vapt-101.md`][scvapt]                                       | OWASP‑Top‑10, secure‑coding guidelines, and VAPT for product‑engineering teams.           |
 | [`ISMS/ISO27001-security-experience.md`][isoexp]                                 | ISO 27001‑aligned security‑leadership experience in an IoT‑manufacturing context.          |
-| For **CE‑Marking‑style product‑safety**, see the `CE/` folder.   | CE‑Marking 101, personal experience, and smart‑lock CE‑initiative for IoT‑manufacturing.  |
+| For CE‑Marking‑style product‑safety see the [`CE/`][CE] folder.   | CE‑Marking 101, personal experience, and smart‑lock CE‑initiative for IoT‑manufacturing.  |
 | [`CE/CE_Marking_experience.md`][ceexp]                       | Experience leading CE‑compliance for an IoT smart‑lock product, including documentation, testing, and product‑safety‑by‑design. |
 
 [GDPR]: GDPR
 [isms27001]: ISMS/ISMS27001.md
 [scvapt]: ISMS/secure-coding-and-vapt-101.md
 [isoexp]: ISMS/ISO27001-security-experience.md
+[CE]: CE
 [ceexp]: CE/CE_Marking_experience.md
