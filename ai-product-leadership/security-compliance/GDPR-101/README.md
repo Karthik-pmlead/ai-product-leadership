@@ -4,6 +4,21 @@ This is a **GDPR‑101** guide tailored for **AI‑product leaders, product mana
 
 ---
 
+## Watch a short video walkthrough of my GDPR work
+
+A short video walks through:
+
+- GDPR Skills overview.
+  - You can also open it here: [videos/gdpr-skills-overview.mp4](videos/gdpr-skills-overview.mp4)
+
+- The mobile‑app registration case study and follow‑up exercises.
+  - You can also open it here: [videos/my-gdpr-compliance-journey.mp4](videos/my-gdpr-compliance-journey.mp4)
+
+- How I translate GDPR into product‑level checklists and engineering requirements.
+  - You can also open it here: [videos/gdpr-product-leadership-demo.mp4](videos/gdpr-product-leadership-demo.mp4)
+
+---
+
 ## What this collection is for
 
 - **Product leaders** who ship AI, data‑intensive, or SaaS products that touch personal data of individuals in the EU/EEA.  
@@ -31,8 +46,6 @@ The goal is to help you **embed GDPR into product design**, data flows, and arch
 | [`11-gdpr-case-study-rights-risk-basics.md`][11]| Continuation of the mobile‑app case study, focusing on data‑subject rights, GDPR‑level risk rating (Low/Medium/High), and the role of GDPR for businesses like XYZ Company. | Use to explore rights, risk‑assessments, and compliance‑reasoning for product teams and learners. |
 | [`12-gdpr-case-study-principles-and-compliance-steps.md`][12]| Follow‑up section on GDPR principles (data minimisation, purpose limitation), lawful bases, and practical compliance steps a business like XYZ Company can take. | Use as a wrap‑up exercise to connect GDPR‑principles to concrete product‑design and operational actions. |
 
-
----
 
 ## Target audience
 
