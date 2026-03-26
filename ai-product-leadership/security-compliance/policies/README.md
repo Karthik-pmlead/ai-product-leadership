@@ -20,7 +20,7 @@ These policies are written for **product leaders, engineering teams, and operati
 | [`secure-development-policy.md`][sdp]      | How security and compliance are baked into the SDLC and product‑design. |
 
 
-[dpp]: security-compliance/policies/data-protection-policy.md
+[dpp]: data-protection-policy.md
 [sp]: security-policy.md
 [acp]: access-control-policy.md
 [sdp]: secure-development-policy.md
