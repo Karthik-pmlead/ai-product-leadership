@@ -10,7 +10,14 @@ This folder (`ai-product-leadership/security-compliance/`) gathers narratives an
 - **Engineering and security leaders** in IoT‑manufacturing, SaaS, and connected‑device organisations who integrate **VAPT, OWASP‑secure‑coding, and ISMS‑style processes** into product‑design and SDLC.
 
 ---
+## Video resources (optional external learning)
 
+- GDPR skills and case studies → [`videos/gdpr-videos.md`][gdprvideos]
+- ISO 27001 / ISMS basics → [`videos/isms-videos.md`][ismsvideos]
+- OWASP, secure coding, and VAPT → [`videos/secure-coding-vapt-videos.md`][securecodingvideos]
+- CE‑Marking 101 and product‑safety → [`videos/ce‑videos.md`][cevideos]
+
+---
 ## My security‑and‑compliance experience
 
 This collection reflects my hands‑on leadership across:
@@ -43,6 +50,11 @@ This collection reflects my hands‑on leadership across:
 | [`ISMS/ISO27001-security-experience.md`][isoexp]                                 | ISO 27001‑aligned security‑leadership experience in an IoT‑manufacturing context.          |
 | For CE‑Marking‑style product‑safety see the [`CE/`][CE] folder.   | CE‑Marking 101, personal experience, and smart‑lock CE‑initiative for IoT‑manufacturing.  |
 | [`CE/CE_Marking_experience.md`][ceexp]                       | Experience leading CE‑compliance for an IoT smart‑lock product, including documentation, testing, and product‑safety‑by‑design. |
+
+[gdprvideos]: videos/gdpr-videos.md
+[ismsvideos]: videos/isms-videos.md
+[securecodingvideos]: videos/secure-coding-vapt-videos.md.md
+[cevideos]: videos/ce-videos.md
 
 [GDPR]: GDPR
 [isms27001]: ISMS/ISMS27001.md
