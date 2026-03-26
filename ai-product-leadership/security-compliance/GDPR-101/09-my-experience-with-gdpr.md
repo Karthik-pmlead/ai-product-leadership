@@ -117,5 +117,6 @@ This experience is now a core building block of my AI‑product‑leadership nar
 - **Data protection can be product‑led**, not just legal‑driven.  
 - **GDPR‑principles translate into concrete product and engineering requirements** that ship with features, not after them.  
 - For **AI‑product leaders**, this is especially critical when building profiling systems, recommendation engines, and automated decision‑making features that touch personal data.
+- This experience is now a template for how I treat data protection as a product‑level superpower—a core constraint that shapes data‑architecture, UX, and AI‑product design.
 
 ---
