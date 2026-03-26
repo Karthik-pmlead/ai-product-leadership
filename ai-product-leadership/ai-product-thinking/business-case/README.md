@@ -1,0 +1,2 @@
+- recsys-roi.md                   # $15M ARR calculation
+- genai-cost-benefit.md           # vs rule-based baseline

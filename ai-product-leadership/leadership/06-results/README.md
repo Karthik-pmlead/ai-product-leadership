@@ -1,0 +1,2 @@
+-  q1-2026-dashboard.md          # Velocity + business impact
+-  team-velocity-chart.png       # Visual proof

@@ -1,0 +1,2 @@
+- q1-2026-okr-template.md       # Company → Team → IC
+- okr-cascade-framework.md      # Top-down alignment

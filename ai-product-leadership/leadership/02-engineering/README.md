@@ -1,0 +1,3 @@
+- tech-debt-roadmap.md          # Q1-Q4 planning
+- system-design-qa.md           # Architecture review checklist
+- incident-postmortem.md        # Production incident template
