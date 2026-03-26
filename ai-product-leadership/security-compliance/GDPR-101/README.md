@@ -26,7 +26,10 @@ The goal is to help you **embed GDPR into product design**, data flows, and arch
 | [`06-lawful-bases-security.md`][06]      | Lawful bases (consent, contract, legitimate interest) and security/compliance techniques.| Use in PRDs to justify data‑collection and security requirements.            |
 | [`07-international-transfers-enforcement.md`][07]| International data transfers and GDPR enforcement/fines.                             | Align data‑residency and cross‑border flows with product‑level safeguards.   |
 | [`08-india-centric-gdpr-in-practice.md`][08]| GDPR‑in‑practice for India‑based product and engineering teams.                         | Tailor global GDPR patterns to India‑based SaaS, IT‑services, and AI products.|
-| [`09-my-experience-with-gdpr.md`][08]| Personal experience leading GDPR‑compliance initiatives and product‑level implementation. | Example narrative for PMs building their own GDPR stories.|
+| [`09-my-experience-with-gdpr.md`][09]| Personal experience leading GDPR‑compliance initiatives and product‑level implementation. | Example narrative for PMs building their own GDPR stories.|
+| [`10-gdpr-case-study-mobile-app-registration.md`][10]| A GDPR‑101 case study centered on a fictional mobile‑app registration flow, covering personal data identification, legal basis (contract), and basic risk‑mitigation. | Use as a learning‑worksheet or workshop handout to practice GDPR‑core concepts in a product‑like scenario. |
+| [`11-gdpr-case-study-rights-risk-basics.md`][11]| Continuation of the mobile‑app case study, focusing on data‑subject rights, GDPR‑level risk rating (Low/Medium/High), and the role of GDPR for businesses like XYZ Company. | Use to explore rights, risk‑assessments, and compliance‑reasoning for product teams and learners. |
+| [`12-gdpr-case-study-principles-and-compliance-steps.md`][12]| Follow‑up section on GDPR principles (data minimisation, purpose limitation), lawful bases, and practical compliance steps a business like XYZ Company can take. | Use as a wrap‑up exercise to connect GDPR‑principles to concrete product‑design and operational actions. |
 
 
 ---
@@ -60,3 +63,7 @@ This repo is structured so each `.md` file can stand alone, yet they form a cohe
 [07]: 07-international-transfers-enforcement.md  
 [08]: 08-india-centric-gdpr-in-practice.md
 [09]: 09-my-experience-with-gdpr.md
+[10]: 10-gdpr-case-study-mobile-app-registration.md
+[11]: 11-gdpr-case-study-rights-risk-basics.md
+[12]: 12-gdpr-case-study-principles-and-compliance-steps.md
+
