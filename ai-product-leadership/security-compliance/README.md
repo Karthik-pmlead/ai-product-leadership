@@ -53,7 +53,7 @@ This collection reflects my hands‑on leadership across:
 
 [gdprvideos]: videos/gdpr-videos.md
 [ismsvideos]: videos/isms-videos.md
-[securecodingvideos]: videos/secure-coding-vapt-videos.md.md
+[securecodingvideos]: videos/secure-coding-vapt-videos.md
 [cevideos]: videos/ce-videos.md
 
 [GDPR]: GDPR
