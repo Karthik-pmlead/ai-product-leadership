@@ -44,3 +44,35 @@ From the **OWASP Top 10:2021** list: [web:15][web:2]
   - Use the Top 10 as a checklist to scope security‑testing and penetration tests for web and API‑based products. [web:13][web:17]  
 
 By treating OWASP Top 10 as a **product‑level risk‑taxonomy**, you make security‑thinking reusable, measurable, and aligned with industry standards.
+
+## OWASP Top 10 – Internet references
+
+- **OWASP Top 10:2021 (official)**  
+  https://owasp.org/Top10/2021/ [web:15]  
+
+- **OWASP Top 10:2021 Introduction (background and rationale)**  
+  https://owasp.org/Top10/2021/A00_2021_Introduction/ [web:16]  
+
+- **OWASP official Top Ten project page**  
+  https://owasp.org/www-project-top-ten/ [web:8]  
+
+- **OWASP Foundation overview (background on OWASP)**  
+  https://owasp.org/ [web:13]  
+
+- **OWASP Top 10 2021 – detailed explanation (developer‑friendly)**  
+  https://www.jit.io/resources/security-standards/the-in-depth-guide-to-owasps-top-10-vulnerabilities [web:3]  
+
+- **OWASP Top 10 2021 – summary and practical implications**  
+  https://www.contrastsecurity.com/glossary/owasp-top-10 [web:1]  
+
+- **OWASP Top 10 2021 – overview and changes vs 2017**  
+  https://sucuri.net/guides/owasp_top_10_2021_edition/ [web:2]  
+
+- **OWASP Top 10 2021 – technical breakdown (CWE‑level detail)**  
+  https://docs.checkmarx.com/en/34965-46728-owasp-top-10-2021.html [web:13]  
+
+- **OWASP Top 10 2021 – practical security implications**  
+  https://www.invicti.com/blog/web-security/what-owasp-top-ten-2021-categories-mean [web:14]  
+
+- **OWASP Top 10 overview for security practitioners**  
+  https://www.mend.io/blog/owasp-top-10-vulnerabilities/ [web:17]
