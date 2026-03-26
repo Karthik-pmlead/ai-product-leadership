@@ -34,6 +34,14 @@ This collection reflects my hands‑on leadership across:
 
 ## How learners can use this material
 
-- For **GDPR‑101**, see the `GDPR-101/` folder.  
-- For **ISMS‑101 and ISO‑27001‑experience**, see the `security-compliance/ISMS/` folder.  
-- For **VAPT, OWASP, and secure‑coding**, see `ISMS/secure-coding-and-vapt-101.md`.  
+| File name                                                                         | Purpose (what it covers)                                                                 |
+|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| For GDPR see the [`GDPR-101`][GDPR-101] folder.                                    | Foundational GDPR concepts and product‑level implications.                                |
+| [`ISMS/ISMS27001.md`][isms27001]                                                 | ISMS 101: core concepts, awareness, roles, and responsibilities.                          |
+| [`ISMS/secure-coding-and-vapt-101.md`][scvapt]                                       | OWASP‑Top‑10, secure‑coding guidelines, and VAPT for product‑engineering teams.           |
+| [`ISMS/ISO27001-security-experience.md`][isoexp]                                 | ISO 27001‑aligned security‑leadership experience in an IoT‑manufacturing context.          |
+
+[GDPR-101]: GDPR-101
+[isms27001]: ISMS/ISMS27001.md
+[scvapt]: ISMS/secure-coding-and-vapt-101.md
+[isoexp]: ISMS/ISO27001-security-experience.md
