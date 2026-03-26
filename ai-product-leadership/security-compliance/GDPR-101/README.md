@@ -26,6 +26,8 @@ The goal is to help you **embed GDPR into product design**, data flows, and arch
 | [`06-lawful-bases-security.md`][06]      | Lawful bases (consent, contract, legitimate interest) and security/compliance techniques.| Use in PRDs to justify data‑collection and security requirements.            |
 | [`07-international-transfers-enforcement.md`][07]| International data transfers and GDPR enforcement/fines.                             | Align data‑residency and cross‑border flows with product‑level safeguards.   |
 | [`08-india-centric-gdpr-in-practice.md`][08]| GDPR‑in‑practice for India‑based product and engineering teams.                         | Tailor global GDPR patterns to India‑based SaaS, IT‑services, and AI products.|
+| [`09-my-experience-with-gdpr.md`][08]| Personal experience leading GDPR‑compliance initiatives and product‑level implementation. | Example narrative for PMs building their own GDPR stories.|
+
 
 ---
 
@@ -57,3 +59,4 @@ This repo is structured so each `.md` file can stand alone, yet they form a cohe
 [06]: 06-lawful-bases-security.md  
 [07]: 07-international-transfers-enforcement.md  
 [08]: 08-india-centric-gdpr-in-practice.md
+[09]: 09-my-experience-with-gdpr.md
