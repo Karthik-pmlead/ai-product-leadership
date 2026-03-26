@@ -50,10 +50,10 @@ This repo is structured so each `.md` file can stand alone, yet they form a cohe
 ---
 
 [01]: 01-basics-and-terminologies.md  
-[02]: GDPR-101/02-gdpr-key-principles.md  
-[03]: GDPR-101/03-privacy-by-design.md  
-[04]: GDPR-101/04-data-controller-processor.md  
-[05]: GDPR-101/05-data-subject-rights.md  
-[06]: GDPR-101/06-lawful-bases-security.md  
-[07]: GDPR-101/07-international-transfers-enforcement.md  
-[08]: GDPR-101/08-india-centric-gdpr-in-practice.md
+[02]: 02-gdpr-key-principles.md  
+[03]: 03-privacy-by-design.md  
+[04]: 04-data-controller-processor.md  
+[05]: 05-data-subject-rights.md  
+[06]: 06-lawful-bases-security.md  
+[07]: 07-international-transfers-enforcement.md  
+[08]: 08-india-centric-gdpr-in-practice.md
