@@ -3,6 +3,8 @@
 This folder holds chapter‑wise notes aligned with classic PMBOK‑style structure (you can adapt to PMBOK 7/8 later).
 Click on any chapter to open its folder:
 
+<img src="../images/PMBOK.png" width="500" alt="PMP Chapters Hub and Spoke">
+
 ## Chapter list
 
 | Chapter number | Chapter name                    | Folder link |
