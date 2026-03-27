@@ -18,8 +18,6 @@ This Git‑based repo organizes your PMP‑PMBOK study notes into:
 ---
 ## Repository layout
 
-## Repository layout (list style)
-
 - `README.md`
 - `LICENSE`
 - `.gitignore`
