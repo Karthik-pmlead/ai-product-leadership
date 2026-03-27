@@ -61,4 +61,8 @@
 |-------------|-------------------------|
 | [Product School](https://productschool.com)<br>[DeepLearning.AI](https://deeplearning.ai)<br>[Reforge](https://reforge.com) | [Roman Pichler](https://www.romanpichler.com/)<br>[CPO Club](https://cpoclub.com/)<br>[Andrew Chen](https://andrewchen.com/)<br>[Product Coalition](https://productcoalition.com)<br>[Dept of Product](https://departmentofproduct.com) |
 
+## Working with Me
+See [how-to-work-with-me.md](how-to-work-with-me.md) 
+for my leadership style, rhythms, and expectations.
+
 **Open to Director-level AI PM roles** | [📧 Contact](mailto:learner_2021@outlook.com) | [🌐 LinkedIn](https://linkedin.com/in/)
