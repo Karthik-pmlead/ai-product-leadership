@@ -14,18 +14,18 @@
 
 | SNo | Competency | Folder | Key Proof |
 |-----|------------|--------|-----------|
-| 1.0 | **Build** | [prd-mgmt/](ai-product-leadership/prd-mgmt/) | 7-stage 0→1 lifecycle |
-| 2.0 | **Sell** | [business-consulting/](ai-product-leadership/business-consulting/) | $15M ARR models |
-| 3.0 | **Lead** | [leadership/](ai-product-leadership/leadership/) | 50+ engineers, 95% delivery |
-| 4.0 | **Execute** | [project-mgmt/](ai-product-leadership/project-mgmt/)  | MLOps + case studies |
-| 5.0 | **Scale** | [process-excellence/](ai-product-leadership/process-excellence/) | Operating model |
-| 6.0 | **Think** | [ai-product-thinking/](ai-product-leadership/ai-product-thinking/) | Mental models |
-| 7.0 | **Govern** | [security-compliance/](ai-product-leadership/security-compliance/) | Enterprise AI |
+| 1.0 | **Build** | [prd-mgmt/](02-prd-mgmt/) | 7-stage 0→1 lifecycle |
+| 2.0 | **Sell** | [business-consulting/](01-business-consulting/) | $15M ARR models |
+| 3.0 | **Lead** | [leadership/](03-leadership/) | 50+ engineers, 95% delivery |
+| 4.0 | **Execute** | [project-mgmt/](05-project-mgmt/)  | MLOps + case studies |
+| 5.0 | **Scale** | [process-excellence/](04-process-excellence/) | Operating model |
+| 6.0 | **Think** | [ai-product-thinking/](ai-product-thinking/) | Mental models |
+| 7.0 | **Govern** | [security-compliance/](07-security-compliance/) | Enterprise AI |
 
 </div>
 
-- 🏗️ **Projects:** [Projects Index](ai-product-leadership/Projects.md)
-- 📚 **Certifications:** [Full Certifications](ai-product-leadership/Professional_Development.md)
+- 🏗️ **Projects:** [Projects Index](Projects.md)
+- 📚 **Certifications:** [Full Certifications](Professional_Development.md)
 
 ## 🌟 Top 3 Production Projects
 | # | Project | Repo | Impact | Live Demo |
