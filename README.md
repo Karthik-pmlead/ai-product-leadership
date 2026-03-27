@@ -19,7 +19,7 @@
 | 3.0 | **Lead** | [leadership/](03-leadership/) | 50+ engineers, 95% delivery |
 | 4.0 | **Execute** | [project-mgmt/](05-project-mgmt/)  | MLOps + case studies |
 | 5.0 | **Scale** | [process-excellence/](04-process-excellence/) | Operating model |
-| 6.0 | **Think** | [ai-product-thinking/](ai-product-thinking/) | Mental models |
+| 6.0 | **Think** | [ai-product-thinking/](08-ai-product-thinking/) | Mental models |
 | 7.0 | **Govern** | [security-compliance/](07-security-compliance/) | Enterprise AI |
 
 </div>
