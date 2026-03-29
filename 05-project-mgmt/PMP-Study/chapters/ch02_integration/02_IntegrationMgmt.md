@@ -21,8 +21,7 @@ the project.
 
 Assumption Log: Records all assumptions and constraints thought the project life cycle.
 
-**Template:** Project Charter, Assumption Log
-
+**Template:** [Project Charter](../../templates/ProjectCharter_template.xlsx)
 
 <br>
 
@@ -40,7 +39,7 @@ The plan should be baselined in reference to scope, time and cost.
 It integrates and consolidates all of the subsidiary plans and
 baselines, and other information necessary to manage the project
 
-Template: Project plan
+Template: [Project Mgmt Plan](../../templates/ProjectPlan_template.docx)
 
 ## 3. Direct Project work
 process of Leading and Performing the work defined in the project
