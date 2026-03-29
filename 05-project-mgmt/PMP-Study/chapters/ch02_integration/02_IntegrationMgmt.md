@@ -12,10 +12,16 @@ organizational resources to project activities
 
 **Key Benefit**: Direct link between project and organization commitment
 
-**Table**
+**ITTO (Input, Tools & Techniques, Output)**
+| Inputs                                      | Tools & Techniques                     | Outputs               |
+|--------------------------------------------|----------------------------------------|-----------------------|
+| 1. Business case                           | 1. Expert judgement                    | 1. Project Charter    |
+| 2. Agreements                              | 2. Data gathering                      | 2. Assumption Log     |
+| 3. EEFs (Enterprise Environmental Factors) | 3. Team skills                         |                       |
+| 4. OPAs (Organizational Process Assets)    | 4. Meetings                            |                       |
 
 **Output:**
-project charter ensures a common understanding by the stakeholders of the key
+- project charter ensures a common understanding by the stakeholders of the key
 deliverables, milestones, and the roles and responsibilities of everyone involved in
 the project.
 
@@ -31,7 +37,13 @@ Develop Project Plan: process of defining, preparing, and coordinating all plan 
 **Key Benefit**- The production of a comprehensive document that defines the
 basis of all project work and how the work will be performed
 
-**ITTO**
+**ITTO (Input, Tools & Techniques, Output)**
+| Inputs                                      | Tools & Techniques                     | Outputs               |
+|--------------------------------------------|----------------------------------------|-----------------------|
+| 1. Project Charter                         | 1. Expert judgement                    | 1. Project Plan       |
+| 2. Output from other process               | 2. Data gathering                      |      |
+| 3. EEFs (Enterprise Environmental Factors) | 3. Team skills                         |                       |
+| 4. OPAs (Organizational Process Assets)    | 4. Meetings                            |                       |
 
 project management plan defines how the project is executed, monitored
 and controlled, and closed.
@@ -46,8 +58,18 @@ process of Leading and Performing the work defined in the project
 management plan and implementing approved changes to achieve the project’s
 objectives
 
-Key Benefit- Provides overall management of the project work and deliverables,
+**Key Benefit**- Provides overall management of the project work and deliverables,
 thus improving the probability of project success
+
+**ITTO (Input, Tools & Techniques, Output)**
+| Inputs                                      | Tools & Techniques                     | Outputs               |
+|--------------------------------------------|----------------------------------------|------------------------|
+| 1. Project Plan                            | 1. Expert judgement                    | 1. Deliverables        |
+| 2. Project docs                            | 2. PMIs                                | 2. WPD                 |
+| 3. EEFs (Enterprise Environmental Factors) | 3. Meetings                            | 3. Change Request      |
+| 4. OPAs (Organizational Process Assets)    |                                        | 4. Project Plan updates |
+| 5. Approved Change Requests                |                                        |                         |
+
 
 **Output:**
  - deliverable is any unique and verifiable product, result, or capability to
@@ -63,10 +85,20 @@ Manage Project Knowledge: process of using existing knowledge and creating new k
 **Key Benefit**- prior organizational knowledge is leveraged to produce or improve
 the project outcomes.
 
-ITTO
+**ITTO (Input, Tools & Techniques, Output)**
+| Inputs                                      | Tools & Techniques                     | Outputs               |
+|--------------------------------------------|----------------------------------------|------------------------|
+| 1. Project Plan                            | 1. Expert judgement                    | 1. Lessons Learned     |
+| 2. Project docs                            | 2. Knowledge Mgmt                      | 2. Project Plan updates|
+| 3. EEFs (Enterprise Environmental Factors) | 3. Team Skills                         | 3. Updates OPAs      |
+| 4. OPAs (Organizational Process Assets)    |                                        |                         |
+| 5. Deliverables                            |                                        |                         |
+
 
 A lessons learned register may record challenges, problems, realized risks
 and opportunities
+
+**Template**: [Lessons Learned Register](../../templates/LessonsLearnedRegister_template.xlsx)
 
 At end of project or phase, the information is transferred to an organizational process asset called a lessons learned repository
 
@@ -80,7 +112,15 @@ Monitor and Control Project work: process of tracking, reviewing, and reporting 
 
 **Key Benefit**- Allows stakeholders to understand the current state of the project
 
-ITTO
+**ITTO (Input, Tools & Techniques, Output)**
+| Inputs                                      | Tools & Techniques                     | Outputs               |
+|--------------------------------------------|----------------------------------------|------------------------|
+| 1. Project Plan                            | 1. Expert judgement                    | 1. WPR     |
+| 2. Project docs                            | 2. Data Analysis (Cost Benefit, RCA, Trend, Variance | 2. Change Requests|
+| 3. EEFs (Enterprise Environmental Factors) | 3. Decision Making                    | 3. Updates Project plan      |
+| 4. OPAs (Organizational Process Assets)    | 4. Meetings                                       |                         |
+| 5. WPI                            |                                        |                         |
+
 
 Monitoring includes collecting, measuring, and assessing measurements and
 trends to effect process improvements
@@ -101,7 +141,16 @@ quality requirements and schedule or cost baselines
 **Key Benefit** Allows for documented changes within the project to be considered
 in an integrated manner while addressing overall project risk
 
-Change Process: 
+
+**ITTO (Input, Tools & Techniques, Output)**
+| Inputs                                      | Tools & Techniques                     | Outputs               |
+|--------------------------------------------|----------------------------------------|------------------------|
+| 1. Project Plan                            | 1. Expert judgement                    | 1. Approved CR     |
+| 2. Project docs                            | 2. Data Analysis (Cost Benefit, RCA, Trend, Variance | |
+| 3. Change Requests                         | 3. Decision Making                    | 2. Updates Project plan      |
+| 4. WPR                                     | 4. Meetings                                       |                         |
+
+**Change Process:**
 1. Stakeholder identifies a CR
 2. Written request is submitted to PM
 3. Assess the change
@@ -118,6 +167,14 @@ group requesting the change
 process of finalizing all activities for the project, phase, or contract
 
 **Key Benefit**- planned work is completed, and organizational team resources are released to pursue new endeavors
+
+**ITTO (Input, Tools & Techniques, Output)**
+| Inputs                                      | Tools & Techniques                     | Outputs               |
+|--------------------------------------------|----------------------------------------|------------------------|
+| 1. Project Charter                            | 1. Expert judgement                    | 1. Final Product or service|
+| 2. Project docs                               | 2. Data Analysis (Cost Benefit, RCA, Trend, Variance | 2. Final Reports | 
+| 3. Accepted Deliverables                      | 3. Decision Making                    | 3. Updates Project plan      |
+| 4. Business docs, OPAs                        | 4. Meetings                                       |                         |
 
 Activities necessary for the administrative closure of the project or phase. Meet the exit criteria. 
 Confirming formal acceptance of deliverables by customer
