@@ -86,7 +86,7 @@ controls resources
  - Project life cycle is managed by executing a series of project management activities known as project
 management processes.
 
-<img src="./images/pmbok-table.png" alt="prj_mgmtprocess" width="250">
+<img src="images/prj_mgmtprocess.png" alt="prj_mgmtprocess" height="400" width="300">
 
 ## Project Managment Processes by Knowledge Areas and Groups
 
@@ -158,9 +158,9 @@ constrain, or direct the project.
  - Financial considerations.
  - Physical environmental elements
 
-**Organizational process assets (OPAs)** are the plans, processes, policies,
-procedures, and knowledge bases specific to and used by the performing organization.
-Eg: Lessons learned from previous projects
+**Organizational process assets (OPAs)** 
+ - are the plans, processes, policies, procedures, and knowledge bases specific to and used by the performing organization.
+   - Eg: Lessons learned from previous projects
 
 ## PMI Triangle
 **Technical Project Management****
@@ -173,7 +173,7 @@ Eg: Lessons learned from previous projects
   - Product and Industry expertise
   - Seek knowledge from functional managers
 
-<img src="./images/pmi_triangle.png" alt="pmi_triangle" width="800">
+<img src="images/pmi_triangle.png" alt="pmi_triangle" width="300">
 
 ## Leadership styles
   - Laissez-Faire: The project manager is hands-off, allowing the team to make their own decisions.
