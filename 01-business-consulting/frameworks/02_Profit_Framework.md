@@ -1,5 +1,7 @@
 ## 02 - Profit Framework
 
+#### Profit = (Revenue - Cost)
+
 ### Diagram 1: Top-Level Overview (1 Level Deep)
 Layer 1: What is happening?
 
