@@ -1,4 +1,4 @@
-# 01. MECE Framework
+# 01 - MECE Framework
 
 ## What is MECE?
 
