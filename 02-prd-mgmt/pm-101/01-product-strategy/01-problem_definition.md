@@ -74,6 +74,31 @@ Eg: John
 - ROI: Measure efficiency of investment.
     - Helps to focus where your team's time will have biggest impact
 
+- There are several approaches to calculating TAM:
+  
+**Top Down**
+ - You start with a high level view of the economy, and then narrow that down based on factors like demographics. For example, you usually will start will everyone in the world and narrow down that audience to people who are interested in your product.
+**Bottoms Up**
+ - This involves using known data points that you have (data from early customers and sales) that you could extrapolate to represent a larger market opportunity. For example, if you are already selling a product in one region and were considering selling it globally.
+**Value Theory**
+ - Generally used for new product categories where you don’t have much information to base estimates on. This involves conducting market research to understand how much people would pay for your product and how many potential customers you have.
+
+#### Hypothesis
+ - Before building your product to want to make sure your assumptions are correct.
+  - Hypothesis should be based on 
+  - Customer needs
+  - Differentitation
+  - Value (How much will customer pay)
+ - Hypothesis can tested in many ways such as:
+  - User interviews
+  - Focus groups
+  - Surveys
+  - Design sprint
+
+#### Payback period
+ - Payback period: Amount of time it takes to regain initial cost of building the product
+ - payback period = Cost / (Impact/time)
+
 #### Templates
 1. PRD
 2. Roadmap
