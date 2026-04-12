@@ -24,7 +24,7 @@
  So how to decide?
   - Market research, User research, Product data, Support data, efficiency gains
 
-- [../images/productviableopportunities.png]
+      <img src="../images/ViableProductOpportunities.png" width="350">
 
 #### Understanding the market
 - Understanding the market is critical to building successful products. 
@@ -41,3 +41,43 @@
   - User are getting value
   - Product sells itself
   - High demand
+
+#### Industry trends
+- Team is interested in building product to track fitness and improve health over time.
+- What benefits does fitness provide?
+    - Combats diseases
+    - Improves mood, boost energy, sleep better 
+- What products are in market?
+    - Apps, smartwatches 
+- How much people spend
+    - $150 / month
+    - Category / amount
+    - Supplements, Clothing, Gym, Meal plan, Trainers
+
+#### Identify target customer
+ - Why find target user?
+   - It is important to understand whom we are building the product for.
+   - Problem will be best solved in different ways for different types of user.
+   - It creates focus and solving the needs of that specific target user
+   - To identify target user, you need to talk to your users and do market research
+
+- Eg: Building a grade school calculator vs Scientific calculator
+
+#### Profile
+Eg: John
+- Description
+- Frustration
+- Goals
+
+#### Market Sizing
+- TAM: Average revenue per user x # of potential users
+- ROI: Measure efficiency of investment.
+    - Helps to focus where your team's time will have biggest impact
+
+#### Templates
+1. PRD
+2. Roadmap
+3. Market Sizing Techniques
+4. Profile
+5. Competitive Analysis
+6. Product Market Fit
