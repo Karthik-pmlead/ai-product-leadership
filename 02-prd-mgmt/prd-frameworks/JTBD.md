@@ -48,3 +48,10 @@ A good JTBD follows this structure:
 When [situation],
 I want to [motivation],
 so I can [desired outcome].
+```
+
+🍔 Example (Food Delivery App)
+Situation	Job To Be Done
+When I am tired after work	I want to order food quickly
+When I am hosting guests	I want to order food for multiple people
+When I am hungry late at night	I want food delivered fast
