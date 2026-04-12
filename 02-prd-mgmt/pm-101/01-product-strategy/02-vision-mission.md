@@ -23,6 +23,7 @@
 #### Business Model
  - Describes how business creates, delivers and captures value.
 - Business model canvas
+    - <img src="../images/BusinessModelCanvas.png" width="350">
 
 #### Competitive Analysis
 - Product offering
@@ -31,6 +32,7 @@
 - Target customers
 - Distribution channels
 - Price
+    - <img src="../images/CompetitiveAnalysis.png" width="350">
 
 #### MVP
 - An MVP, or minimum viable product, has just enough features to get early adopters excited.
