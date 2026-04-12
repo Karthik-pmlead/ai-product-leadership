@@ -1,4 +1,4 @@
-#### Identifying Requirements
+## Identifying Requirements
  - PRD
  - Identifying requirements is an active process than just gathering.
      - It happens through variety of channels
@@ -12,26 +12,26 @@
  - Outline goals
  - Describe requirements
 
-#### Roadmap
+### Roadmap
  - High level overview of the direction of the product over time.
  - What is required to meet business objectives
  - Powerful artifact they set expectations across team in terms of team's priorities
  - Drive alignment across teams and help in making tradeoffs
 
-#### How to identify opportunities
+### How to identify opportunities
  - Find right problem to solve is critical for success of your product
  - Not all problems need to solved as time is limited and all problems don't have same impact
  So how to decide?
   - Market research, User research, Product data, Support data, efficiency gains
 
-      <img src="../images/ViableProductOpportunities.png" width="350">
+    - <img src="../images/ViableProductOpportunities.png" width="350">
 
-#### Understanding the market
+### Understanding the market
 - Understanding the market is critical to building successful products. 
 - Some markets are better than others. And some products do a better job than others. 
 - You’ll want to make sure that your product satisfies the needs of the market.
 
-#### Product Market fit
+### Product Market fit
 1. What makes a good market?
   - Market size
   - Growth rate
@@ -42,7 +42,7 @@
   - Product sells itself
   - High demand
 
-#### Industry trends
+### Industry trends
 - Team is interested in building product to track fitness and improve health over time.
 - What benefits does fitness provide?
     - Combats diseases
@@ -54,7 +54,7 @@
     - Category / amount
     - Supplements, Clothing, Gym, Meal plan, Trainers
 
-#### Identify target customer
+### Identify target customer
  - Why find target user?
    - It is important to understand whom we are building the product for.
    - Problem will be best solved in different ways for different types of user.
@@ -68,8 +68,9 @@ Eg: John
 - Description
 - Frustration
 - Goals
+   - <img src="../images/UserProfile.png" width="350">
 
-#### Market Sizing
+### Market Sizing
 - TAM: Average revenue per user x # of potential users
 - ROI: Measure efficiency of investment.
     - Helps to focus where your team's time will have biggest impact
@@ -83,23 +84,29 @@ Eg: John
 **Value Theory**
  - Generally used for new product categories where you don’t have much information to base estimates on. This involves conducting market research to understand how much people would pay for your product and how many potential customers you have.
 
-#### Hypothesis
- - Before building your product to want to make sure your assumptions are correct.
+   - <img src="../images/TAMSAMSOM.png" width="350">
+
+### Hypothesis
+
+- Before building your product to want to make sure your assumptions are correct.
   - Hypothesis should be based on 
   - Customer needs
   - Differentitation
   - Value (How much will customer pay)
- - Hypothesis can tested in many ways such as:
+
+- Hypothesis can tested in many ways such as:
   - User interviews
   - Focus groups
   - Surveys
   - Design sprint
 
-#### Payback period
+    - <img src="../images/Painkiller_Vitamin.png" width="350">
+
+### Payback period
  - Payback period: Amount of time it takes to regain initial cost of building the product
  - payback period = Cost / (Impact/time)
 
-#### Templates
+### Templates
 1. PRD
 2. Roadmap
 3. Market Sizing Techniques
