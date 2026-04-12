@@ -40,7 +40,7 @@
         - Business: Goals, Align product to goals
         - Technology: Understand complexity, Risks and tradeoffs
 
-##### Image
+    - <img src="../images/pm_intro.png" width="350"/>
 
 ### What does a PM do?
 1. Identify problems
