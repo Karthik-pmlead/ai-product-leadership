@@ -14,7 +14,7 @@
 
 | | |
 | :--- | :--- |
-| **📧 Email:** | learner_2021@outlook.com |
+| **📧 Email:** | karthik_prdmgr@hotmail.com |
 | **💼 LinkedIn:** | [Connect on LinkedIn](https://linkedin.com/in) |
 | **🤝 Working Style** | [Collaboraton guide](how-to-work-with-me.md) |
 
