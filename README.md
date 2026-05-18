@@ -1,4 +1,4 @@
-# 1. About Me - 👨‍💼 AI Product Leader | Technical PRD Manager
+# 1. About Me - 👨‍💼 AI Product Leader | Technical Manager
 
 > I lead product organizations at enterprise scale, blending deep engineering expertise, MBA-level strategic frameworks, and senior product leadership to deliver multimillion-dollar business impact.
 
