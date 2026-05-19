@@ -21,7 +21,7 @@ Click on the links below to jump into each leadership area:
 | [02‑engg](./02-engg/README.md) | Engineering leadership, delivery, architecture, and technical quality. |
 | [03‑okr](./03-okr/README.md) | OKRs, goal‑setting, prioritization, and alignment across teams and levels. |
 | [04‑communication](./04-communication/README.md) | Written updates, meetings, exec comms, and storytelling for leaders. |
-| [05‑people](./05-people/README.md) | Performance, 1:1s, career growth, and team health. |
+| [05‑people](./05-people-management/README.md) | Performance, 1:1s, career growth, and team health. |
 | [06‑results](./06-results/README.md) | Delivery, metrics, business impact, and focus on outcomes. |
 | [07‑strategy](./07-strategy/README.md) | Vision, multi‑quarter roadmaps, and technology/business strategy (Directors/VPs). |
 | [08‑decision‑making](./08-decision-making/README.md) | Structured decision‑making, trade‑offs, and escalation patterns. |
