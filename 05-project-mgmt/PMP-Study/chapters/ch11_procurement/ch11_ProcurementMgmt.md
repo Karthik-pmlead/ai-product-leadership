@@ -4,7 +4,7 @@
     includes the management and control processes required to develop and administer agreements
     Ex: Contracts, Purchase orders, SLAs
 
-<img src="images/ProcurementMgmt.png" alt="ProcurementMgmt" height="400" width="300">
+<img src="images/ProcurementMgmt.png" alt="ProcurementMgmt" height="500" width="500">
 
 ### Key Concepts:
 - Procurement processes involve agreements that describe the relationship between two parties—a buyer and a seller
