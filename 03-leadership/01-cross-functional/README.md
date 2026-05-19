@@ -15,7 +15,6 @@
 | [communication](communication.md) | Cross-functional communication practices |
 
 ---
-
 # 🔗 Operating Model
 
 ## 1. Alignment First
@@ -34,6 +33,31 @@
 - Documented trade-off decisions
 
 ---
+
+
+# 📂 Key Artifacts
+
+| Artifact | Purpose | Link |
+|---|---|---|
+| OKR Framework | Goal alignment across org | [OKRs](./artifacts/okr.md) |
+| RAID Log | Risk / issue / dependency tracking | [RAID](./artifacts/raid.md) |
+| Decision Log | Track key decisions & trade-offs | [Decisions](./artifacts/decision_log.md) |
+| Dependency Tracker | Cross-team dependency management | [Dependencies](./artifacts/dependency_tracker.md) |
+| Cross-Functional Roadmap | Unified delivery roadmap | [Roadmap](./artifacts/cf_roadmap.md) |
+
+---
+
+# 🎯 When to Use What
+
+- OKR → when defining goals & success metrics
+- RAID → when tracking risks/issues/dependencies
+- Decision Log → when trade-offs are made
+- Dependency Tracker → when work blocks another team
+- Roadmap → when aligning quarterly execution
+
+---
+
+
 
 # ⚠️ Common Failure Modes
 
@@ -65,7 +89,3 @@
 - Default to documentation over assumptions
 - Push for clarity in ambiguous ownership
 - Resolve conflicts with data + business impact
-
-
-│   ├── raci-matrix.md                # ✅ Copy-paste template
-│   └── alignment-workshop-agenda.md  # Weekly sync template
