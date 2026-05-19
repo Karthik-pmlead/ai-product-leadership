@@ -1,10 +1,3 @@
-# PRD‑Mgmt Knowledge Repository
-
-This is a Git‑based personal knowledge base for **Product Requirements Document (PRD) Management** and end‑to‑end product management.  
-Use this repo to organize notes, templates, frameworks, case studies, and interview prep materials.
-
----
-
 # 📘 Product Management Knowledge Base
 
 > Centralized repository for product strategy, frameworks, execution, analytics, templates, and product management interview preparation.
