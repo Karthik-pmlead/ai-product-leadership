@@ -16,9 +16,56 @@
 
 ---
 
-# 🎯 Outcome
+# 🔗 Operating Model
 
-> Ensure multiple teams operate as one system toward shared business outcomes.
+## 1. Alignment First
+- Shared OKRs across functions
+- Single source of truth for priorities
+- Clear success metrics
+
+## 2. Execution Sync
+- Weekly cross-functional syncs
+- Dependency tracking system
+- Shared delivery milestones
+
+## 3. Decision Flow
+- Fast escalation path for blockers
+- Clear DRI (Directly Responsible Individual)
+- Documented trade-off decisions
+
+---
+
+# ⚠️ Common Failure Modes
+
+| Issue | Impact |
+|---|---|
+| Siloed planning | Misaligned execution |
+| No clear ownership | Delayed decisions |
+| Hidden dependencies | Sprint failures |
+| Conflicting priorities | Delivery drift |
+| Over-communication | Meeting overload |
+
+---
+
+# 📊 Success Indicators
+
+| Metric | Target |
+|---|---|
+| Dependency resolution time | <48 hrs |
+| Cross-team alignment on OKRs | >90% |
+| Missed milestones due to dependencies | <10% |
+| Escalation turnaround time | <24 hrs |
+
+---
+
+# 🧠 Leadership Behaviors
+
+- Think in outcomes, not functions
+- Make dependencies visible early
+- Default to documentation over assumptions
+- Push for clarity in ambiguous ownership
+- Resolve conflicts with data + business impact
+
 
 │   ├── raci-matrix.md                # ✅ Copy-paste template
 │   └── alignment-workshop-agenda.md  # Weekly sync template
