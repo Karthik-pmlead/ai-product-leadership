@@ -5,42 +5,42 @@ Use this repo to organize notes, templates, frameworks, case studies, and interv
 
 ---
 
-## Table of Contents
+# 📘 Product Management Knowledge Base
 
-| Topic Area              | Folder Link | Notes |
-|-------------------------|------------|-------|
-| 1. PM basics            | [01_pm_basics](01_pm_basics/) | Fundamentals, role of PRD in PM lifecycle |
-| 2. PRD strategy         | [02_strategy](02_strategy/) | Product strategy, OKRs, market fit |
-| 3. PRD design           | [03_design](03_design/) | UX, user stories, wireframes |
-| 4. PRD development      | [04_development](04_development/) | Feature specs, APIs, constraints |
-| 5. Launch               | [05_launch](05_launch/) | GTM, rollout phases, comms |
-| 6. Analytics            | [06_analytics](06_analytics/) | Metrics, A/B tests, dashboards |
-| 7. Support              | [07_support](07_support/) | Post‑launch monitoring, runbooks |
-| 8. Evaluation           | [08_evaluation](08_evaluation/) | Retros, success/fail criteria |
-| 9. Templates            | [09_templates](09_templates/) | PRD templates (one‑page, detailed, AI/ML‑focused) |
-| 10. Case studies        | [10_case_studies](10_case_studies/) | Mini‑PRDs and real / fictional projects |
-| 11. Product reviews     | [11_reviews](11_reviews/) | Competitor and feature reviews |
-| 12. Frameworks          | [12_frameworks](12_frameworks/) | Prioritization, decision, checklist frameworks |
-| 13. Interview questions | [13_interview_qs](13_interview_qs/) | PM/PRD‑focused Q&A, case questions |
-| 14. Projects            | [14_projects](14_projects/) | Your own product experiments and side projects |
-| 15. Assets & artefacts  | [15_assets](15_assets/) | Images, diagrams, videos, artefacts |
-| 16. Resources           | [16_resources](16_resources/) | Curated articles, courses, tools |
+> Centralized repository for product strategy, frameworks, execution, analytics, templates, and product management interview preparation.
 
 ---
 
-## How to use this repo
+# 📂 Repository Overview
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/prd-mgmt.git
-   ```
-2. Navigate to a topic using the folder links above.
-3. Open `.md` files in your editor (or GitHub’s web UI) and add notes.
-4. Store videos in the `videos/` subfolders and PDFs in the `presentations/` subfolders under each topic.
+| Section | Description | Link |
+|---|---|---|
+| PM 101 | Product management fundamentals & core concepts | [View](./pm-101/) |
+| Product Frameworks | Prioritization, discovery & strategy frameworks | [View](./prd-frameworks/) |
+| Strategy | Product vision, GTM & market strategy | [View](./strategy/) |
+| Roadmap Execution | Roadmaps, launches & delivery planning | [View](./roadmap_execution/) |
+| Metrics & Analytics | KPIs, experimentation & product metrics | [View](./metrics_analytics/) |
+| Templates | Reusable PM artifacts & documents | [View](./templates/) |
+| Product Reviews | Product teardowns & analysis | [View](./product_reviews/) |
+| Case Studies | Product sense & execution scenarios | [View](./case_studies/) |
+| Interview Questions | PM interview prep & mock questions | [View](./interview_questions/) |
+| Docs | Quick refs, summaries & supporting notes | [View](./docs/) |
 
-Each folder follows this pattern:
-<topic>/
-├── *.md <-- notes and docs
-├── videos/ <-- recorded sessions
-├── presentations/ <-- PDF/PPTs
-└── notes/ (optional) <-- raw notes or scratch
+---
+
+# 🎯 Core Focus Areas
+
+- Product Strategy
+- User-Centric Design
+- Product Discovery
+- Agile Product Delivery
+- Metrics & Experimentation
+- Stakeholder Management
+- Product Operations
+- Product Leadership
+
+---
+
+# 🎯 Goal
+
+> Build a structured, scalable knowledge base for modern product management practices and operational excellence.
