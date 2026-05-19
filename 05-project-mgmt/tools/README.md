@@ -20,13 +20,12 @@
 
 # 📂 Sections
 
-| Folder | Purpose |
-|---|---|
-| jira/ | Agile workflows & tracking |
-| github/ | Repo governance & automation |
-| dashboards/ | KPI & reporting examples |
-| automation/ | Scripts & utilities |
-| mlops/ | AI delivery tooling |
+| Folder | Purpose | Link |
+|---|---|-----|
+| jira/ | Agile workflows & tracking | . [story_template](./jira/story_template.md) . [sprint_workflow](./jira/sprint_workflow.md) . [jql_queries](./jira/jql_queries.md) |
+| github/ | Repo governance & automation | . [pull_request_template](./github/pull_request_template.md) . [branching_strategy](./github/branching_strategy.md) |
+| dashboards/ | KPI & reporting examples | . [kpi_dashboard_template](./dashboards/kpi_dashboard_template.md) . [delivery_metrics](./dashboards/delivery_metrics.md)   |
+| mlops/ | AI delivery tooling | . [model_monitoring](./mlops/model_monitoring.md) . [deployment_checklist](./mlops/deployment_checklist.md) |
 
 ---
 
