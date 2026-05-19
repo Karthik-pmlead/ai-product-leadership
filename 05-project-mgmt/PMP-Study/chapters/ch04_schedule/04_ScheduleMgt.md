@@ -1,7 +1,7 @@
 ## Project Schedule Mgmt
  - processes required to manage the timely completion of the project
 
-<img src="images/ScheduleMgt.png" alt="ScheduleMgt" height="400" width="300">
+<img src="images/ScheduleMgmt.png" alt="ScheduleMgmt" height="500" width="500">
 
 ## 1. Plan Schedule 
 establishing the policies, procedures, and documentation for planning, developing, managing, executing, and controlling the
@@ -26,7 +26,7 @@ project schedule.
 
 ## 2. Define Activities
  - Process of identifying and documenting the specific actions to be performed to produce the project deliverables
-<img src="images/ScheduleMgt.png" alt="ScheduleMgt" height="400" width="300">
+<img src="images/ScheduleMgmt.png" alt="ScheduleMgmt" height="500" width="500">
 
 **Key Benefit**: that it decomposes work packages into schedule activities that provide a basis for
 estimating, scheduling, executing, monitoring, and controlling the project work
