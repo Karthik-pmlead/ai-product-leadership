@@ -1,2 +1,0 @@
-- career-ladders.md             # E3→Staff promotion criteria
-- performance-review-template.md # Mid-year + promotion cycle
