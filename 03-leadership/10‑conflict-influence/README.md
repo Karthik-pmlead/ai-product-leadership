@@ -23,6 +23,8 @@ This section defines how leaders:
 | [negotiation-tradeoffs](negotiation-tradeoffs/) | Decision trade-offs & alignment |
 | [stakeholder-management](stakeholder-management/) | Managing expectations & alignment |
 
+ [conflict_escalation_playbook](conflict_escalation_playbook.md)
+ 
 ---
 
 # 🧠 Core Principles
