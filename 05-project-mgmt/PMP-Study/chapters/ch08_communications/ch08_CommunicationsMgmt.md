@@ -1,102 +1,91 @@
-## Project Stakeholder Mgmt
- - processes Required to identify the people, groups, or organizations that could impact or be impacted by the project
- - To analyze stakeholder expectations and their impact on the project
- - To develop appropriate management strategies for effectively engaging stakeholders in project decisions and execution
+## Project Communications Mgmt
+ - to ensure that the information needs of the project and its stakeholders are met
 
-<img src="images/StakeholderMgt.png" alt="StakeholderMgt.png" height="500" width="500">
+ - Project Communications Management consists of two parts.
+ a) Developing a strategy to ensure communication is effective for stakeholders.
+ b) Carrying out the activities necessary to implement the communication strategy.
+
+ A project manager spends 90% of their time on communications
+
+<img src="images/CommunicationsMgmt.png" alt="CommunicationsMgmt.png" height="500" width="500">
 
 ### 1. Plan Communications
-  - process of identifying project stakeholders regularly and analyzing and documenting relevant information regarding their interests, involvement,
-interdependencies, influence, and potential impact on project success
+  - process of developing an appropriate approach and plan for project communications activities based on the 1.information needs of each stakeholder
+or group, 2.available organizational assets, and 3.the needs of the project
   
-  - **Key benefit:** enables the project team to identify the appropriate focus for engagement of each stakeholder or group of stakeholders
+  - **Key benefit:** documented approach to effectively and efficiently engage stakeholders by presenting relevant information in a timely manner
 
 
 **ITTO (Input, Tools & Techniques, Output)**
 | Inputs                                      | Tools & Techniques                     | Outputs               |
 |--------------------------------------------|----------------------------------------|-----------------------|
-| 1. Project Charter                         | 1. Stakeholder analysis                   | 1. Stakeholder register  |
-| 2. Project Plan                            | 2. Stakeholder mapping                      | 2. Change requests |
-| 3. EEFs (Enterprise Environmental Factors) | 3.                |                       |
-| 4. OPAs (Organizational Process Assets)    | 4.                             |                       |
+| 1. Project Charter                         | 1. Communication requirements analysis                   | 1. Communication plan  |
+| 2. Project docs                            | 2. Communication Technology                      |  |
+| 3. EEFs (Enterprise Environmental Factors) | 3. Communication methods               |                       |
 
 #### Tools & Techniques:
-**Questionnarie**
-  - include one-on-one reviews, focus group sessions, or other mass information collection techniques
-**Brain Storming**
-  - Elicits input from groups such as team members or subject matter experts
-**Stakeholder Analysis**
-  - list stakeholders with their roles, position, attitudes, interest on project, ownership, knowledge
-**Stakeholder Mapping**
-  - Stakeholder mapping and representation is a method of categorizing stakeholders
-- Power grid - Grouping of stakeholders according to their level of authority
-- Stakeholder cube -
-- Salience model - Map stakeholders according to their power, urgency, legitamacy
-- Direction of influence - Classify stakeholder according to their influence of work (Upward, Downward, Outward, Sideward)
+**Communication requirements Analysis** 
+  - Analysis of communication requirements determines the information needs of the project stakeholders
+  - Number of channels = n(n-1)/2
+**Communication Technology**
+  - meetings, written documents, social media, and websites
+**Communication Models**
+  - communication cycle involves Encode Transmit Decode
+**Communication Methods**
+  - Interactive communication - Between two or more parties performing a multidirectional exchange of
+information in real time.
+  - Push - Sent directly to specific receipients Eg: blogs
+  - Pull - Access content at their own discretion (Web)
 
 #### Key Output:  
-1. Stakeholder register - See template [StakeholderRegister](../../templates/Stakeholder_register.md)
+1. Communication Plan - See template [Communication Plan](../../templates/communication_plan.md)
+ - Includes information to be communicated (language format content, escalation process etc)
 
-### 2. Plan Stakeholder Engagement
-- The process of developing approaches to involve project stakeholders based on their needs, expectations, interests, and potential impact on the project.
+### 2. Manage Communications
+- process of ensuring timely and appropriate collection, creation, distribution, storage, retrieval, management, monitoring, and the ultimate disposition of
+project information
 
-- **Key Benefit:** It provides an actionable plan to interact effectively with stakeholders
+- **Key Benefit:** enables an efficient and effective information flow between the project team and the stakeholders
 
 **ITTO (Input, Tools & Techniques, Output)**
 | Inputs                                      | Tools & Techniques                     | Outputs               |
 |--------------------------------------------|----------------------------------------|-----------------------|
-| 1. Project Charter                         | 1. Stakeholder engagement matrix                   | 1. Stakeholder engagement plan  |
-| 2. Project Plan                            | 2. Stakeholder mapping                      |  |
+| 1. Project Charter                         | 1. Communication competence - feedback, nonverbal                   | 1. Project communications  |
+| 2. Project Plan                            | 2. Networking                      |  |
 
 #### Tools & Techniques:
-- Stakeholder engagement assessment matrix
-- Supports comparison between the current engagement levels of stakeholders and the desired engagement levels required for successful project delivery.
-- [StakeholderEngagement](../../templates/stakeholder_engagement_matrix.md)
+1. Communication skills
+  - feedback, non verbal
+
+2. PMIS
+  - Virtual support, email, conferencing
+
+3. Interpersonal skills
+  - Active listening, networking
 
 #### Key Output:  
-1. Stakeholder Engagement Plan - plan may include specific strategies or approaches for engaging with
-individuals or groups of stakeholders
+1. Project communications - Performance reports, deliverable status, schedule progress etc
 
-### 3. Manage Stakeholder
-- process of communicating and working with stakeholders to meet their needs and expectations, address issues, and foster appropriate stakeholder involvement
-- **Key Benefit** It allows the project manager to increase support and minimize resistance from stakeholders.
+### 3. Monitor communications
+- process of ensuring the information needs of the project and its stakeholders are met
+  
+- **Key Benefit** optimal information flow as defined in the communications management plan and the stakeholder engagement plan
 
 **ITTO (Input, Tools & Techniques, Output)**
 | Inputs                                      | Tools & Techniques                     | Outputs               |
 |--------------------------------------------|----------------------------------------|-----------------------|
-| 1. Project Charter                         | 1. Communication skill - feedback                   | 1. Change requests  |
+| 1. Project Charter                         | 1. Interpersonal and team skills                   | 1. WPI, Change requests  |
 | 2. Project Plan                            | 2. Ground rules                      |  |
 
-Managing stakeholder involves:
- - Engaging stakeholders at appropriate project stages to obtain, confirm, or maintain their continued commitment to the success of the project.
- - Addressing any risks or potential concerns related to stakeholder management and anticipating future issues that may be raised by stakeholders
- - Clarifying and resolving issues that have been identified
-
 #### Tools & Techniques:
-1. Communication skills - project management team uses feedback to assist in understanding stakeholder
-reaction to the various project management activities and key decisions
+1. Stakeholder engagement assessment - supports comparison between the current engagement levels of stakeholders(C) and the desired engagement levels(D) required for successful project delivery
 
-2. Ground Rules - Defined in the team charter set the expected behavior for project team members, as well as other stakeholders, with regard to stakeholder engagement
-
-#### Key Output:  
-1. Change Request - As a result of managing stakeholder engagement, changes to the project scope or product scope may emerge
-
-### 4. Monitor Stakeholder
-- process of monitoring project stakeholder relationships and tailoring strategies for engaging stakeholders through modification of engagement
-strategies and plans
-
-- **Key Benefit** - It maintains or increases the efficiency and effectiveness of
-stakeholder engagement activities as the project evolves and its environment changes
-
-**ITTO (Input, Tools & Techniques, Output)**
-| Inputs                                      | Tools & Techniques                     | Outputs               |
-|--------------------------------------------|----------------------------------------|-----------------------|
-| 1. Project plan                         | 1. stakeholder engagement                   | 1. Change requests, WPI  |
-| 2. WPD                            | 2. Feedback                      |  |
+2. Observation/conversation - Observation(Job shadowing)and conversation provide a direct way of viewing individuals in their environment and how they perform their
+jobs or tasks and carry out processes
 
 #### Key Output:  
-1. WPI - Includes information about the status of stakeholder engagement, such as
-the level of current project support and compared to the desired levels of engagement as defined in the engagement assessment matrix
 
-2. Change Request - Change request may include corrective and preventive actions to improve
-the current level of stakeholder engagement
+1. WPI - includes information on how project communication is performing by comparing the communications that were implemented compared to those that were planned
+
+2. Change Request - Revision of stakeholder communication requirements, including stakeholders’
+information distribution, content or format, and distribution method
