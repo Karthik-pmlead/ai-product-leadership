@@ -38,7 +38,7 @@ information in real time.
   - Pull - Access content at their own discretion (Web)
 
 #### Key Output:  
-1. Communication Plan - See template [Communication Plan](../../templates/communication_plan.md)
+1. Communication Plan - See template [Communication Plan](../../templates/Communication_Plan_template.md)
  - Includes information to be communicated (language format content, escalation process etc)
 
 ### 2. Manage Communications
