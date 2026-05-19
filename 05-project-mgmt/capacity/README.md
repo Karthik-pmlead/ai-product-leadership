@@ -10,10 +10,10 @@
 
 | Folder | Purpose |
 |---|---|
-| planning/ | Team allocation & sprint planning |
-| forecasting/ | Delivery forecasting & trend analysis |
-| operating_models/ | Multi-team operating structures |
-| velocity_scaling/ | Team maturity & velocity optimization |
+| [planning](planning/) | Team allocation & sprint planning |
+| [forecasting](forecasting/) | Delivery forecasting & trend analysis |
+| [operating_models](operating_models/) | Multi-team operating structures |
+| [velocity_scaling](velocity_scaling/) | Team maturity & velocity optimization |
 
 ---
 
