@@ -13,7 +13,7 @@
 | Scrum | Agile ceremonies, sprint management & scaling | [View](./scrum/) |
 | Capacity | Planning, forecasting & operating models | [View](./capacity/) |
 | AI Risk | AI governance, compliance & delivery controls | [View](./ai-risk/) |
-| Docs | Frameworks, quick refs & executive summaries | [View](./docs/) |
+| Docs | Frameworks, quick refs & executive summaries | [View](./docs/executive_summaries/) |
 
 ---
 
