@@ -1,31 +1,103 @@
-# 02-velocity-scaling/README.md  
-**Team maturity progression | Consistent sprint capacity**
+# 📈 Velocity Scaling
 
-Scale AI teams predictably through defined maturity stages, ensuring velocity stability before expansion.
+> Team maturity progression → stable sprint capacity → scalable AI delivery.
 
-## 📈 Team Maturity Progression (L1→L3)
+Scale AI engineering teams through structured maturity stages that improve execution predictability before organizational expansion.
 
-| Stage | Velocity Stability | Dependencies | Definition of Done |
-|-------|--------------------|--------------|-------------------|
-| **L1** | ±30% variance | Ad-hoc | Partial |
-| **L2** | ±10% variance | Structured sync | Complete |
-| **L3** | ±3% variance | Automated | Production-ready |
+---
 
-## Progression Path
-L1 → Basic sprints, GitHub/DORA baseline
-↓ (6-8 stable sprints)
-L2 → Cross-training, automation, pair programming
-↓ (velocity plateau confirmed)
-L3 → Autonomous scaling, self-service pipelines
+# 📊 Core Outcomes
 
+- Stable sprint forecasting
+- Predictable delivery capacity
+- Reduced dependency bottlenecks
+- Sustainable scaling without burnout
+- Improved execution maturity
 
-## Scaling Tactics
-- **Hiring Trigger**: L2 stability + 20% capacity headroom
-- **Process**: Quarterly maturity audits using velocity charts
-- **AI Focus**: Model retraining doesn't drop velocity >5%
+---
 
-## Velocity Tracking Template
-Sprint N-2: 28 pts | Sprint N-1: 32 pts | Sprint N: 30 pts
-→ Stable (±7%) → Ready for L2→L3 transition
+# 🚀 Team Maturity Progression (L1 → L3)
 
-**Outcome**: Consistent capacity for recommendation systems/NLP projects without "hero culture" burnout.
+| Stage | Velocity Stability | Dependencies | Delivery Standard |
+|---|---|---|---|
+| L1 | ±30% variance | Ad-hoc | Partial |
+| L2 | ±10% variance | Structured coordination | Standardized |
+| L3 | ±3% variance | Automated workflows | Production-ready |
+
+---
+
+# 🔄 Progression Model
+
+```text
+L1 → Basic sprint execution + DORA baseline
+        ↓
+6–8 stable sprints
+        ↓
+L2 → Cross-training + automation + pair programming
+        ↓
+Velocity plateau confirmed
+        ↓
+L3 → Autonomous scaling + self-service delivery pipelines
+```
+
+---
+
+# ⚙️ Scaling Tactics
+
+| Tactic | Purpose |
+|---|---|
+| Quarterly maturity audits | Validate scaling readiness |
+| Cross-training | Reduce dependency concentration |
+| Pair programming | Improve knowledge distribution |
+| Automation | Stabilize delivery workflows |
+| Capacity headroom | Prevent over-scaling |
+
+---
+
+# 📏 Scaling Rules
+
+- Hiring triggered only after L2 stability
+- Maintain 20% capacity headroom before expansion
+- Require 6–8 stable sprints before maturity transition
+- AI retraining cycles should not reduce velocity >5%
+
+---
+
+# 📈 Velocity Tracking Example
+
+```text
+Sprint N-2 → 28 pts
+Sprint N-1 → 32 pts
+Sprint N   → 30 pts
+
+Variance: ±7%
+Status: Stable → Eligible for L2 → L3 transition
+```
+
+---
+
+# 📊 Success Metrics
+
+| Metric | Target |
+|---|---|
+| Sprint Predictability | >90% |
+| Velocity Variance | <10% |
+| Deployment Stability | >98% |
+| Dependency Resolution Time | <48 hrs |
+
+---
+
+# ⚠️ Common Failure Modes
+
+| Failure Pattern | Root Cause |
+|---|---|
+| Velocity instability | Premature scaling |
+| Burnout | Over-utilization |
+| Delivery bottlenecks | Dependency concentration |
+| Quality degradation | Weak Definition of Done |
+
+---
+
+# 🎯 Key Outcome
+
+> Scale AI teams through measurable maturity progression instead of reactive hiring and operational overload.
