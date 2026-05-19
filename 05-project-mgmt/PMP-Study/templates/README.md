@@ -12,7 +12,8 @@ This folder holds reusable project management artifacts for case studies and qui
 | Issue Logs                  | [issue_logs](./issue_logs/) |
 | Lessons Learned             | [lessons_learned](./lessons_learned/) |
 | WBS Templates               | [WBS_templates](./WBS_templates/) |
-| Stakeholder_engagement      | [Stakeholder_engagement](./Stakeholder_engagement_template.md) |
+| Stakeholder engagement      | [Stakeholder_engagement](./Stakeholder_engagement_template.md) |
+| Schedule Management      | [Schedule Management](./ScheduleMgt_template.md) |
 
 ## How to use
 
