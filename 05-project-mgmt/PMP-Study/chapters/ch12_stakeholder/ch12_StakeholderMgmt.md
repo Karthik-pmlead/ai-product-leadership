@@ -63,9 +63,9 @@ Stakeholder Mapping: Categorizing stakeholders assists the team in building rela
 **Output:**
  - stakeholder engagement plan is a component of the project management plan that identifies the strategies and actions required to promote productive involvement of stakeholders in decision making and execution
 
-Image: stakeholder Engagement Matrix
+<img src="images/StakeholderEngagementMatrix.png" alt="StakeholderEngagementMatrix" height="400" width="400">
 
-**Template:** [Stakeholder_engagement plan](../../templates/Stakeholder_engagement_template.docx)
+**Template:** [Stakeholder_engagement plan](../../templates/Stakeholder_engagement_template.md)
 
 <br>
 
