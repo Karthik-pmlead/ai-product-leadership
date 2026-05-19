@@ -15,25 +15,6 @@
 | [communication](communication.md) | Cross-functional communication practices |
 
 ---
-# 🔗 Operating Model
-
-## 1. Alignment First
-- Shared OKRs across functions
-- Single source of truth for priorities
-- Clear success metrics
-
-## 2. Execution Sync
-- Weekly cross-functional syncs
-- Dependency tracking system
-- Shared delivery milestones
-
-## 3. Decision Flow
-- Fast escalation path for blockers
-- Clear DRI (Directly Responsible Individual)
-- Documented trade-off decisions
-
----
-
 
 # 📂 Key Artifacts
 
@@ -56,8 +37,6 @@
 - Roadmap → when aligning quarterly execution
 
 ---
-
-
 
 # ⚠️ Common Failure Modes
 
