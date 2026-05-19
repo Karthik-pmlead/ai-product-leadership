@@ -10,9 +10,9 @@
 
 | Folder | Purpose |
 |---|---|
-| process_guides/ | PMBOK process flows & best practices |
-| governance/ | Delivery governance & control frameworks |
-| artifacts/ | Reusable project management templates |
+| [process_guides](process_guides) | PMBOK process flows & best practices |
+| [governance](governance)/ | Delivery governance & control frameworks |
+| [artifacts](artifacts)/ | Reusable project management templates |
 
 ---
 
