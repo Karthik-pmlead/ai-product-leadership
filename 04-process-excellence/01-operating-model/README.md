@@ -51,6 +51,7 @@ Sprint Epics & Stories
 - Jira custom fields
 - monday dev
 - Portfolio dashboards
+- **[OKR Cascade Template](./okr-cascade-template.md)**
 
 ---
 
