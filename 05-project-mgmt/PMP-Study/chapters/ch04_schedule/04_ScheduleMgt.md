@@ -20,7 +20,7 @@ project schedule.
 **Output:**
 - Schedule Plan: Establishes the criteria and the activities for developing, monitoring, and controlling the schedule.
 
-**Template:** [Schedule Plan](../../templates/ScheduleMgt_template.docx)
+**Template:** [Schedule Plan](../../templates/ScheduleMgt_template.md)
 
 <br>
 
