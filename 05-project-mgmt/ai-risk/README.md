@@ -1,13 +1,22 @@
-# ⚠️ AI/ML Risk Management
+# 📘 ai-risk/README.md
 
-**Model drift, bias, data poisoning** | **Proactive mitigation frameworks**
+# 🛡️ AI Risk Management
 
-## 🎯 Top 5 AI Project Risks
-| Risk | Detection | Mitigation | Monitoring |
-|------|-----------|------------|------------|
-| **Model Drift** | Daily KS-test | Automated retrain | MLflow |
-| **Data Bias** | Demographic parity | Synthetic data aug | Fairlearn |
-| **Hallucinations** | Human eval + ROUGE | RAG + guardrails | LangSmith |
-| **Compliance** | PII scan + audit log | Differential privacy | Compliance team |
+> Governance, compliance, and operational controls for responsible AI delivery.
 
-**Download:** [Drift Playbook](model-drift-playbook.md)
+---
+
+# 📊 Sections
+
+| Folder | Purpose |
+|---|---|
+| governance/ | AI governance frameworks & decision controls |
+| model_risk/ | Model reliability, bias & operational risks |
+| compliance/ | Regulatory, security & policy alignment |
+| ai_delivery_controls/ | Delivery governance & production safeguards |
+
+---
+
+# 🎯 Goal
+
+> Establish scalable governance and operational controls for safe, compliant, and reliable AI systems.
