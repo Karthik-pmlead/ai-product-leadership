@@ -16,6 +16,8 @@ Establish governance mechanisms that improve delivery visibility, reduce scope v
 - Predictable cross-team coordination
 
 ---
+- Template: [Risk Control & Delivery Governance](Risk_controls_and_Delivery_governance.md)
+---
 
 # ⚙️ Governance Framework
 
