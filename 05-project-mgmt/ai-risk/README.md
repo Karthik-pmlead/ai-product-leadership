@@ -10,10 +10,10 @@
 
 | Folder | Purpose |
 |---|---|
-| governance/ | AI governance frameworks & decision controls |
-| model_risk/ | Model reliability, bias & operational risks |
-| compliance/ | Regulatory, security & policy alignment |
-| ai_delivery_controls/ | Delivery governance & production safeguards |
+| [governance](governance/) | AI governance frameworks & decision controls |
+| [model_risk](model_risk/) | Model reliability, bias & operational risks |
+| [compliance](compliance/) | Regulatory, security & policy alignment |
+| [ai_delivery_controls](ai_delivery_controls/) | Delivery governance & production safeguards |
 
 ---
 
