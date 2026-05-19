@@ -1,12 +1,22 @@
-# 👥 Capacity Planning Framework
+# 📘 capacity/README.md
 
-**50+ engineers → 95% utilization** | **DS/Engg/Design allocation**
+# 📊 Capacity Management
 
-## 📊 Team Capacity Matrix
-| Role | Available | Utilized | Backlog Fit |
-|------|-----------|----------|-------------|
-| Data Scientists | 5.0 FTE | 4.2 FTE | Model iteration |
-| ML Engineers | 8.0 FTE | 7.5 FTE | Pipeline work |
-| Backend | 12.0 FTE | 10.8 FTE | API scaling |
+> Delivery planning, forecasting, operating models, and velocity optimization for scalable execution.
 
-**Template:** [Capacity Tracker](ds-engg-capacity.xlsx)
+---
+
+# 📂 Sections
+
+| Folder | Purpose |
+|---|---|
+| planning/ | Team allocation & sprint planning |
+| forecasting/ | Delivery forecasting & trend analysis |
+| operating_models/ | Multi-team operating structures |
+| velocity_scaling/ | Team maturity & velocity optimization |
+
+---
+
+# 🎯 Goal
+
+> Improve delivery predictability through structured planning and operational scaling.
