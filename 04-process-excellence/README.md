@@ -27,7 +27,7 @@ MULTI-TEAM OPERATING MODEL
 | **[Operating Model](01-operating-model/)** | OKR cascade + capacity planning | Predictable delivery |
 | **[Velocity Scaling](02-velocity-scaling/)** | Team maturity progression | Stable sprint capacity |
 | **[Program Governance](03-program-governance/)** | Risk register + intake controls | Controlled scope management |
-| Measurement | KPI dashboards | Executive visibility |
+| **[Measurement](04-Measurement/)** | KPI dashboards | Executive visibility |
 
 **[Detailed Executive Summary → [overview](overview.md)**
 
