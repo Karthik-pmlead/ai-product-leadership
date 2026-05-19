@@ -1,28 +1,22 @@
-# 🏃‍♂️ Scrum Frameworks for AI Teams
+# 📘 scrum/README.md
 
-**2-week sprints** | **Daily execution** | **Continuous learning**
+# 🏃 Scrum & Agile Delivery
 
-## 📅 Ceremony Templates
+> Agile execution frameworks, sprint operations, delivery metrics, and scaling practices.
 
-### **Sprint Planning (2hr)**
-✅ Review sprint goal (1 business outcome)
-✅ Story point estimation (Fibonacci)
-✅ Capacity check (velocity history)
-✅ Definition of Done (DoD)
-✅ Blocker escalation process
+---
 
+# 📂 Sections
 
-### **Daily Standup (15min)**
-❓ What did I do yesterday?
-❓ What will I do today?
-❓ Any blockers?
+| Folder | Purpose |
+|---|---|
+| ceremonies/ | Scrum rituals & Agile ceremonies |
+| agile_metrics/ | Delivery KPIs & performance metrics |
+| sprint_management/ | Sprint planning & execution workflows |
+| scaled_agile/ | Multi-team Agile coordination |
 
+---
 
-### **Sprint Retrospective**
-🐢 What went slow?
-🐇 What went fast?
-✨ What to keep?
-🔄 What to change?
+# 🎯 Goal
 
-
-**Templates:** [Sprint Planning](sprint-planning.md) | [Retrospective](retrospective-template.md)
+> Enable predictable, iterative, and scalable Agile delivery.
