@@ -1,21 +1,21 @@
-# 📋 PMBOK Frameworks for AI Projects
+# 📘 pmbok/README.md
 
-**Risk-first planning** | **Stakeholder alignment** | **Enterprise scale**
+# 📘 PMBOK & Project Governance
 
-## 🎯 Core PMBOK Artifacts
+> PMBOK-aligned project management frameworks, governance practices, and reusable delivery artifacts.
 
-### **Risk Register Template**
-| Risk | Probability | Impact | Mitigation | Owner | Status |
-|------|-------------|--------|------------|-------|--------|
-| Model drift | High | Critical | Daily monitoring + retrain | DS Lead | Green |
-| Data pipeline failure | Medium | High | Redundant ETL + alerts | Data Eng | Yellow |
-| Stakeholder scope creep | High | Medium | Weekly sync + change control | PM | Green |
+---
 
-### **RACI Matrix**
-| Activity | PM | Engg Lead | DS Lead | Design | C-Suite |
-|----------|-----|-----------|---------|--------|---------|
-| PRD Approval | R,A | C | C | C | I |
-| Model Selection | I | R | A | C | C |
-| Production Launch | R,A | R | C | I | I |
+# 📂 Sections
 
-**Download:** [Risk Register](risk-register.md) | [RACI Template](stakeholder-matrix.md)
+| Folder | Purpose |
+|---|---|
+| process_guides/ | PMBOK process flows & best practices |
+| governance/ | Delivery governance & control frameworks |
+| artifacts/ | Reusable project management templates |
+
+---
+
+# 🎯 Goal
+
+> Standardize project governance, execution, and delivery management practices.
