@@ -8,9 +8,9 @@ Reusable client-facing deliverables, templates, frameworks, and execution assets
 
 | Category | Template | Description | Quick Link |
 |---|---|---|---|
-| Final Delivery | Final Presentation & Execution | Final client presentation and implementation planning framework | [Open](./Final%20Presentation%20%26%20Execution.md) |
-| 1-Pager | Executive One Pager | Executive summary template for leadership communication | [Open](./1-Pagers/Executive_One_Pager_Template.md) |
-| Financial Model | SaaS Financial Model | Revenue forecasting and SaaS KPI model | [Open](./Financial%20Models/SaaS_Financial_Model_Template.md) |
+| Final Delivery | Final Presentation & Execution | Final client presentation and implementation planning framework | [Open](./01_Final_Presentation_Execution.md) |
+| 1-Pager | Executive One Pager | Executive summary template for leadership communication | [Open](./02_Executive_One_Pager_Template.md) |
+| Financial Model | SaaS Financial Model | Revenue forecasting and SaaS KPI model | [Open](./03_SaaS_Financial_Model_Template.md) |
 
 ---
 
@@ -20,11 +20,11 @@ Reusable client-facing deliverables, templates, frameworks, and execution assets
 
 | Template | Description | Link |
 |---|---|---|
-| GTM Strategy Template | Go-to-market planning framework | [Open](./Templates/GTM_Strategy_Template.md) |
-| Business Case Template | ROI and business justification structure | [Open](./Templates/Business_Case_Template.md) |
-| Market Research Template | Market sizing and competitive research | [Open](./Templates/Market_Research_Template.md) |
-| Competitive Analysis Template | Competitor benchmarking framework | [Open](./Templates/Competitive_Analysis_Template.md) |
-| Transformation Roadmap Template | Enterprise transformation roadmap | [Open](./Templates/Transformation_Roadmap_Template.md) |
+| GTM Strategy Template | Go-to-market planning framework | [Open](./04_GTM_Stategy_template.md) |
+| Business Case Template | ROI and business justification structure | [Open](./05_Business_Case_template.md.md) |
+| Market Research Template | Market sizing and competitive research | [Open](./09_Market_Research_Template.md) |
+| Competitive Analysis Template | Competitor benchmarking framework | [Open](./10_Competitive_Analysis_Template.md) |
+| Transformation Roadmap Template | Enterprise transformation roadmap | [Open](./18_Transformation_Roadmap_Template.md) |
 
 ---
 
@@ -32,10 +32,10 @@ Reusable client-facing deliverables, templates, frameworks, and execution assets
 
 | Template | Description | Link |
 |---|---|---|
-| Product Roadmap Template | Product planning and prioritization | [Open](./Templates/Product_Roadmap_Template.md) |
-| SOP Template | Standard operating procedure framework | [Open](./Templates/SOP_Template.md) |
-| Change Management Template | Organizational change planning | [Open](./Templates/Change_Management_Template.md) |
-| OKR Template | Objective and key result tracking | [Open](./Templates/OKR_Template.md) |
+| Product Roadmap Template | Product planning and prioritization | [Open](./08_Product_Roadmap_Template.md) |
+| SOP Template | Standard operating procedure framework | [Open](./14_SOP_Template.md) |
+| Change Management Template | Organizational change planning | [Open](./15_Change_Management_Template.md) |
+| OKR Template | Objective and key result tracking | [Open](./16_OKR_Template.md) |
 
 ---
 
@@ -43,10 +43,10 @@ Reusable client-facing deliverables, templates, frameworks, and execution assets
 
 | Template | Description | Link |
 |---|---|---|
-| Executive Status Report | Leadership reporting template | [Open](./Templates/Executive_Status_Report.md) |
-| PMO Status Template | Project governance tracking | [Open](./Templates/PMO_Status_Template.md) |
-| KPI Dashboard Template | KPI tracking and reporting | [Open](./Templates/KPI_Dashboard_Template.md) |
-| Risk Register Template | Risk management tracker | [Open](./Templates/Risk_Register_Template.md) |
+| Executive Status Report | Leadership reporting template | [Open](./06_Executive_Status_Report.md) |
+| PMO Status Template | Project governance tracking | [Open](./12_PMO_Status_Template.md) |
+| KPI Dashboard Template | KPI tracking and reporting | [Open](./07_KPI_Dashboard_Template.md) |
+| Risk Register Template | Risk management tracker | [Open](./13_Risk_Register_Template.md) |
 
 ---
 
@@ -54,8 +54,8 @@ Reusable client-facing deliverables, templates, frameworks, and execution assets
 
 | Template | Description | Link |
 |---|---|---|
-| Investor Update Template | Investor communication format | [Open](./Templates/Investor_Update_Template.md) |
-| SaaS Financial Model | SaaS revenue and operating model | [Open](./Financial%20Models/SaaS_Financial_Model_Template.md) |
+| Investor Update Template | Investor communication format | [Open](./11_Investor_Update_Template.md) |
+| SaaS Financial Model | SaaS revenue and operating model | [Open](./03_SaaS_Financial_Model_Template.md) |
 
 ---
 
