@@ -21,7 +21,7 @@ Ensure engineering teams deliver:
 | [architecture](architecture/) | System design & technical direction |
 | [delivery](delivery/) | Sprint execution & delivery |
 | [quality](quality/) | Testing, reliability, standards |
-| [devops]d(evops/) | CI/CD, automation, infrastructure |
+| [devops](devops/) | CI/CD, automation, infrastructure |
 | [engineering_metrics](engineering_metrics/) | DORA metrics, velocity, performance |
 
 ---
