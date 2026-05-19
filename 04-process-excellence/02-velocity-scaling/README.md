@@ -39,7 +39,8 @@ Velocity plateau confirmed
         ↓
 L3 → Autonomous scaling + self-service delivery pipelines
 ```
-
+---
+- Template: [Team Maturity Matrix](team-maturity-matrix.md)
 ---
 
 # ⚙️ Scaling Tactics
