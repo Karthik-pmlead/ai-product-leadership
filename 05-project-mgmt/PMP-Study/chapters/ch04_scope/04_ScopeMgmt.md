@@ -1,7 +1,7 @@
 ## Project Scope Mgmt
  - Includes the processes required to ensure that the project includes all the work required, and only the work required, to complete the project successfully
 
-<img src="images/ScopeMgmt.png" alt="ScopeMgt" height="400" width="300">
+<img src="images/ScopeMgmt.png" alt="ScopeMgt" height="500" width="500">
 
 ## 1. Plan scope
 Project Scope - The work performed to deliver a product, service, or result with the specified features and functions.
