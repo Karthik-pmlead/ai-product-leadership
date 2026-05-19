@@ -10,10 +10,10 @@
 
 | Folder | Purpose |
 |---|---|
-| deployment/ | Model release workflows & deployment governance |
-| observability/ | Monitoring, drift detection & alerting |
-| retraining/ | Model retraining strategies & lifecycle management |
-| platform_ops/ | Infrastructure, scaling & operational controls |
+| [deployment](deployment/) | Model release workflows & deployment governance |
+| [observability](observability/) | Monitoring, drift detection & alerting |
+| [retraining](retraining/) | Model retraining strategies & lifecycle management |
+| [platform_ops](platform_ops/) | Infrastructure, scaling & operational controls |
 
 ---
 
