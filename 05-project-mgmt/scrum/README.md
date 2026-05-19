@@ -10,10 +10,10 @@
 
 | Folder | Purpose |
 |---|---|
-| ceremonies/ | Scrum rituals & Agile ceremonies |
-| agile_metrics/ | Delivery KPIs & performance metrics |
-| sprint_management/ | Sprint planning & execution workflows |
-| scaled_agile/ | Multi-team Agile coordination |
+| [ceremonies](ceremonies/) | Scrum rituals & Agile ceremonies |
+| [agile_metrics](agile_metrics/) | Delivery KPIs & performance metrics |
+| [sprint_management](sprint_management/) | Sprint planning & execution workflows |
+| [scaled_agile](scaled_agile/) | Multi-team Agile coordination |
 
 ---
 
