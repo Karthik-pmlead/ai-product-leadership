@@ -1,7 +1,7 @@
 ## Project Stakeholder Mgmt
  - processes required to identify the people, groups, or organizations that could impact or be impacted by the project
 
-<img src="images/StakeholderMgt.png" alt="StakeholderMgt.png" height="400" width="300">
+<img src="images/StakeholderMgt.png" alt="StakeholderMgt.png" height="500" width="500">
 
 **Why identify stakeholders?** To analyze stakeholder expectation and thier impact on the project
 
