@@ -1,4 +1,4 @@
-# 🏆 PRD Case Studies (Production Results)
+# 🏆 case_studies/README.md
 
 **Real PRDs → Real Revenue** | **Anonymized from Flipkart/Nielsen** | **+22% CTR proven**
 
