@@ -10,6 +10,9 @@ This repository is designed to:
 Each folder contains concise guides, checklists, and examples you can adapt to your context.
 
 ---
+- [operating_system_map](operating_system_map.md)
+
+---
 
 ## Navigation
 
@@ -28,11 +31,14 @@ Click on the links below to jump into each leadership area:
 | [09‑feedback‑coaching](./09-feedback-coaching/README.md) | Feedback loops, coaching ICs, and managing managers. |
 | [10‑conflict‑influence](./10-conflict-influence/README.md) | Peer conflict, negotiation, and influencing without authority. |
 | [11‑culture‑values](./11-culture-values/README.md) | Psychological safety, inclusion, and healthy team/org culture. |
-| [12‑scale‑systems](./12-scale-systems/README.md) | Multi‑team orgs, operating models, and “managing managers” for Directors/VPs. |
+| [12‑energy](./12‑energy/README.md) | Psychological safety, inclusion, and healthy team/org culture. |
+| [13-execution-operations](./13-execution-operations/README.md) | Psychological safety, inclusion, and healthy team/org culture. |
+| [14‑org-scale](./14-org-scaling/README.md) | Multi‑team orgs, operating models, and “managing managers” for Directors/VPs. |
 
 ---
 
 ## How to use this repo
+
 
 - **EMs**: Start with `05‑people`, `04‑communication`, `03‑okr`, and `06‑results`, then explore `09‑feedback‑coaching` and `02‑engg`.  
 - **Directors**: Lean into `07‑strategy`, `12‑scale‑systems`, and `08‑decision‑making` while reinforcing `01‑cross‑functional` and `10‑conflict‑influence`.  
