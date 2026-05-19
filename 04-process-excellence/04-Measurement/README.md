@@ -130,6 +130,7 @@ Measurement systems provide leadership with real-time visibility into delivery h
 | Risk Dashboard | Governance monitoring |
 | DORA Metrics Tracker | Engineering performance |
 
+ - [KPI_Dashboard_template](KPI-Dashboard-Template.md)
 ---
 
 # 🎯 Leadership Actions
