@@ -1,39 +1,104 @@
-**OKR cascade + capacity planning | Predictable delivery**
+# 🚀 Operating Model
 
-AI product teams need structured alignment from C-suite strategy to executable ML delivery. This operating model ensures 90%+ sprint predictability while balancing innovation and committed work.
+> OKR cascade + capacity planning → predictable AI product delivery.
 
-## 🚀 Multi-Team Capacity Allocation
-20% CAPACITY: Tech debt + innovation (model retraining, POCs)
-70% CAPACITY: Committed delivery (OKR-linked features)
-10% CAPACITY: Dependencies + surprises (data pipelines, vendor sync)
-- └── TARGET: Predictable weekly velocity (±5% variance)
+AI product organizations require structured alignment from executive strategy to sprint execution. This operating model improves delivery predictability while balancing roadmap commitments, innovation, and operational risk.
 
-## OKR Cascade Framework
-Company OKRs (3-5 max, annual)
-↓ Quarterly Portfolio OKRs
-↓ Team OKRs (30-40% bottom-up)
-↓ Sprint tasks (epics → stories w/ KR mapping)
+---
 
+# 📊 Core Outcomes
 
-**Rules**: Every epic/story links to specific KR. Tools: Jira custom fields, monday dev.
+- 90%+ sprint predictability
+- Stable multi-team delivery velocity
+- Clear OKR → execution traceability
+- Reduced scope volatility
+- Sustainable engineering capacity
 
-## Capacity Planning Process
-1. BASELINE: Last 6 sprints velocity (story points/week)
+---
 
-2. FORECAST: 80-90% utilization target
+# ⚙️ Multi-Team Capacity Allocation
 
-3. ALLOCATE: Fixed capacity buckets above
+| Allocation Area | Capacity | Purpose |
+|---|---|---|
+| Innovation & Tech Debt | 20% | Model retraining, POCs, platform improvements |
+| Committed Delivery | 70% | OKR-linked roadmap execution |
+| Dependencies & Interruptions | 10% | Data pipelines, vendor sync, production risks |
 
-4. BUFFER: 10% for AI risks (data drift, retraining)
+### Target
+> Predictable weekly velocity (±5% variance)
 
-5. TRACK: Weekly burndown dashboard
+---
 
+# 🎯 OKR Cascade Framework
 
-## Success Metrics
+```text
+Company OKRs (Annual)
+        ↓
+Portfolio OKRs (Quarterly)
+        ↓
+Team OKRs
+        ↓
+Sprint Epics & Stories
+```
+
+### Operating Rules
+- Maximum 3–5 company OKRs
+- 30–40% team-level bottom-up ownership
+- Every epic/story mapped to a Key Result
+- Quarterly OKR review cadence
+
+### Tooling
+- Jira custom fields
+- monday dev
+- Portfolio dashboards
+
+---
+
+# 📈 Capacity Planning Process
+
+| Step | Description |
+|---|---|
+| Baseline | Use last 6 sprints for velocity forecasting |
+| Forecast | Plan at 80–90% utilization |
+| Allocate | Assign fixed capacity buckets |
+| Buffer | Reserve 10% for AI delivery risks |
+| Track | Monitor weekly burndown & sprint health |
+
+---
+
+# 📏 Success Metrics
+
 | Metric | Target |
-|--------|--------|
-| Sprint Predictability | 90%+ |
-| OKR Attainment | 80%+ |
-| Capacity Utilization | 80-90% |
+|---|---|
+| Sprint Predictability | >90% |
+| OKR Attainment | >80% |
+| Capacity Utilization | 80–90% |
+| Scope Change Rate | <5% |
 
-**Leadership Cadence**: Daily 15-min standup → Weekly velocity → Bi-weekly portfolio sync → Quarterly OKR retro.
+---
+
+# 🔄 Leadership Cadence
+
+| Cadence | Purpose |
+|---|---|
+| Daily Standup | Execution tracking |
+| Weekly Velocity Review | Delivery forecasting |
+| Bi-weekly Portfolio Sync | Dependency alignment |
+| Quarterly OKR Retro | Strategic review |
+
+---
+
+# ⚠️ Common Failure Modes
+
+| Failure Pattern | Root Cause |
+|---|---|
+| Velocity instability | Overcommitment |
+| Scope creep | Weak intake governance |
+| Burnout | 100% utilization planning |
+| Delivery delays | Cross-team dependencies |
+
+---
+
+# 🎯 Key Outcome
+
+> Scalable operating model for predictable AI product delivery across multiple engineering teams.
