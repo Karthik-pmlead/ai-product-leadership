@@ -9,6 +9,7 @@
 | Product | Focus Area |
 |---|---|
 | [WareHouse Optimization](./Warehouse_Optimization_prd_review.md) | WareHouse Optimization |
+| [Fleet Tracking](./fleet_tracking_prd_review.md) | Fleet Tracking |
 
 ---
 
