@@ -30,14 +30,15 @@ Use it when:
 - 📈 Investment / expansion decisions
 
 📊 **Example (Food Delivery Market)**
-Force	Example Insight
-Rivalry	High (Zomato vs Swiggy competition)
-New Entrants	Medium (high logistics + network effects needed)
-Suppliers	Medium (restaurants have moderate power)
-Customers	High (users switch apps easily for discounts)
-Substitutes	High (dine-in, home cooking, takeaway)
 
-👉 Result: Highly competitive, low-margin market
+**Force	Example Insight**
+- Rivalry	High (Zomato vs Swiggy competition)
+- New Entrants	Medium (high logistics + network effects needed)
+- Suppliers	Medium (restaurants have moderate power)
+- Customers	High (users switch apps easily for discounts)
+- Substitutes	High (dine-in, home cooking, takeaway)
+
+- 👉 Result: Highly competitive, low-margin market
 ---
 # Porter’s Five Forces
 
