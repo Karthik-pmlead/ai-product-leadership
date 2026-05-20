@@ -8,11 +8,11 @@ Use these templates to move from idea to approval, planning to launch, and rollo
 
 | Phase | Template | Purpose | Typical owner |
 |---|---|---|---|
-| Strategy / Approval | Strategy Doc | Define direction, goals, key bets, and priorities. | Product / Leadership |
-| Strategy / Approval | Business Case | Justify the investment with problem, options, costs, benefits, risks, and ROI. | Product / Finance / Leadership |
-| Strategy / Approval | Executive Summary | Give leaders a concise overview of the problem, proposal, and decision needed [web:271][web:274][web:277]. | Product / Leadership |
-| Strategy / Approval | Decision Memo | Present a recommendation and the rationale behind it. | Product Manager / Leadership |
-| Strategy / Approval | Executive Report | Summarize progress, KPI movement, risks, and key decisions for executives. | Product / PMO / Leadership |
+| [Strategy / Approval](./strategy-approval) | Strategy Doc | Define direction, goals, key bets, and priorities. | Product / Leadership |
+| [Strategy / Approval](./strategy-approval) | Business Case | Justify the investment with problem, options, costs, benefits, risks, and ROI. | Product / Finance / Leadership |
+| [Strategy / Approval](./strategy-approval) | Executive Summary | Give leaders a concise overview of the problem, proposal, and decision needed [web:271][web:274][web:277]. | Product / Leadership |
+| [Strategy / Approval](./strategy-approval) | Decision Memo | Present a recommendation and the rationale behind it. | Product Manager / Leadership |
+| [Strategy / Approval](./strategy-approval) | Executive Report | Summarize progress, KPI movement, risks, and key decisions for executives. | Product / PMO / Leadership |
 
 ---
 | Phase | Template | Purpose | Typical owner |
