@@ -12,7 +12,7 @@ E → Effort (How much work is needed?)
 
 **RICE Formula**
 RICE Score = (Reach × Impact × Confidence) / Effort
-
+---
 ⏰ **When to Use RICE**
 
 **Use RICE when:**
@@ -24,14 +24,14 @@ RICE Score = (Reach × Impact × Confidence) / Effort
 - You want to avoid “gut-feel” decisions
 
 👉 Best for: mid-stage product planning
-
+---
 📍 **Where to Use RICE**
 📦 Product roadmaps
 🧾 Backlog prioritization
 🏃 Sprint planning
 📊 Feature comparison docs
 🤝 Stakeholder alignment meetings
-
+---
 ⚙️ **How to Use RICE**
 - Step 1: List features
 - Step 2: Assign scores
@@ -44,7 +44,7 @@ RICE Score = (Reach × Impact × Confidence) / Effort
 - Step 3: Calculate score
 - Step 4: Rank features by score
 
-
+---
 # RICE Prioritization – Food Delivery App
 
 | Feature               | Reach (users/month) | Impact | Confidence | Effort (person-months) | RICE Score |
