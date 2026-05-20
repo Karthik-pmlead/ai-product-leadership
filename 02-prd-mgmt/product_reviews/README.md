@@ -16,8 +16,7 @@
 | [marketplace](./marketplace/) | `rider_matching_prd_review.md`, `seller_onboarding_prd_review.md` |
 | [developer_tools](./developer_tools/) | `ci_cd_pipeline_prd_review.md`, `observability_dashboard_prd_review.md` |
 | [mobile](./mobile/) | `offline_sync_prd_review.md`, `push_notification_center_prd_review.md` |
-| [hardware_iot](./hardware_iot/) | `smart_watch_prd_review.md`, `ev_charging_station_prd_review.md`|
-| Leica Camera Product Review | [Leica Camera](./hardware_iot/leica_camera_prd_review.md) |
+| [hardware_iot](./hardware_iot/) | `smartlock_iot_prd_review.md`, `leica_q3.md` |
 
 ---
 
