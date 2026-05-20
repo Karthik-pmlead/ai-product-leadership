@@ -1,4 +1,4 @@
-# 04_prd_canvas/ai-prd-canvas.md
+# ai-prd-canvas.md
 
 # AI PRD Canvas
 
