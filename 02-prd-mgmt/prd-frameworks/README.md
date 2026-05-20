@@ -144,8 +144,8 @@ This repository helps with:
 | [Scrum](./execution/scrum.md) | Sprint-based delivery | Product engineering teams | Agile |
 | [Kanban](./execution/kanban.md) | Continuous flow system | Operations/support teams | Agile |
 | [Definition of Done](./execution/definition_of_done.md) | Completion criteria | Delivery quality | Scrum |
-| [Pre-Mortem Analysis](./execution/pre_mortem.md) | Anticipate risks early | Planning | RCA |
-| [Post-Mortem / RCA](./execution/post_mortem_rca.md) | Learn from failures | Incident analysis | 5 Whys |
+| [Pre-Mortem Analysis](./execution/pre_mortem_analysis.md) | Anticipate risks early | Planning | RCA |
+| [Post-Mortem / RCA](./execution/post_mortem.md) | Learn from failures | Incident analysis | 5 Whys |
 
 ---
 
