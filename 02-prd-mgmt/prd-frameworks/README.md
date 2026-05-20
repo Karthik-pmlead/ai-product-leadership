@@ -1,22 +1,16 @@
-# 🚀 PM Frameworks Master Map
+# 🧠 Product, Strategy & Growth Frameworks
 
-A structured knowledge system of essential **Product Management frameworks** — covering discovery, strategy, design, growth, metrics, and execution.
+> A curated repository of frameworks used across Product Management, Strategy, UX, Growth, Analytics, Delivery, and Leadership.
 
-> 🧠 Think of this as your **Product Thinking OS**
-
----
-
-## 🧭 How to Use This Repo
-
-Follow the product lifecycle:
-
-1. **Discover** → Understand users & problems  
-2. **Decide** → Prioritize what matters  
-3. **Design** → Shape solutions  
-4. **Build Strategy** → Align business & product  
-5. **Grow** → Scale impact  
-6. **Measure** → Track success  
-7. **Execute** → Ship & iterate  
+This repository helps with:
+- Product discovery & prioritization
+- Customer understanding
+- Business & market strategy
+- UX and design thinking
+- Growth and experimentation
+- Agile delivery & execution
+- Leadership and decision-making
+- Product management interviews
 
 ---
 
@@ -24,125 +18,251 @@ Follow the product lifecycle:
 
 ---
 
-## 🎯 Prioritization
+# 🎯 Prioritization Frameworks
 
-| Framework | Description | Link |
-|----------|-------------|------|
-| RICE | Reach, Impact, Confidence, Effort | [Explore](frameworks.md#rice) |
-| MoSCoW | Must / Should / Could / Won’t | [Explore](frameworks.md#moscow) |
-| Impact vs Effort | Quick prioritization matrix | [Explore](frameworks.md#impact-vs-effort) |
-| Kano Model | Basic vs delighters | [Explore](frameworks.md#kano-model) |
-| Cost of Delay | Value loss over time | [Explore](frameworks.md#cost-of-delay) |
-| Opportunity Scoring | Identify unmet needs | [Explore](frameworks.md#opportunity-scoring) |
-
----
-
-## 👥 Segmentation & Customer Understanding
-
-| Framework | Description | Link |
-|----------|-------------|------|
-| Personas | Archetypal user models | [Explore](frameworks.md#user-personas) |
-| Cohorts | Behavior over time grouping | [Explore](frameworks.md#cohort-analysis) |
-| Behavioral Segmentation | Segment by actions | [Explore](frameworks.md#behavioral-segmentation) |
-| JTBD | Jobs users are trying to get done | [Explore](frameworks.md#jtbd) |
-| 5Ws + H | Who, What, When, Where, Why, How | [Explore](frameworks.md#5wsh) |
-| Empathy Map | User thoughts & feelings | [Explore](frameworks.md#empathy-map) |
-| Journey Map | End-to-end experience | [Explore](frameworks.md#customer-journey-map) |
-| Service Blueprint | Frontstage & backstage flow | [Explore](frameworks.md#service-blueprint) |
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [RICE](./prioritization/rice.md) | Prioritize using Reach, Impact, Confidence, Effort | Evaluating roadmap initiatives | ICE, WSJF |
+| [ICE Scoring](./prioritization/ice_scoring.md) | Lightweight prioritization scoring | Fast-moving startups | RICE |
+| [MoSCoW](./prioritization/moscow_prioritization.md) | Must / Should / Could / Won’t | Requirement prioritization | Kano |
+| [Impact vs Effort](./prioritization/impact_vs_effort.md) | Prioritization matrix | Quick decision-making | Eisenhower |
+| [Kano Model](./prioritization/kano_model.md) | Basic vs delighting features | Feature investment decisions | JTBD |
+| [Cost of Delay](./prioritization/cost_of_delay.md) | Value loss over time | Time-sensitive delivery | WSJF |
+| [WSJF](./prioritization/wsjf.md) | Weighted shortest job first | SAFe / enterprise prioritization | Cost of Delay |
+| [Opportunity Scoring](./prioritization/opportunity_scoring.md) | Identify underserved opportunities | Product discovery | JTBD |
+| [Eisenhower Matrix](./prioritization/eisenhower.md) | Urgent vs important tasks | Personal/team prioritization | Impact vs Effort |
 
 ---
 
-## 🧠 Problem Discovery & Ideation
+# 👥 Customer Research & Segmentation
 
-| Framework | Description | Link |
-|----------|-------------|------|
-| SCAMPER | Creative ideation technique | [Explore](frameworks.md#scamper) |
-| 5 Whys | Root cause analysis | [Explore](frameworks.md#5-whys) |
-| How Might We | Problem reframing | [Explore](frameworks.md#how-might-we) |
-| Brainwriting | Structured brainstorming | [Explore](frameworks.md#brainwriting) |
-
----
-
-## 🏭 Industry & Competitive Analysis
-
-| Framework | Description | Link |
-|----------|-------------|------|
-| SWOT | Strengths, Weaknesses, Opportunities, Threats | [Explore](frameworks.md#swot) |
-| Porter’s Five Forces | Competitive forces analysis | [Explore](frameworks.md#porters-five-forces) |
-| Porter’s Generic Strategies | Cost vs differentiation strategy | [Explore](frameworks.md#porters-generic-strategies) |
-| PESTLE | Macro-environment analysis | [Explore](frameworks.md#pestle) |
-| Offensive vs Defensive Strategy | Growth vs protection strategy | [Explore](frameworks.md#offensive-vs-defensive-strategy) |
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [Personas](./customer_research/personas.md) | Archetypal user profiles | UX/product alignment | Empathy Map |
+| [JTBD](./customer_research/jtbd.md) | Understand customer motivations | Discovery interviews | Opportunity Scoring |
+| [Behavioral Segmentation](./customer_research/behavioral_segmentation.md) | Segment users by actions | Growth optimization | Cohorts |
+| [Cohort Analysis](./customer_research/cohort_analysis.md) | Analyze user retention over time | SaaS/mobile analytics | Retention Curves |
+| [5W1H](./customer_research/5w1h.md) | Structured exploration questions | Problem framing | 5 Whys |
+| [Empathy Map](./customer_research/empathy_map.md) | User feelings & thinking | UX research workshops | Personas |
+| [Journey Map](./customer_research/journey_map.md) | End-to-end customer experience | Service/product optimization | Service Blueprint |
+| [Service Blueprint](./customer_research/service_blueprint.md) | Frontstage/backstage systems | Service operations | Journey Map |
+| [Voice of Customer](./customer_research/voice_of_customer.md) | Capture customer feedback | Feedback systems | JTBD |
 
 ---
 
-## 🧭 Product Strategy & Business Models
+# 🧠 Problem Discovery & Ideation
 
-| Framework | Description | Link |
-|----------|-------------|------|
-| North Star Metric | Single success metric | [Explore](frameworks.md#north-star-metric) |
-| OKRs | Objectives & Key Results | [Explore](frameworks.md#okrs) |
-| Business Model Canvas | How business creates value | [Explore](frameworks.md#business-model-canvas) |
-| Value Proposition Canvas | Product–market fit alignment | [Explore](frameworks.md#value-proposition-canvas) |
-| Flywheel Model | Self-reinforcing growth loops | [Explore](frameworks.md#flywheel-model) |
-
----
-
-## 🎨 Design & Product Thinking
-
-| Framework | Description | Link |
-|----------|-------------|------|
-| Double Diamond | Discover → Define → Develop → Deliver | [Explore](frameworks.md#double-diamond) |
-| 5Es | Engagement experience model | [Explore](frameworks.md#5es) |
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [SCAMPER](./discovery/scamper.md) | Creative ideation framework | Brainstorming sessions | Crazy 8s |
+| [5 Whys](./discovery/5_whys.md) | Root cause analysis | Problem diagnosis | RCA |
+| [How Might We](./discovery/how_might_we.md) | Reframe problems into opportunities | Design thinking | Double Diamond |
+| [Brainwriting](./discovery/brainwriting.md) | Silent structured brainstorming | Team ideation | SCAMPER |
+| [Opportunity Solution Tree](./discovery/opportunity_solution_tree.md) | Discovery mapping | Continuous discovery | JTBD |
+| [Crazy 8s](./discovery/crazy_8s.md) | Rapid UX ideation | Design sprints | SCAMPER |
+| [First Principles Thinking](./discovery/first_principles.md) | Decompose assumptions | Strategic innovation | 5 Whys |
 
 ---
 
-## 📈 Growth, Metrics & Marketing
+# 🏭 Industry & Competitive Analysis
 
-| Framework | Description | Link |
-|----------|-------------|------|
-| AARRR | Pirate funnel metrics | [Explore](frameworks.md#aarrr) |
-| Funnel Analysis | Conversion breakdown | [Explore](frameworks.md#funnel-analysis) |
-| AIDA → AIDCAS | Marketing funnel evolution | [Explore](frameworks.md#aida-to-aidcas) |
-| 4Ps → 7Ps | Marketing mix expansion | [Explore](frameworks.md#4ps-to-7ps) |
-| HEART | UX success metrics | [Explore](frameworks.md#heart-framework) |
-| LTV / CAC | Unit economics | [Explore](frameworks.md#ltv-cac) |
-| Retention Curves | User retention analysis | [Explore](frameworks.md#retention-curves) |
-
----
-
-## 🚀 Growth Systems
-
-| Framework | Description | Link |
-|----------|-------------|------|
-| Product-Led Growth | Product drives acquisition | [Explore](frameworks.md#product-led-growth) |
-| Growth Loops | Reinforcing growth cycles | [Explore](frameworks.md#growth-loops) |
-| Viral Coefficient | Measure virality | [Explore](frameworks.md#viral-coefficient) |
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [SWOT](./strategy/swot.md) | Internal/external analysis | Strategic planning | PESTLE |
+| [Porter Five Forces](./strategy/porter_five_forces.md) | Competitive pressure analysis | Market analysis | SWOT |
+| [Porter Generic Strategies](./strategy/porter_generic_strategies.md) | Cost vs differentiation | Positioning strategy | Blue Ocean |
+| [PESTLE](./strategy/pestle.md) | Macro-environment analysis | Market scanning | SWOT |
+| [Offensive vs Defensive Strategy](./strategy/offensive_defensive_strategy.md) | Growth vs protection strategy | Competitive response | Porter |
+| [Blue Ocean Strategy](./strategy/blue_ocean_strategy.md) | Create uncontested markets | Innovation strategy | Porter |
+| [BCG Matrix](./strategy/bcg_matrix.md) | Portfolio prioritization | Multi-product orgs | Ansoff |
+| [Ansoff Matrix](./strategy/ansoff_matrix.md) | Growth planning | Expansion decisions | BCG |
 
 ---
 
-## 🧪 Experimentation & Execution
+# 🧭 Product Strategy & Business Models
 
-| Framework | Description | Link |
-|----------|-------------|------|
-| A/B Testing | Experiment comparison | [Explore](frameworks.md#ab-testing) |
-| Hypothesis Framework | Structured testing logic | [Explore](frameworks.md#hypothesis-framework) |
-| Agile / Scrum | Iterative development | [Explore](frameworks.md#agile-scrum) |
-| Kanban | Continuous flow system | [Explore](frameworks.md#kanban) |
-| Definition of Done | Completion criteria | [Explore](frameworks.md#definition-of-done) |
-
----
-
-# 🧠 Final Thought
-
-> Great PMs don’t memorize frameworks — they **apply the right one at the right time**
-
-This repo is your:
-- 📚 Knowledge base  
-- 🧭 Decision toolkit  
-- 🧠 Thinking system  
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [North Star Metric](./product_strategy/north_star_metric.md) | Align teams on core value | Product growth alignment | HEART |
+| [OKRs](./product_strategy/okrs.md) | Objectives & measurable outcomes | Strategic execution | North Star |
+| [Business Model Canvas](./product_strategy/business_model_canvas.md) | Business model visualization | New product/business design | Lean Canvas |
+| [Lean Canvas](./product_strategy/lean_canvas.md) | Startup-focused business planning | MVP/startups | BMC |
+| [Value Proposition Canvas](./product_strategy/value_proposition_canvas.md) | Customer-product fit | Product positioning | JTBD |
+| [Flywheel Model](./product_strategy/flywheel_model.md) | Reinforcing growth system | Growth products | Growth Loops |
+| [Wardley Mapping](./product_strategy/wardley_mapping.md) | Strategic landscape mapping | Tech/product strategy | Value Chain |
+| [Product Vision Board](./product_strategy/product_vision_board.md) | Product alignment | Product planning | OKRs |
+| [Value Chain](./product_strategy/value_chain.md) | Analyze value creation | Operational strategy | Porter |
 
 ---
 
-# ⭐ If this helps you
+# 🎨 UX & Design Thinking
 
-Give it a ⭐ on GitHub and build your own **Product Thinking OS**
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [Double Diamond](./ux/double_diamond.md) | Discovery-to-delivery model | Product/design process | Design Thinking |
+| [Design Thinking](./ux/design_thinking.md) | Human-centered problem solving | Innovation workshops | Double Diamond |
+| [5Es](./ux/5es.md) | Engagement experience model | Learning/product engagement | Journey Map |
+| [Heuristic Evaluation](./ux/heuristic_evaluation.md) | UX usability inspection | UX reviews | HEART |
+| [Information Architecture](./ux/information_architecture.md) | Organize product structure | Complex systems | Journey Map |
+
+---
+
+# 📈 Growth, Metrics & Marketing
+
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [AARRR](./growth/aaarrr.md) | Pirate funnel metrics | Startup growth | Funnels |
+| [Funnel Analysis](./growth/funnel_analysis.md) | Conversion breakdown | Acquisition optimization | AARRR |
+| [AIDA / AIDCAS](./growth/aida_aidcas.md) | Marketing funnel evolution | Marketing strategy | 4Ps |
+| [4Ps and 7Ps](./growth/marketing_mix_4p_7p.md) | Marketing mix | GTM planning | AIDA |
+| [HEART Framework](./growth/heart_framework.md) | UX success metrics | Product experience | North Star |
+| [LTV:CAC](./growth/ltv_cac.md) | Unit economics | Business viability | AARRR |
+| [Retention Curves](./growth/retention_curves.md) | Retention analysis | SaaS/mobile products | Cohorts |
+| [RFM](./growth/rfm.md) | Customer value segmentation | CRM/growth | Cohorts |
+| [North Star Framework](./growth/north_star_framework.md) | Metrics alignment | Growth organizations | HEART |
+
+---
+
+# 🚀 Growth Systems
+
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [Product-Led Growth](./growth_systems/product_led_growth.md) | Product drives acquisition | SaaS/self-serve products | Flywheel |
+| [Growth Loops](./growth_systems/growth_loops.md) | Reinforcing growth cycles | Viral/network products | Flywheel |
+| [Viral Coefficient](./growth_systems/viral_coefficient.md) | Measure virality | Referral systems | Growth Loops |
+
+---
+
+# 🧪 Experimentation & Execution
+
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [A/B Testing](./execution/ab_testing.md) | Compare experiments | Optimization | Hypothesis |
+| [Hypothesis Framework](./execution/hypothesis_framework.md) | Structured testing logic | Experiment planning | A/B Testing |
+| [OEC Framework](./execution/oec_framework.md) | Experiment success metrics | Experiment evaluation | HEART |
+| [Agile](./execution/agile.md) | Iterative delivery principles | Team execution | Scrum |
+| [Scrum](./execution/scrum.md) | Sprint-based delivery | Product engineering teams | Agile |
+| [Kanban](./execution/kanban.md) | Continuous flow system | Operations/support teams | Agile |
+| [Definition of Done](./execution/definition_of_done.md) | Completion criteria | Delivery quality | Scrum |
+| [Pre-Mortem Analysis](./execution/pre_mortem.md) | Anticipate risks early | Planning | RCA |
+| [Post-Mortem / RCA](./execution/post_mortem_rca.md) | Learn from failures | Incident analysis | 5 Whys |
+
+---
+
+# ⚙️ Operations & Decision-Making
+
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [RACI Matrix](./operations/raci.md) | Clarify ownership | Cross-functional execution | RAPID |
+| [RAPID Decision Model](./operations/rapid.md) | Decision governance | Enterprise teams | RACI |
+| [DMAIC](./operations/dmaic.md) | Process improvement | Operational excellence | SIPOC |
+| [SIPOC](./operations/sipoc.md) | High-level process mapping | System/process analysis | DMAIC |
+| [Cynefin Framework](./operations/cynefin.md) | Decision-making under uncertainty | Leadership strategy | First Principles |
+
+---
+
+# 📂 Suggested Repository Structure
+
+```text
+frameworks/
+│
+├── README.md
+│
+├── prioritization/
+├── customer_research/
+├── discovery/
+├── strategy/
+├── product_strategy/
+├── ux/
+├── growth/
+├── growth_systems/
+├── execution/
+├── operations/
+├── leadership/
+│
+├── templates/
+├── case_studies/
+├── interview_examples/
+└── assets/
+```
+
+---
+
+# 🏷 Recommended Metadata Template
+
+Use this template inside every framework document.
+
+```md
+# Framework Name
+
+## Overview
+Short description.
+
+## Best Used When
+- Situation 1
+- Situation 2
+
+## Advantages
+- Benefit 1
+- Benefit 2
+
+## Limitations
+- Constraint 1
+- Constraint 2
+
+## Steps
+1. Step 1
+2. Step 2
+
+## Example
+Real-world example.
+
+## Related Frameworks
+- Related framework
+- Related framework
+
+## Tags
+#product-management #strategy #growth
+```
+
+---
+
+# 🚀 Recommended Future Enhancements
+
+## Add:
+- Visual diagrams
+- Decision trees
+- Interview examples
+- Product case studies
+- AI prompts for each framework
+- Comparison tables
+- Workshop templates
+- Cheat sheets
+- Real company examples
+
+---
+
+# 💡 Suggested Premium Additions
+
+## High-Value Additions
+- DORA Metrics
+- SPACE Framework
+- Hook Model
+- McKinsey 7S
+- Balanced Scorecard
+- OODA Loop
+- Team Topologies
+- Amazon Working Backwards
+- PRFAQ Framework
+
+---
+
+# 📖 Repository Goal
+
+This repository is intended to become:
+- A PM knowledge system
+- Interview preparation guide
+- Product playbook
+- Strategy reference
+- Team enablement resource
+- AI/RAG-ready framework library
