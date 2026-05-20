@@ -61,6 +61,7 @@ This repository helps with:
 | [Opportunity Solution Tree](./discovery/opportunity_solution_tree.md) | Discovery mapping | Continuous discovery | JTBD |
 | [Crazy 8s](./discovery/crazy_8s.md) | Rapid UX ideation | Design sprints | SCAMPER |
 | [First Principles Thinking](./discovery/first_principles_thinking.md) | Decompose assumptions | Strategic innovation | 5 Whys |
+| [amazon_working_backwards](./discovery/amazon_working_backwards.md) | Starting product development from customer outcomes and future value | New product ideation, strategic initiatives, customer-centric discovery | PRFAQ, JTBD, Design Thinking |
 
 ---
 
@@ -121,6 +122,7 @@ This repository helps with:
 | [Retention Curves](./growth/retention_curves.md) | Retention analysis | SaaS/mobile products | Cohorts |
 | [RFM](./growth/rfm.md) | Customer value segmentation | CRM/growth | Cohorts |
 | [North Star Framework](./growth/north_star_framework.md) | Metrics alignment | Growth organizations | HEART |
+| [growth_accounting](./growth/growth_accounting.md) | Breaking down growth into retained, new, resurrected, and churned users | Product analytics, retention analysis, sustainable growth evaluation | Cohort Analysis, Retention Curves, AARRR |
 
 ---
 
@@ -131,6 +133,7 @@ This repository helps with:
 | [Product-Led Growth](./growth_systems/product_led_growth.md) | Product drives acquisition | SaaS/self-serve products | Flywheel |
 | [Growth Loops](./growth_systems/growth_loops.md) | Reinforcing growth cycles | Viral/network products | Flywheel |
 | [Viral Coefficient](./growth_systems/viral_coefficient.md) | Measure virality | Referral systems | Growth Loops |
+| [hook_model](./growth_systems/hook_model.md) | Designing habit-forming engagement loops | Consumer apps, retention optimization, engagement-driven products | Growth Loops, Product-Led Growth, Retention Curves |
 
 ---
 
@@ -173,7 +176,7 @@ This repository helps with:
 | [leadership_principles](./leadership/leadership_principles.md) | Core values and behaviors guiding leadership decisions | Building culture, scaling teams, leadership alignment | Executive Communication, Organizational Design |
 | [decision_making_frameworks](./leadership/decision_making_frameworks.md) | Structured approaches for making strategic and operational decisions | Ambiguous situations, prioritization, executive tradeoffs | OODA Loop, Cynefin, RAPID |
 | [organizational_design](./leadership/organizational_design.md) | Structuring teams, ownership, and operating models effectively | Scaling organizations, restructuring, platform evolution | Team Topologies, McKinsey 7S |
-| [mckinsey_7s](./leadership/mckinsey_7s.md) | Organizational alignment across strategy, structure, systems, and culture | Transformation initiatives, change management, enterprise alignment | Organizational Design, Balanced Scorecard |
+| [mckinsey_7s](./strategy/mckinsey_7s.md) | Organizational alignment across strategy, structure, systems, and culture | Transformation initiatives, change management, enterprise alignment | Organizational Design, Balanced Scorecard |
 | [balanced_scorecard](./leadership/balanced_scorecard.md) | Measuring organizational success across financial and non-financial dimensions | Executive dashboards, strategic planning, performance management | OKRs, North Star Metric |
 | [ooda_loop](./leadership/ooda_loop.md) | Rapid adaptive decision-making under uncertainty | Crisis response, startups, competitive environments | Cynefin, Incident Management |
 | [team_topologies](./leadership/team_topologies.md) | Designing engineering organizations for optimal delivery flow | Scaling engineering teams, platform engineering, DevOps transformation | DORA Metrics, Organizational Design |
