@@ -14,13 +14,13 @@
 | [fintech](./fintech/) | `bankUPI_app_prd_review.md`, `groww_prd_review.md` |
 | [marketplace](./marketplace/) | `blinkit_prd_review.md`, `uber_app_prd_review.md`, `seller_app_prd_review.md` |
 | [developer_tools](./developer_tools/) | `ai_coding_assistant_prd_review.md.md`, `observability_dashboard_prd_review.md` |
-| [mobile](./mobile/) | `offline_sync_prd_review.md`, `push_notification_center_prd_review.md` |
-| [healthcare](./optional/healthcare/) | `telemedicine_prd_review.md` |
-| [edtech](./optional/edtech/) | `edtech_prd_review.md` |
-| [logistics](./optional/logistics/) | `fleet_tracking_prd_review.md`, `warehouse_optimization_prd_review.md` |
-| [social](./optional/social/) | `creator_app_prd_review.md`, `community_moderation_prd_review.md` |
+| [healthcare](./healthcare/) | `telemedicine_prd_review.md` |
+| [edtech](./edtech/) | `edtech_prd_review.md` |
+| [logistics](./logistics/) | `fleet_tracking_prd_review.md`, `warehouse_optimization_prd_review.md` |
+| [social](./social/) | `creator_app_prd_review.md`, `community_moderation_prd_review.md` |
 | [ai_products](./ai_products/) | `rag_chatbot_prd_review.md`, `ai_agent_workspace_prd_review.md` |
 | [platform](./platform/) | `auth_service_prd_review.md`, `developer_api_gateway_prd_review.md` |
+| [mobile](./mobile/) | `offline_sync_prd_review.md`, `push_notification_center_prd_review.md` |
 
 ---
 
