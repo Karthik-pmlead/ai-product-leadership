@@ -9,6 +9,7 @@
 | Product | Focus Area |
 |---|---|
 | [Creator App](./creator_app_prd_review.md) | Creator App |
+| [Community Moderation](./community_moderation_prd_review.md) | Community Moderation |
 
 ---
 
