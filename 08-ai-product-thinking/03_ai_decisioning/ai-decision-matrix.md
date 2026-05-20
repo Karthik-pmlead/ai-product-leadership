@@ -1,4 +1,4 @@
-# 03_ai_decisioning/ai-decision-matrix.md
+# ai-decision-matrix.md
 
 # AI Decisioning
 
