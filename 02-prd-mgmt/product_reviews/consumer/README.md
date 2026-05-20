@@ -12,6 +12,8 @@
 | [Instagram Reels](./instagram_reels_prd_review.md) | Insta Reels |
 | [Spotify Playlist](./spotify_playlist_prd_review.md) | Spotify Playlist |
 | [Nike](./nike_prd_review.md) | Nike |
+| [Netflix](./netflix_prd_review.md) | Netflix |
+
 
 
 ---
