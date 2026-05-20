@@ -10,10 +10,8 @@
 |---|---|---|
 | PM 101 | Product management fundamentals & core concepts | [View](./pm-101/) |
 | Product Frameworks | Prioritization, discovery & strategy frameworks | [View](./prd-frameworks/) |
-| Strategy | Product vision, GTM & market strategy | [View](./strategy/) |
-| Roadmap Execution | Roadmaps, launches & delivery planning | [View](./roadmap_execution/) |
-| Metrics & Analytics | KPIs, experimentation & product metrics | [View](./metrics_analytics/) |
 | Templates | Reusable PM artifacts & documents | [View](./templates/) |
+| Metrics & Analytics | KPIs, experimentation & product metrics | [View](./metrics_analytics/) |
 | Product Reviews | Product teardowns & analysis | [View](./product_reviews/) |
 | Case Studies | Product sense & execution scenarios | [View](./case_studies/) |
 | Interview Questions | PM interview prep & mock questions | [View](./interview_questions/) |
