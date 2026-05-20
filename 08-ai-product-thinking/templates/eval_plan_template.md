@@ -104,3 +104,180 @@
 | [Task 2] | [X annotators] | [Criteria] | [X samples] |
 
 **Evaluation Rubric:**
+1 = Poor, 2 = Fair, 3 = Good, 4 = Very Good, 5 = Excellent
+
+
+### 4.3 A/B Testing
+| Variant | Traffic Split | Duration | Primary Metric |
+|---------|---------------|----------|----------------|
+| Control (A) | [50%] | [X days] | [Metric] |
+| Treatment (B) | [50%] | [X days] | [Metric] |
+
+### 4.4 Adversarial Testing
+| Test Type | Description | Tool |
+|-----------|-------------|------|
+| Edge Cases | [Description] | [Tool] |
+| Prompt Injection | [Description] | [Tool] |
+| Jailbreaking | [Description] | [Tool] |
+
+---
+
+## 5. Baselines & Comparisons
+
+### 5.1 Baselines
+| Baseline | Description | Performance |
+|----------|-------------|-------------|
+| Random | Random predictions | [X%] |
+| Rule-based | [Simple rules] | [X%] |
+| Previous Model | [Model version] | [X%] |
+| Competitor | [Competitor model] | [X%] |
+
+### 5.2 Comparison Models
+| Model | Version | Expected Performance |
+|-------|---------|---------------------|
+| [Model A] | [vX] | [X%] |
+| [Model B] | [vY] | [X%] |
+
+---
+
+## 6. Evaluation Pipeline
+
+### 6.1 Pipeline Steps
+Load evaluation dataset
+
+Generate predictions
+
+Calculate metrics
+
+Analyze results
+
+Generate report
+
+
+### 6.2 Automation
+| Component | Tool | Frequency |
+|-----------|------|-----------|
+| Data Loading | [Custom script] | On-demand |
+| Prediction | [Custom script] | On-demand |
+| Metrics | [Custom script] | On-demand |
+| Reporting | [Dashboard] | Daily |
+
+### 6.3 CI/CD Integration
+| Stage | Trigger | Gate Criteria |
+|-------|---------|---------------|
+| Unit Tests | Code commit | [All pass] |
+| Model Tests | Code commit | [Accuracy > X%] |
+| Integration Tests | Pre-merge | [All pass] |
+| E2E Tests | Pre-deploy | [All pass] |
+
+---
+
+## 7. Analysis & Reporting
+
+### 7.1 Result Analysis
+| Analysis Type | Method | Output |
+|--------------|--------|--------|
+| Overall Performance | Aggregation | [Dashboard] |
+| Error Analysis | Manual review | [Error categories] |
+| Segment Analysis | Grouping | [Per-segment metrics] |
+| Trend Analysis | Time series | [Trend charts] |
+
+### 7.2 Reporting Format
+**Evaluation Report Includes:**
+- Executive summary
+- Primary metrics with targets
+- Comparison to baselines
+- Error analysis
+- Recommendations
+
+### 7.3 Dashboard Metrics
+| Metric | Visualization | Update Frequency |
+|--------|---------------|------------------|
+| Accuracy | Line chart | Daily |
+| Latency | Histogram | Real-time |
+| Error Rate | Gauge | Real-time |
+
+---
+
+## 8. Launch Criteria
+
+### 8.1 Go/No-Go Criteria
+| Criterion | Threshold | Status |
+|-----------|-----------|--------|
+| Accuracy | ≥ [X%] | [Pending] |
+| Precision | ≥ [X%] | [Pending] |
+| Recall | ≥ [X%] | [Pending] |
+| Latency P99 | ≤ [X ms] | [Pending] |
+| Hallucination Rate | ≤ [X%] | [Pending] |
+
+### 8.2 Conditional Launch
+| Condition | Mitigation | Owner |
+|-----------|------------|-------|
+| [Metric below target] | [Mitigation plan] | [Name] |
+
+---
+
+## 9. Continuous Monitoring
+
+### 9.1 Production Metrics
+| Metric | Threshold | Alert |
+|--------|-----------|-------|
+| Accuracy | < [X%] | [Yes] |
+| Data Drift | > [X%] | [Yes] |
+| Concept Drift | Detected | [Yes] |
+
+### 9.2 Monitoring Schedule
+| Evaluation | Frequency | Owner |
+|------------|-----------|-------|
+| Automated metrics | Real-time | [System] |
+| Human review | Weekly | [Team] |
+| Full evaluation | Monthly | [Team] |
+
+### 9.3 Retraining Triggers
+| Trigger | Threshold | Action |
+|---------|-----------|--------|
+| Accuracy drop | > [X%] | Retrain |
+| Data drift | > [X%] | Investigate |
+| User complaints | > [X/day] | Investigate |
+
+---
+
+## 10. Resources & Timeline
+
+### 10.1 Resource Requirements
+| Resource | Quantity | Cost |
+|----------|----------|------|
+| Evaluators | [X people] | [$$] |
+| Compute | [X GPU hours] | [$$] |
+| Tools | [List] | [$$] |
+
+### 10.2 Timeline
+| Phase | Start | End | Duration |
+|-------|-------|-----|----------|
+| Dataset preparation | [Date] | [Date] | [X days] |
+| Evaluation execution | [Date] | [Date] | [X days] |
+| Analysis | [Date] | [Date] | [X days] |
+| Reporting | [Date] | [Date] | [X days] |
+
+---
+
+## 11. Risks & Mitigations
+
+| Risk | Impact | Probability | Mitigation |
+|------|--------|-------------|------------|
+| Insufficient test data | High | Medium | [Collect more data] |
+| Annotator bias | Medium | Medium | [Multiple annotators] |
+| Evaluation takes too long | Medium | Low | [Automate] |
+
+---
+
+## Appendix
+
+### A. Evaluation Scripts
+- [Link to evaluation code]
+
+### B. Sample Evaluation Data
+- [Link to sample data]
+
+### C. Glossary
+[Definitions of metrics and terms]
