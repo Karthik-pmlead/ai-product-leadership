@@ -18,7 +18,7 @@ to drive long-term user retention and platform growth.
 # Product Visual
 
   <img
-    src="./images/spotify_playlist.png"
+    src="../images/spotify_playlist.png"
     alt="Spotify Playlist"
     width="400" 
   />
