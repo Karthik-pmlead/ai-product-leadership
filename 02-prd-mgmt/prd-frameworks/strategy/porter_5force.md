@@ -4,31 +4,30 @@
 
 Porter’s Five Forces is a strategic analysis framework used to evaluate:
 
-🧭 Industry attractiveness
-💰 Profitability potential
-⚔️ Competitive intensity
-
-👉 It helps understand whether a market is worth entering or scaling in
+- 🧭 Industry attractiveness
+- 💰 Profitability potential
+- ⚔️ Competitive intensity
+- 👉 It helps understand whether a market is worth entering or scaling in
 ---
 ⏰ **When to Use Porter’s Five Forces**
 
 Use it when:
 
-You are evaluating a new market or industry
-You are building product strategy
-You want to assess long-term profitability
-You are analyzing competition before entering a space
-You are doing business case or GTM strategy
+- You are evaluating a new market or industry
+- You are building product strategy
+- You want to assess long-term profitability
+- You are analyzing competition before entering a space
+- You are doing business case or GTM strategy
 
-👉 Best for: strategy + market entry decisions
+- 👉 Best for: strategy + market entry decisions
 
 ---
 📍 **Where to Use It**
-📊 Product strategy docs
-🧠 Market research / competitive analysis
-🏢 Business planning / GTM strategy
-💼 Startup validation
-📈 Investment / expansion decisions
+- 📊 Product strategy docs
+- 🧠 Market research / competitive analysis
+- 🏢 Business planning / GTM strategy
+- 💼 Startup validation
+- 📈 Investment / expansion decisions
 
 📊 **Example (Food Delivery Market)**
 Force	Example Insight
