@@ -11,6 +11,8 @@
 | [Fitness App](./fitness_app_prd_review.md) | Fitness App |
 | [Instagram Reels](./instagram_reels_prd_review.md) | Insta Reels |
 | [Spotify Playlist](./spotify_playlist_prd_review.md) | Spotify Playlist |
+| [Nike](./nike_prd_review.md) | Nike |
+
 
 ---
 
