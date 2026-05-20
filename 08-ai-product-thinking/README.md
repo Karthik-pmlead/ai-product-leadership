@@ -1,54 +1,35 @@
-# AI Product Thinking Repo
+# AI PRD Thinking
 
-A repository for designing, evaluating, and shipping successful AI products for business.
+A comprehensive framework and collection of AI product templates and projects for building production-ready AI applications.
+
+---
 
 ## Purpose
 
-This repo helps teams move from business problem to AI product decision, design, build, launch, and operation. It is organized to separate product thinking, model choice, and production operations so the work stays clear and reusable. GitHub recommends a README to explain what a repository does and how people should use it. [web:30][web:38]
+This repository provides a structured approach to AI product development through:
 
-## How to use this repo
+- **Standardized Templates**: Reusable templates for AI PRDs, decision matrices, evaluation plans, MLOps checklists, and more
+- **Framework Guidance**: Proven frameworks like FOBW (Find-Order-Buy-Win) for systematic AI project progression
+- **Reference Projects**: Real-world AI implementations across different use cases to learn from and build upon
+- **Best Practices**: Industry-standard practices for AI/ML product development, from problem definition to production deployment
 
-| Step | Folder | What it covers |
-|---|---|---|
-| 1 | `01_problem_and_context` | Business problem, user pain points, constraints, assumptions, and success criteria. |
-| 2 | `02_business_case` | ROI, feasibility, cost/benefit, prioritization, and stakeholder alignment. |
-| 3 | `03_ai_decisioning` | AI vs rules vs workflow vs humans, FOBW, AI decision matrix, and build/buy/fine-tune decisions. |
-| 4 | `04_prd_canvas` | AI PRD canvas, scope, users, outcomes, and product framing. |
-| 5 | `05_solution_design` | Solution architecture, model choice, reasoning, interfaces, and fallback paths. |
-| 6 | `06_data_and_risk` | Data sources, quality, privacy, security, bias, and risk controls. |
-| 7 | `07_eval_and_quality` | Offline/online eval, test sets, acceptance criteria, red teaming, and monitoring metrics. |
-| 8 | `08_implementation_and_roadmap` | Delivery phases, milestones, dependencies, rollout, and launch plan. |
-| 9 | `09_ml_system_design_and_mlops` | Training/inference architecture, deployment, monitoring, versioning, retraining, and incident response. |
-| 10 | `10_governance_and_ethics` | Policy, approvals, fairness, explainability, auditability, and compliance. |
-| 11 | `11_prompting_and_examples` | Prompt patterns, prompt library, examples, guardrails, and review checklists. |
-| 12 | `12_playbooks` | Reusable playbooks, operating guides, and launch checklists. |
-| 13 | `99_templates` | Reusable templates for PRDs, business cases, eval plans, model cards, and MLOps. |
+Whether you're a product manager, ML engineer, or developer, this repository equips you with the tools and examples needed to build AI products systematically and successfully.
 
-## Repository tree
+---
 
-```text
-ai-product-thinking/
-├── 11_prompting_and_examples/
-│   ├── prompt-library.md
-│   ├── prompt-patterns.md
-│   ├── examples.md
-│   ├── guardrails.md
-│   └── prompt-review-checklist.md
-├── 12_playbooks/
-│   ├── product-launch-playbook.md
-│   ├── evaluation-playbook.md
-│   ├── review-rituals.md
-│   └── operating-sop.md
-└── 99_templates/
-    ├── ai-prd-canvas-template.md
-    ├── ai-decision-matrix-template.md
-    ├── business-case-template.md
-    ├── solution-design-template.md
-    ├── eval-plan-template.md
-    ├── model-card-template.md
-    ├── mlops-checklist-template.md
-    └── launch-checklist-template.md
-```
+## Projects
+
+This repository contains the following AI projects:
+
+| Project | Description | Type | Status | Key Technologies |
+|---------|-------------|------|--------|------------------|
+| [aspect-sentiment](./aspect-sentiment) | Aspect-based sentiment analysis for customer reviews and feedback | NLP / Classification | ✅ Production Ready | Python, transformers, spaCy, FastAPI |
+| [chatbot](./chatbot) | Intelligent conversational chatbot with contextual understanding and multi-turn dialogue | NLP / LLM | ✅ Production Ready | Python, LangChain, LLM APIs, vector DB |
+| [doc-extr](./doc-extr) | Document extraction and information extraction from PDFs, images, and structured documents | NLP / OCR / Extraction | ✅ Production Ready | Python, Tesseract, PyPDF2, transformers |
+| [reccom](./reccom) | Recommendation system for personalized content and product recommendations | ML / Recommendation | ✅ Production Ready | Python, scikit-learn, TensorFlow, ALS |
+| [template](./template) | Base template project for scaffolding new AI projects with best practices | Template / Starter | ✅ Production Ready | Python, structure, CI/CD, MLOps |
+
+---
 
 ## Recommended rule
 
@@ -58,20 +39,6 @@ ai-product-thinking/
 | Which model/architecture should we use? | `05_solution_design` |
 | How do we ship and operate it? | `09_ml_system_design_and_mlops` |
 
-## Core templates
-
-| Template | File idea |
-|---|---|
-| AI PRD canvas | `99_templates/ai_prd_canvas_template.md` |
-| AI decision matrix | `99_templates/ai_decision_matrix_template.md` |
-| FOBW framework | `99_templates/fobw_framework.md` |
-| Business case | `99_templates/business_case_template.md` |
-| Solution design doc | `99_templates/solution_design_template.md` |
-| Eval plan | `99_templates/eval_plan_template.md` |
-| MLOps checklist | `99_templates/mlops_checklist_template.md` |
-| Launch checklist | `99_templates/launch_checklist_template.md` |
-| Model card | `99_templates/model_card_template.md` |
-
 ## Design principles
 
 | Principle | Meaning |
@@ -80,3 +47,42 @@ ai-product-thinking/
 | Separate design from operations | Model choice is not the same as deployment and monitoring. |
 | Keep templates reusable | Use the same structure across multiple AI products. |
 | Optimize for business impact | Every folder should support building successful AI products. |
+
+## Best Practices
+
+### For Product Managers
+- ✅ Use the **AI PRD Canvas** before starting any AI project
+- ✅ Complete the **Business Case** template for stakeholder approval
+- ✅ Define clear success metrics in the **Evaluation Plan**
+- ✅ Review **Model Cards** for ethical considerations
+
+### For ML Engineers
+- ✅ Follow the **MLOps Checklist** before production deployment
+- ✅ Document models using **Model Cards**
+- ✅ Use **Evaluation Plans** for systematic testing
+- ✅ Implement **Solution Design** before coding
+
+### For Developers
+- ✅ Start with the **template** project for consistent structure
+- ✅ Use **Launch Checklist** before deploying
+- ✅ Follow CI/CD practices from the template
+- ✅ Reference existing projects for patterns
+
+---
+
+## Getting Help
+
+- 📖 **Documentation**: Check individual project READMEs
+- 🗺️ **Framework**: Read `fobw_framework.md` for AI project guidance
+- 📋 **Templates**: Use templates in `99_templates/` for your projects
+- 💬 **Questions**: Open an issue for support
+
+---
+
+## Acknowledgements
+
+This repository is inspired by industry best practices from:
+- Product School AI Product Management
+- Google's Model Cards framework
+- Microsoft's AI product guidelines
+- Industry MLOps standards
