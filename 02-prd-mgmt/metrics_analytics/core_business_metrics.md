@@ -2,7 +2,7 @@
 
 | Metric | What it measures | Typical use | Notes |
 |---|---|---|---|
-| North Star Metric | The single metric that best reflects customer value and long-term business success. | Strategy. | Should align with retention and revenue. |
+| [North Star Metric](north_star_metric.md) | The single metric that best reflects customer value and long-term business success. | Strategy. | Should align with retention and revenue. |
 | NPS | Customer loyalty and willingness to recommend. | Brand and satisfaction. | Best used as a directional metric. |
 | CSAT | Customer satisfaction after a specific interaction. | Support, onboarding, checkout. | Good for transaction-level feedback. |
 | CAC | Cost to acquire a customer. | Growth and marketing efficiency. | Pair with LTV or CLV. |
