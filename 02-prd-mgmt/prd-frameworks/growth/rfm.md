@@ -2,13 +2,12 @@
 
 📌**What is RFM?**
 
-RFM is a customer segmentation framework used to analyze user behavior based on purchase history.
+- RFM is a customer segmentation framework used to analyze user behavior based on purchase history.
+- It stands for:
 
-It stands for:
-
-R → Recency: How recently did the user purchase?
-F → Frequency: How often do they purchase?
-M → Monetary: How much do they spend?
+- R → Recency: How recently did the user purchase?
+- F → Frequency: How often do they purchase?
+- M → Monetary: How much do they spend?
 
 👉 It helps identify high-value vs low-value customers
 ---
