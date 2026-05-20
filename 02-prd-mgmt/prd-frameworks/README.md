@@ -159,8 +159,26 @@ This repository helps with:
 | [DMAIC](./operations/dmaic.md) | Process improvement | Operational excellence | SIPOC |
 | [SIPOC](./operations/sipoc.md) | High-level process mapping | System/process analysis | DMAIC |
 | [Cynefin Framework](./operations/cynefin.md) | Decision-making under uncertainty | Leadership strategy | First Principles |
+| [incident_management](./operations/incident_management.md) | Managing production incidents and outages | System failures, Sev1/Sev2 incidents, operational recovery | Post-Mortem, OODA Loop, DORA Metrics |
+| [release_management](./operations/release_management.md) | Coordinating software releases safely and efficiently | Production deployments, phased rollouts, release governance | Agile, Kanban, DORA Metrics |
+| [change_management](./operations/change_management.md) | Managing organizational or technical change with minimal disruption | Process transformation, platform migration, org redesign | McKinsey 7S, Cynefin, DMAIC |
+| [stakeholder_management](./operations/stakeholder_management.md) | Aligning and communicating with internal/external stakeholders | Cross-functional initiatives, executive alignment, enterprise delivery | RACI, RAPID, PRFAQ |
+
 
 ---
+# ⚙️ Leadership
+
+| Framework | Purpose | Best Used When | Related |
+|---|---|---|---|
+| [leadership_principles](./leadership/leadership_principles.md) | Core values and behaviors guiding leadership decisions | Building culture, scaling teams, leadership alignment | Executive Communication, Organizational Design |
+| [decision_making_frameworks](./leadership/decision_making_frameworks.md) | Structured approaches for making strategic and operational decisions | Ambiguous situations, prioritization, executive tradeoffs | OODA Loop, Cynefin, RAPID |
+| [organizational_design](./leadership/organizational_design.md) | Structuring teams, ownership, and operating models effectively | Scaling organizations, restructuring, platform evolution | Team Topologies, McKinsey 7S |
+| [mckinsey_7s](./leadership/mckinsey_7s.md) | Organizational alignment across strategy, structure, systems, and culture | Transformation initiatives, change management, enterprise alignment | Organizational Design, Balanced Scorecard |
+| [balanced_scorecard](./leadership/balanced_scorecard.md) | Measuring organizational success across financial and non-financial dimensions | Executive dashboards, strategic planning, performance management | OKRs, North Star Metric |
+| [ooda_loop](./leadership/ooda_loop.md) | Rapid adaptive decision-making under uncertainty | Crisis response, startups, competitive environments | Cynefin, Incident Management |
+| [team_topologies](./leadership/team_topologies.md) | Designing engineering organizations for optimal delivery flow | Scaling engineering teams, platform engineering, DevOps transformation | DORA Metrics, Organizational Design |
+| [executive_communication](./leadership/executive_communication.md) | Communicating clearly with leadership and stakeholders | Board updates, strategic alignment, crisis communication | Stakeholder Management, PRFAQ |
+
 
 # 📂 Suggested Repository Structure
 
