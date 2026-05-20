@@ -28,69 +28,6 @@ This repo helps teams move from business problem to AI product decision, design,
 
 ```text
 ai-product-thinking/
-├── README.md
-├── 00_overview/
-│   ├── repo-principles.md
-│   ├── naming-conventions.md
-│   └── contribution-guide.md
-├── 01_problem_and_context/
-│   ├── problem-statement.md
-│   ├── user-research.md
-│   ├── assumptions.md
-│   └── constraints.md
-├── 02_business_case/
-│   ├── roi-model.md
-│   ├── feasibility.md
-│   ├── prioritization.md
-│   └── stakeholder-summary.md
-├── 03_ai_decisioning/
-│   ├── fobw-framework.md
-│   ├── ai-decision-matrix.md
-│   ├── build-vs-buy.md
-│   ├── fine-tune-vs-rag-vs-prompt.md
-│   └── use-case-suitability.md
-├── 04_prd_canvas/
-│   ├── ai-prd-canvas.md
-│   ├── prd-one-pager.md
-│   ├── scope-and-nongoals.md
-│   └── success-metrics.md
-├── 05_solution_design/
-│   ├── solution-architecture.md
-│   ├── model-selection-rationale.md
-│   ├── input-output-contracts.md
-│   ├── fallback-and-escalation.md
-│   └── human-in-the-loop.md
-├── 06_data_and_risk/
-│   ├── data-inventory.md
-│   ├── data-quality.md
-│   ├── privacy-and-security.md
-│   ├── bias-and-fairness.md
-│   └── risk-register.md
-├── 07_eval_and_quality/
-│   ├── eval-plan.md
-│   ├── test-cases.md
-│   ├── acceptance-criteria.md
-│   ├── red-team-cases.md
-│   └── monitoring-metrics.md
-├── 08_implementation_and_roadmap/
-│   ├── roadmap.md
-│   ├── milestones.md
-│   ├── dependencies.md
-│   ├── launch-plan.md
-│   └── adoption-plan.md
-├── 09_ml_system_design_and_mlops/
-│   ├── ml-system-design.md
-│   ├── serving-patterns.md
-│   ├── deployment-pipeline.md
-│   ├── monitoring-and-alerting.md
-│   ├── retraining-workflow.md
-│   └── incident-response.md
-├── 10_governance_and_ethics/
-│   ├── ai-policy.md
-│   ├── approvals.md
-│   ├── auditability.md
-│   ├── compliance-checklist.md
-│   └── responsible-ai-review.md
 ├── 11_prompting_and_examples/
 │   ├── prompt-library.md
 │   ├── prompt-patterns.md
