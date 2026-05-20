@@ -60,7 +60,7 @@ This repository helps with:
 | [Brainwriting](./discovery/brainwriting.md) | Silent structured brainstorming | Team ideation | SCAMPER |
 | [Opportunity Solution Tree](./discovery/opportunity_solution_tree.md) | Discovery mapping | Continuous discovery | JTBD |
 | [Crazy 8s](./discovery/crazy_8s.md) | Rapid UX ideation | Design sprints | SCAMPER |
-| [First Principles Thinking](./discovery/first_principles.md) | Decompose assumptions | Strategic innovation | 5 Whys |
+| [First Principles Thinking](./discovery/first_principles_thinking.md) | Decompose assumptions | Strategic innovation | 5 Whys |
 
 ---
 
