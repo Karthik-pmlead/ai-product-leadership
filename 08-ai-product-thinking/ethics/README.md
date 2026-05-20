@@ -1,2 +1,0 @@
-- fairness-checklist.md         # Bias detection + mitigation
-- ai-governance.md             # Stakeholder approval gates
