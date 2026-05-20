@@ -50,20 +50,6 @@ ai-product-thinking/
     └── launch-checklist-template.md
 ```
 
-## Where things belong
-
-| Topic | Put it here | Why |
-|---|---|---|
-| Business use-case selection | `03_ai_decisioning` | This is where you decide whether AI is appropriate. |
-| FOBW framework | `03_ai_decisioning` | It is a decision framework. |
-| AI PRD canvas | `04_prd_canvas` | It is the product framing layer. |
-| Model choice like FaceNet vs ResNet | `05_solution_design` | This is where architecture and model selection live. |
-| Why a model was chosen | `03_ai_decisioning` + `05_solution_design` | Decision rationale goes in one folder; implementation choice goes in the other. |
-| ML system design | `09_ml_system_design_and_mlops` | This is the production architecture layer. |
-| MLOps | `09_ml_system_design_and_mlops` | This covers deployment, monitoring, retraining, and operations. |
-| Eval strategy | `07_eval_and_quality` | This is where quality gates and test design belong. |
-| Ethics and governance | `10_governance_and_ethics` | This is the responsible AI layer. |
-
 ## Recommended rule
 
 | Question | Folder |
