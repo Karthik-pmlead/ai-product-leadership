@@ -10,4 +10,4 @@ The `prd_dev.md` document includes:
 ## Getting Started
 
 1. Open the PRD document:
-[prd_development](./03-product-development/prd_development.md)
+[prd_development](./prd_development.md)
