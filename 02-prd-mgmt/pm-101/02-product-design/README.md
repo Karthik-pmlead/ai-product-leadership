@@ -12,5 +12,9 @@ Phase 6: Validate
 
 ## Getting Started
 
-1. Open the PRD document:
+1. Open the Design Intro document:
     [prd_design_intro](prd_design_intro.md)
+
+2. Open the Design Phases document:
+    [prd_design_phases](prd_design_phases.md)
+
