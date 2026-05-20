@@ -9,7 +9,7 @@ Porter’s Five Forces is a strategic analysis framework used to evaluate:
 ⚔️ Competitive intensity
 
 👉 It helps understand whether a market is worth entering or scaling in
-
+---
 ⏰ **When to Use Porter’s Five Forces**
 
 Use it when:
@@ -22,7 +22,7 @@ You are doing business case or GTM strategy
 
 👉 Best for: strategy + market entry decisions
 
-
+---
 📍 **Where to Use It**
 📊 Product strategy docs
 🧠 Market research / competitive analysis
@@ -39,7 +39,7 @@ Customers	High (users switch apps easily for discounts)
 Substitutes	High (dine-in, home cooking, takeaway)
 
 👉 Result: Highly competitive, low-margin market
-
+---
 # Porter’s Five Forces
 
 | Force | What it means | Key Insight | Impact on Profitability |
