@@ -8,10 +8,10 @@ Reusable templates for strategy, approval, and executive communication.
 |---|---|---|
 | Strategy Doc | Define direction, goals, key bets, and priorities. | [strategy-doc.md](./strategy-doc.md) |
 | Business Case | Justify the investment with problem, options, costs, benefits, risks, and ROI. | [business-case.md](./business-case.md) |
-| Executive Summary | Give leaders a concise overview of the problem, proposal, and decision needed. | [executive-summary.md](./executive_summary.md) |
-| Decision Memo | Present a recommendation and the rationale behind it. | [decision-memo.md](./decision-memo.md) |
-| Executive Report | Summarize progress, KPI movement, risks, and key decisions for executives. | [executive-report.md](./executive_report.md) |
-| Product Strategy One-Pager | Capture strategy on a single page for fast alignment. | [product-strategy-one-pager.md](./product-strategy-one-pager.md) |
+| Executive Summary | Give leaders a concise overview of the problem, proposal, and decision needed. | [executive_summary.md](./executive_summary.md) |
+| Decision Memo | Present a recommendation and the rationale behind it. | [decision_memo.md](./decision_memo.md) |
+| Executive Report | Summarize progress, KPI movement, risks, and key decisions for executives. | [executive_report.md](./executive_report.md) |
+| Product Strategy One-Pager | Capture strategy on a single page for fast alignment. | [product_strategy_one_pager.md](./product_strategy_one_pager.md) |
 
 ## What’s inside
 
