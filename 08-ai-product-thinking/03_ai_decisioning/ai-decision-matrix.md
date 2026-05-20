@@ -1,52 +1,60 @@
-# ai-decision-matrix.md
+# 03_ai_decisioning/ai-decision-matrix.md
 
-# AI Decisioning
+# AI Decision Matrix
 
-## Decision question
-
-Should we use AI for aspect sentiment analysis, and if so, what is the right approach?
+## Purpose
+Decide whether AI should be used for aspect sentiment analysis, and if so, what approach is best for the business.
 
 ## Decision summary
+Aspect sentiment analysis should use AI because the task requires understanding unstructured language, identifying multiple aspects in one comment, and assigning sentiment at the aspect level. The best first version is a hybrid approach with business rules, a classifier or LLM, and human review for ambiguous cases. [web:86][web:89][web:52]
 
-Yes, AI is appropriate because the task involves unstructured text, repeated patterns, and a need to classify multiple aspects within the same comment. Sentiment analysis is widely used for customer feedback interpretation, support prioritization, and product insight generation. [web:60][web:55][web:66]
+## Decision criteria
 
-## Decision matrix
+| Criterion | Why it matters | What “good” looks like |
+|---|---|---|
+| Business value | The use case should improve a real workflow. | Better prioritization, faster insight, better CX reporting. |
+| Data readiness | The model needs usable feedback data. | Enough historical comments and manageable taxonomy. |
+| Technical complexity | The approach should be buildable. | Clear extraction of aspect and sentiment. |
+| Explainability | Business users need to trust the result. | Outputs are easy to inspect and explain. |
+| Operational fit | Teams should be able to use the output. | Dashboard, report, or workflow integration. |
+| Risk | Incorrect output should not create harm. | Human review for low-confidence cases. |
+| Maintenance | The system should remain sustainable. | Taxonomy and models can be updated over time. |
 
-| Option | Fit | Pros | Cons | Recommended? |
+## Options matrix
+
+| Option | Use when | Strengths | Weaknesses | Decision |
 |---|---|---|---|---|
-| Manual tagging | Low | Simple to start, easy to explain | Slow, expensive, inconsistent | No |
-| Rules only | Medium | Fast for fixed keywords and known patterns | Weak on ambiguity and language variety | No |
-| Traditional ML classifier | High | Good for structured labeling and repeatable outputs | Needs training data and maintenance | Yes |
-| LLM-based extraction | High | Flexible, handles varied language well | Needs guardrails and evaluation | Yes |
-| Hybrid approach | Very high | Combines taxonomy, rules, ML/LLM, and human review | Slightly more design effort | Yes |
+| Manual tagging | Very early discovery stage | Easy to start | Slow, inconsistent, expensive | No |
+| Rules only | Aspects are stable and language is predictable | Simple and fast | Poor with ambiguity and varied phrasing | No |
+| Classical ML classifier | You have historical labeled examples | Efficient and controllable | Needs training data and labeling | Yes |
+| LLM prompting | You need flexible text understanding | Handles variation well | Needs guardrails and eval | Yes |
+| Hybrid system | You want business control and flexibility | Best balance for v1 | Slightly more design effort | Yes |
 
-## Recommended approach
+## Recommended decision
+Use a hybrid system:
+- business taxonomy for aspects.
+- rules for obvious cases and normalization.
+- ML or LLM for aspect and sentiment detection.
+- human review for uncertain or high-value feedback.
 
-Use a hybrid approach:
-- a business-defined aspect taxonomy.
-- rules for obvious mappings and normalization.
-- a classifier or LLM for aspect detection and sentiment.
-- human review for ambiguous or high-impact cases.
-
-This works well because aspect-based sentiment analysis often requires both structured business definitions and flexible language understanding. [web:59][web:60]
-
-## FOBW lens
-
-| FOBW question | Answer |
-|---|---|
-| What is the business objective? | Understand what customers like and dislike about specific aspects of the experience. |
-| What outcome matters? | Better prioritization, faster insight, and improved customer experience. |
-| What should we build? | A system that detects aspects and sentiment from customer feedback. |
-| What will make it work? | Clear taxonomy, good evaluation, and human oversight for low-confidence cases. |
+## Why this is the right choice
+Aspect-based sentiment analysis is a fine-grained problem where different features of the same product can have different sentiment in the same comment. That makes structured decisioning more important than in simple positive/negative classification. [web:89][web:52]
 
 ## Build vs buy
 
-| Choice | When it makes sense |
-|---|---|
-| Buy | When the business wants quick time-to-value and standard dashboard-style insight. |
-| Build | When the taxonomy, workflow, or integration is specific to the company. |
-| Hybrid | When you want speed now and flexibility later. |
+| Choice | Best for | Recommendation |
+|---|---|---|
+| Buy | Quick dashboarding with limited customization | Consider if speed matters most |
+| Build | Custom taxonomy and workflow | Best if business wants control |
+| Hybrid | Fast start with room to adapt | Best overall for the pilot |
 
-## Final decision
+## RAG vs fine-tuning vs prompting
 
-For the first version, use a hybrid AI solution with human review. This gives the business a practical balance of speed, quality, and control. It also creates a foundation for later automation if the pilot proves valuable. [web:60][web:61][web:65]
+| Approach | Fit for this use case | Notes |
+|---|---|---|
+| Prompting | Good for first prototype | Fastest to test but needs strong eval. |
+| RAG | Not the core solution | Useful only if feedback needs supporting knowledge context. |
+| Fine-tuning | Possible later | Useful if you need consistent classification behavior at scale. |
+
+## Final recommendation
+Start with prompting or a lightweight classifier plus rules. Move to fine-tuning only after the taxonomy stabilizes and the pilot shows value. Do not use RAG as the core method unless the business needs to ground analysis in reference documents or policy text. [web:84][web:90][web:91]
