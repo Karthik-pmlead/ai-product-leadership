@@ -14,9 +14,9 @@ Its core positioning is:
 
 <p align="center">
   <img
-    src="../leicaQ3.png"
+    src="../images/leica_q3.png"
     alt="Leica Q3"
-    width="700"
+    width="400"
   />
 </p>
 
