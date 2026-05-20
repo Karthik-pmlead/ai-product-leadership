@@ -1,4 +1,4 @@
-# 06_data_and_risk/data-and-risk.md
+# data-and-risk.md
 
 # Data and Risk
 
