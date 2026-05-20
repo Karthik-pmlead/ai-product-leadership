@@ -1,4 +1,4 @@
-# 07_eval_and_quality/eval-plan.md
+# eval-plan.md
 
 # Evaluation Plan
 
