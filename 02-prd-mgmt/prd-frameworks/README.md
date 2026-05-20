@@ -104,6 +104,7 @@ This repository helps with:
 | [5Es](./ux/5es.md) | Engagement experience model | Learning/product engagement | Journey Map |
 | [Heuristic Evaluation](./ux/heuristic_evaluation.md) | UX usability inspection | UX reviews | HEART |
 | [Information Architecture](./ux/information_architecture.md) | Organize product structure | Complex systems | Journey Map |
+| [favorite_product](./ux/favorite_product.md) | Favorite product evaluation | Evaluation | HEART |
 
 ---
 
