@@ -13,12 +13,12 @@ The prd_strategy.md document includes:
 ## Getting Started
 
 - Open the Design Intro document:
-  - [problem_definition](./01-product-strategy/01-problem_definition.md)
+  - [problem_definition](./01-problem_definition.md)
 
 - Open the Design Phases document:
-  - [vision-mission](./01-product-strategy/02-vision-mission.md)
+  - [vision-mission](./02-vision-mission.md)
 
 - Open the Design Phases document:
-  - [communication-skills](./01-product-strategy/03-communication-skills.md)
+  - [communication-skills](./03-communication-skills.md)
 
 
