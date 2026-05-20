@@ -12,7 +12,7 @@ The `product_launch.md` document includes:
 ## Getting Started
 
 1. Open the document:
-[product_launch](./04-product-launch/product_launch.md)
+[product_launch](./product_launch.md)
 
 
 
