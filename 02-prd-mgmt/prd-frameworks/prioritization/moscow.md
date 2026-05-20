@@ -6,7 +6,7 @@ M → Must have (non-negotiable)
 S → Should have (important but not critical). solution is still viable wihtout it
 C → Could have (nice to have)
 W → Won’t have (not now, not this release)
-
+---
 🧭 **When to Use MoSCoW**
 
 - Use MoSCoW when:
@@ -18,17 +18,17 @@ W → Won’t have (not now, not this release)
 - You are building a roadmap or PRD
 
 👉 Best fit: early product planning + MVP definition
-
+---
 📍 **Where to Use MoSCoW**
 
 MoSCoW works best in:
 
-📦 Product Requirement Documents (PRDs)
-🗺️ Roadmaps
-🏃 Sprint planning (Agile teams)
-🚀 MVP definition
-🤝 Stakeholder alignment meetings
-
+- 📦 Product Requirement Documents (PRDs)
+- 🗺️ Roadmaps
+- 🏃 Sprint planning (Agile teams)
+- 🚀 MVP definition
+- 🤝 Stakeholder alignment meetings
+---
 ⚙️ **How to Use MoSCoW**
 
 Step 1: List all features / requirements
@@ -51,7 +51,7 @@ Step 3: Validate with stakeholders
 - Should	Important	“Will product suffer without this?”
 - Could	Nice to have	“Would it improve experience?”
 - Won’t	Not now	“Should we explicitly drop this?”
-
+---
 # MoSCoW Example – Food Delivery App
 
 ## 🍔 Feature Prioritization
