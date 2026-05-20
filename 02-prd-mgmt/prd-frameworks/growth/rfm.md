@@ -24,11 +24,11 @@ Use RFM when:
 - 👉 Best for: e-commerce, marketplaces, subscription apps
 ---
 📍 **Where to Use RFM**
-📈 Customer analytics dashboards
-📧 Email / CRM targeting
-🎯 Retention & re-engagement campaigns
-💰 Revenue optimization strategy
-🧠 User segmentation for growth teams
+- 📈 Customer analytics dashboards
+- 📧 Email / CRM targeting
+- 🎯 Retention & re-engagement campaigns
+- 💰 Revenue optimization strategy
+- 🧠 User segmentation for growth teams
 ---
 ⚙️ **How RFM Works**
 
