@@ -55,4 +55,4 @@ Common use cases:
   
   ⛔ Delete	Internal status report no one reads
 
-   <img src="../prd-frameworks/images/Eisenhower.png" width=250>
+   <img src="../images/Eisenhower.png" width=250>
