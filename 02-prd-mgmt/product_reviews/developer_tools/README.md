@@ -9,6 +9,8 @@
 | Product | Focus Area |
 |---|---|
 | [AI Coding Asst](./ai_coding_assistant_prd_review.md) | AI coding Assistant |
+| [Observability Dashboard](./observability_dashboard_prd_review.md) | Observability Dashboard |
+
 
 ---
 
