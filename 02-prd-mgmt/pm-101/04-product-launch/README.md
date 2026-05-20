@@ -1,6 +1,6 @@
 ## Topics Covered
 
-The `prd_dev.md` document includes:
+The `product_launch.md` document includes:
 
 - Intro
 - Setup launch process
