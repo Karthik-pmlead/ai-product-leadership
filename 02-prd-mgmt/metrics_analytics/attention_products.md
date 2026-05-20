@@ -1,11 +1,17 @@
-# Attention Products Metrics
+# Attention Metrics
+
+## Overview
+
+Attention products optimize for engagement, repeat usage, and time spent. These metrics help teams understand how much attention users give to content, feeds, media, or social experiences [web:233][web:236][web:240].
+
+## Core metrics
 
 | Metric | What it measures | Why it matters | Notes |
 |---|---|---|---|
-| DAU | Daily active users. | Core engagement. | Strong for consumer apps. |
-| WAU | Weekly active users. | Medium-term engagement. | Helps compare frequency. |
-| MAU | Monthly active users. | Reach and stickiness. | Often paired with DAU. |
-| DAU/MAU Ratio | Daily stickiness. | Shows habit strength. | Common attention metric. |
+| DAU | Daily active users. | Core engagement. | Strong for consumer apps [web:236][web:158]. |
+| WAU | Weekly active users. | Medium-term engagement. | Helps compare frequency [web:236][web:158]. |
+| MAU | Monthly active users. | Reach and stickiness. | Often paired with DAU [web:236][web:158]. |
+| DAU/MAU Ratio | Daily stickiness. | Shows habit strength. | Common attention metric [web:240]. |
 | Session Count | Number of sessions per user. | Engagement depth. | Useful for apps and media. |
 | Session Duration | Time spent per session. | Attention consumed. | Not always equal to value. |
 | Time Spent | Total time spent in product. | Core attention metric. | Strong for media and social. |
@@ -21,7 +27,7 @@
 | Like Rate | Likes per view or impression. | Lightweight engagement. | Social and creator apps. |
 | Comment Rate | Comments per view or impression. | Deeper engagement. | Good for community products. |
 | Share Rate | Shares per view or impression. | Viral potential. | Strong network-effects signal. |
-| Save / Bookmark Rate | Saves per view or impression. | Content utility. | Great for knowledge/media products. |
+| Save / Bookmark Rate | Saves per view or impression. | Content utility. | Great for knowledge and media products. |
 | Watch Time | Total video consumption. | Core media attention metric. | Important for streaming and video. |
 | Completion Rate | Users finishing content. | Content stickiness. | Works for video, courses, onboarding. |
 | Scroll Depth | How far users scroll. | Feed consumption intensity. | Great for social and content sites. |
@@ -33,3 +39,25 @@
 | Ad Fill Rate | Percentage of available ad inventory sold. | Monetization capacity. | Important for ad-supported products. |
 | Ad Viewability | Ads actually seen by users. | Quality of monetized attention. | Important in media. |
 | Frequency Cap Impact | Engagement after repeated ad exposure. | Balances monetization and fatigue. | Useful in ad products. |
+
+## Use cases
+
+| Product type | Most relevant metrics |
+|---|---|
+| Social | DAU, DAU/MAU, Engagement Rate, Share Rate, Return Rate |
+| Video / streaming | Watch Time, Completion Rate, Session Duration, MAU |
+| News / content | Time Spent, Scroll Depth, CTR, Return Rate |
+| Ad-supported media | Impressions, Ad CTR, Ad Fill Rate, Viewability |
+
+## Practical tips
+
+| Tip | Why it helps |
+|---|---|
+| Use both reach and depth metrics | Shows how many users you get and how long they stay. |
+| Separate active users by time window | DAU, WAU, and MAU show different behaviors. |
+| Pair attention metrics with quality metrics | High time spent does not always mean good experience. |
+| Watch for vanity metrics | Impressions alone may not reflect real value. |
+
+## Interview use
+
+In interviews, explain attention metrics as the signals that show whether users are repeatedly consuming content or returning to the product. Then connect engagement, retention, and monetization.
