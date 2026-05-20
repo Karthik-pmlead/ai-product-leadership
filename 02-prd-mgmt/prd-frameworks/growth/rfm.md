@@ -11,7 +11,7 @@ F → Frequency: How often do they purchase?
 M → Monetary: How much do they spend?
 
 👉 It helps identify high-value vs low-value customers
-
+---
 ⏰ **When to Use RFM**
 
 Use RFM when:
@@ -22,15 +22,15 @@ Use RFM when:
 - You are building CRM / marketing campaigns
 - You want to improve customer lifetime value (LTV)
 
-👉 Best for: e-commerce, marketplaces, subscription apps
-
+- 👉 Best for: e-commerce, marketplaces, subscription apps
+---
 📍 **Where to Use RFM**
 📈 Customer analytics dashboards
 📧 Email / CRM targeting
 🎯 Retention & re-engagement campaigns
 💰 Revenue optimization strategy
 🧠 User segmentation for growth teams
-
+---
 ⚙️ **How RFM Works**
 
 You score users on each dimension (usually 1–5 scale):
@@ -40,7 +40,7 @@ You score users on each dimension (usually 1–5 scale):
 - Frequency	How often user purchases
 - Monetary	Total money spent
 
-Then combine scores → e.g. 555 = best customers
+- Then combine scores → e.g. 555 = best customers
 
 📊 **RFM Example (Food Delivery App)**
 # RFM Customer Segmentation – Food Delivery App
@@ -64,9 +64,9 @@ Then combine scores → e.g. 555 = best customers
 
 RFM is powerful because it helps you:
 
-Stop treating all users the same
-Focus on high-value customers
-Improve retention and revenue
-Drive targeted personalization
+- Stop treating all users the same
+- Focus on high-value customers
+- Improve retention and revenue
+- Drive targeted personalization
 
-👉 -> RFM Calc excel sheet
+- 👉 -> RFM Calc excel sheet
