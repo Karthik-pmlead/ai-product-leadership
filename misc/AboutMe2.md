@@ -1,21 +1,3 @@
-## About Me
-![About Me](https://img.shields.io/badge/About%20Me-blue?style=flat-square&logo=github)
-
-* I am a passionate product consultant and dedicated data enthusiast, uniquely blending a robust engineering background with advanced business acumen from an MBA. 
-* Throughout my career, I have successfully spearheaded the development of innovative products from concept to launch, driving value and impact at every stage.  
-* This repository is a curated collection of my insights, learnings, and practical knowledge—crafted to inspire and empower fellow professionals in the data and product domains.
-
-
-## Skills & Expertise
-![Skills & Expertise](https://img.shields.io/badge/Skills%20%26%20Expertise-blue?style=flat-square&logo=github)
-
-* Proficient in SQL for advanced data querying, transformation, and modeling to drive insightful analysis.
-* Skilled in data modeling techniques and performing ad hoc analysis to derive actionable business intelligence.
-*Experienced in designing interactive dashboards using Tableau, translating complex datasets into clear visual stories. 
-* Adept at exploratory data analysis (EDA) using Pandas and NumPy for comprehensive data cleaning, profiling, and feature engineering.
-* Continuously evolving expertise in machine learning, mastering both supervised and unsupervised algorithms to enhance predictive analytics.
-* Committed to deepening domain knowledge and technical skills to empower smarter, data-driven decision making across business functions.
-
 ## Tools & Languages
 ![Tools & Languages](https://img.shields.io/badge/Tools%20%26%20Languages-blue?style=plastic)
 
@@ -71,15 +53,9 @@
 - **Blogs:**
 ![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white) 
 
-## My Online Course Certifications
-For details on my professional learning journey, please see the [Courses and Certifications](Professional_Development.md) section.
-
-## My Projects
-Explore the index of all my work [Projects](Projects.md) section.
-
 ## 📬 Contact
 
-For any inquiries or collaboration requests, feel free to [email me](mailto:learner_2021@outlook.com).
+For any inquiries or collaboration requests, feel free to [email me](mailto:karthik_prdmgr@hotmail.com).
 
 ![Profile Views](https://komarev.com/ghpvc/?username=dsmlai2025&style=flat-square&color=blue)
 
