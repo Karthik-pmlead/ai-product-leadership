@@ -10,14 +10,16 @@ Each folder contains frameworks, templates, methodologies, and practical artifac
 
 | Module | Knowledge Base |
 |--------|----------------|
-| [Business Consulting](./01_business_consulting) | Communication, frameworks, methodology, templates |
-| [PRD Management](./02_prd_management) | PM101, PRD frameworks, reviews, templates |
-| [Leadership](./03_leadership) | Decision systems, alignment models, communication patterns |
-| [Process Excellence](./04_process_excellence) | SOPs, workflow design, efficiency systems |
-| [Project Management](./05_project_management) | Execution models, tracking, risk systems |
-| [Technical](./06_technical) | System design thinking, architecture awareness |
-| [Security & Compliance](./07_security_compliance) | Governance, risk, responsible AI |
-| [AI Product Thinking](./08_ai_product_thinking) | LLM systems, RAG, evaluation, AI design patterns |
+| [Business Consulting](./01-business-consulting) | Communication, frameworks, methodology, templates |
+| [PRD Management](./02-prd-mgmt) | PM101, PRD frameworks, reviews, templates |
+| [Leadership](./03-leadership) | Decision systems, alignment models, communication patterns |
+| [Process Excellence](./04-process-excellence) | SOPs, workflow design, efficiency systems |
+| [Project Management](./05-project-mgmt) | Execution models, tracking, risk systems |
+| [Technical](./06-technical) | System design thinking, architecture awareness |
+| [Security & Compliance](./07-security-compliance) | Governance, risk, responsible AI |
+| [AI Product Thinking](./08-ai-product-thinking) | LLM systems, RAG, evaluation, AI design patterns |
+
+- [Back to Home](https://github.com/Karthik-pmlead/Karthik-pmlead)
 
 ---
 
@@ -45,8 +47,8 @@ A reusable knowledge system that supports:
 # Connected Systems
 
 - Profile → https://github.com/Karthik-pmlead/Karthik-pmlead
-- PM Workspace → https://github.com/Karthik-pmlead/pm-workspace
-- AI PM Workspace → https://github.com/Karthik-pmlead/ai-pm-workspace
+- PM Workspace → [PM Workspace](https://github.com/Karthik-pmlead/ai-product-leadership/tree/main/02-prd-mgmt/pm-workspace)
+- AI PM Workspace → [AI PM Workspace](https://github.com/Karthik-pmlead/ai-product-leadership/tree/main/08-ai-product-thinking/ai-pm-workspace/ai-operating-model.md)
 
 ---
 
