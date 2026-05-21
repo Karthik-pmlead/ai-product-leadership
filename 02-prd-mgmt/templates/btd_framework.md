@@ -16,6 +16,24 @@ The BTD Framework (from ThinkAIPM) treats **data as a third critical domain** al
 
 **Why Data Matters for AI:** Data drives AI performance, is a strategic asset, requires governance, and has lifecycle (drift, retraining).
 
+**Application Process:**
+
+    Identify Intersection Points - Map where business objectives, tech capabilities, and data assets overlap
+
+    Assess Balance - Ensure appropriate balance across all three domains (imbalance leads to implementation challenges)
+
+    Iterate & Refine - Use continuously throughout product lifecycle
+    
+### Why BTD Matters for AI Products
+
+Traditional software products focus primarily on business and technology. AI products add **data as a third critical dimension** because:
+
+- **Data drives AI performance** - Model quality depends on data quality
+- **Data is a strategic asset** - Proprietary data creates competitive advantage
+- **Data requires governance** - Privacy, compliance, and ethics are critical
+- **Data pipelines are complex** - Need to build, monitor, and maintain constantly
+- **Data has lifecycle** - Drift, degradation, and retraining requirements
+
 ---
 
 ## Template Mapping to BTD Framework
@@ -52,6 +70,119 @@ At each phase, ask:
 - **Business gap** → Use business_case_template.md, ai_prd_canvas_template.md
 - **Technology gap** → Use solution_design_template.md, ai_decision_matrix_template.md
 - **Data gap** → Use eval_plan_template.md, model_card_template.md
+
+---
+
+### Example: Planning an AI Chatbot
+
+**Phase-Based Approach:**
+1. Strategy: Build business case for chatbot
+2. Discovery: Create AI PRD canvas
+3. Planning: Design evaluation plan, model card
+4. Launch: Use launch checklist
+
+**BTD Quality Check:**
+**Business:**
+✓ Business case shows ROI (cost savings from reduced support)
+✓ Success metrics defined (deflection rate, CSAT)
+✓ User needs validated (customers want 24/7 support)
+
+**Technology:**
+✓ LLM selected via decision matrix
+✓ Solution design includes API, vector DB, caching
+✓ MLOps checklist covers deployment, monitoring
+
+**Data:**
+✓ Eval plan includes chat transcripts, test conversations
+✓ Model card documents training data (support tickets)
+✓ Privacy: PII masked, GDPR compliant
+
+---
+
+## BTD Framework Checklist
+
+Use this checklist at each project phase to ensure balanced BTD coverage:
+
+### Strategy Phase BTD Checklist
+
+**Business:**
+- [ ] Problem clearly defined and quantified
+- [ ] Target users/personas identified
+- [ ] Business value articulated (revenue, cost, risk)
+- [ ] ROI estimation completed
+- [ ] Strategic alignment confirmed
+
+**Technology:**
+- [ ] Technical feasibility assessed
+- [ ] High-level architecture sketched
+- [ ] Integration requirements identified
+- [ ] Scalability considerations noted
+
+**Data:**
+- [ ] Data availability confirmed
+- [ ] Data quality assessed
+- [ ] Data requirements documented
+- [ ] Privacy/compliance requirements identified
+
+### Discovery Phase BTD Checklist
+
+**Business:**
+- [ ] AI PRD canvas completed
+- [ ] Success metrics defined
+- [ ] User stories written
+- [ ] Business objectives aligned
+
+**Technology:**
+- [ ] Model selection via decision matrix
+- [ ] Solution design documented
+- [ ] Tech stack chosen
+- [ ] Technical risks identified
+
+**Data:**
+- [ ] Data sources identified
+- [ ] Data pipeline designed
+- [ ] Data quality plan created
+- [ ] Data governance planned
+
+### Planning Phase BTD Checklist
+
+**Business:**
+- [ ] Business case updated with latest info
+- [ ] Budget approved
+- [ ] Stakeholders aligned
+- [ ] Go-to-market strategy defined
+
+**Technology:**
+- [ ] MLOps checklist completed
+- [ ] CI/CD pipeline ready
+- [ ] Monitoring configured
+- [ ] Security review done
+
+**Data:**
+- [ ] Evaluation plan created
+- [ ] Model card drafted
+- [ ] Dataset prepared
+- [ ] Data validation rules defined
+
+### Launch Phase BTD Checklist
+
+**Business:**
+- [ ] Success metrics baseline established
+- [ ] Stakeholders notified
+- [ ] Customer communication ready
+- [ ] Support team trained
+
+**Technology:**
+- [ ] Launch checklist completed
+- [ ] Rollback plan ready
+- [ ] Performance tested
+- [ ] Monitoring active
+
+**Data:**
+- [ ] Data pipeline operational
+- [ ] Data quality monitoring active
+- [ ] Privacy controls in place
+- [ ] Data retention configured
 
 ---
 
