@@ -4,6 +4,19 @@ A lightweight end-to-end **AI-powered biometric attendance system** using face r
 
 ---
 
+# 🎥 Demo
+
+This demo shows the full end-to-end flow of the system:
+  - Employee enrollment via image upload / camera
+  - Embedding generation using InsightFace
+  - Real-time authentication against stored embeddings
+  - Attendance logging with confidence score
+  - Explainable top-K match visualization
+    
+  👉 Watch demo here: [Face Recognition Demo](https://drive.google.com/file/d/1XPPhIGygHuuv1DJTwd2UAVQDJkVUyq6B/view?usp=drive_link)
+
+---
+
 # 🚀 Overview
 
 This project demonstrates a production-style **face recognition pipeline** that can be extended to:
@@ -170,17 +183,6 @@ uvicorn main:app --reload
 ```
 streamlit run streamlit_app.py
 ```
-
-# 🎥 Demo
-
-This demo shows the full end-to-end flow of the system:
-  - Employee enrollment via image upload / camera
-  - Embedding generation using InsightFace
-  - Real-time authentication against stored embeddings
-  - Attendance logging with confidence score
-  - Explainable top-K match visualization
-    
-  👉 Watch demo here: [Face Recognition Demo](https://drive.google.com/file/d/1XPPhIGygHuuv1DJTwd2UAVQDJkVUyq6B/view?usp=drive_link)
 
 # 📌 Project Summary
 
