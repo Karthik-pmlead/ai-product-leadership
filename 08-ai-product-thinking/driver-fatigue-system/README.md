@@ -24,6 +24,36 @@ Experience the real-time driver fatigue monitoring pipeline in action:
 - Real-time fatigue scoring engine
 - Live frontend dashboard with trend visualization
 
+# Architecture
+
+```mermaid
+flowchart LR
+
+A[Webcam Input] --> B[WebRTC Stream]
+
+B --> C[FastAPI Signaling Server]
+
+C --> D[aiortc Video Track]
+
+D --> E[MediaPipe FaceMesh]
+
+E --> F1[EAR Calculation]
+F1 --> G1[Blink Detector]
+F1 --> G2[Fatigue Engine]
+
+G1 --> H[Microsleep Detector]
+G2 --> H
+
+H --> I[Fatigue Score Generator]
+
+I --> J[WebRTC DataChannel]
+
+J --> K[Frontend Dashboard]
+
+K --> K1[Trend Graph]
+K --> K2[Audio Alarm]
+```
+
 ## Features
 - Real-time face tracking
 - Blink detection
