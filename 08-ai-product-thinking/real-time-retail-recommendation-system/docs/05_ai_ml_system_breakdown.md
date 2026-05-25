@@ -50,3 +50,34 @@ Goal:
 ## 4. Hybrid Ranking Model
 
 Final score:
+score =
+0.5 * long_term_profile +
+0.3 * session_signal +
+0.2 * collaborative_signal
+
+
+---
+
+## 5. Explainability Layer (XAI)
+
+For each recommendation:
+- long-term reason
+- session reason
+- collaborative reason
+
+---
+
+## 6. A/B Testing Layer
+
+- Variant A: baseline ranking
+- Variant B: hybrid ranking
+
+Used to evaluate:
+- engagement impact
+- conversion improvement
+
+---
+
+## Summary
+
+This is a **multi-signal ranking system**, similar in structure to production recommender systems.
