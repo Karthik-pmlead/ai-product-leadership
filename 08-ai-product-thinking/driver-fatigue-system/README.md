@@ -4,6 +4,18 @@
 ## Overview
 A real-time AI system that detects driver fatigue using computer vision, blink detection, microsleep detection, and temporal fatigue modeling.
 
+## 🎬 Live Demo
+
+Experience the real-time driver fatigue monitoring pipeline in action:
+
+- 👁️ MediaPipe facial landmark tracking
+- 😴 Blink + microsleep detection
+- 📊 Real-time fatigue trend visualization
+- 🔊 Audio-based fatigue alerts
+- 📡 Low-latency WebRTC streaming
+
+👉 Watch demo: [Driver Fatigue System](https://drive.google.com/file/d/1f7WsQwBFYpVdbNWk4hAkC4JQVYeD0NEj/view?usp=drive_link)
+
 ## Architecture
 - WebRTC-based video streaming
 - MediaPipe FaceMesh for landmark detection
@@ -52,3 +64,5 @@ Camera → WebRTC → Backend AI → Fatigue Engine → UI Dashboard
 pip install -r requirements.txt
 python backend/main.py
 open frontend/index.html
+python -m http.server 5500
+```
