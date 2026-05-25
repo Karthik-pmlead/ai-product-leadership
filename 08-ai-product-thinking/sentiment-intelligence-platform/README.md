@@ -58,9 +58,7 @@ http://localhost:8000/docs
 
 ## Demo Video
 
-```text
-Add YouTube/Loom/Vimeo link here
-```
+👉 [Watch demo here](https://drive.google.com/file/d/145Y7sMMRVpnD88HvulEy8ul_hGg9Fda-/view?usp=drive_link)
 
 ---
 
