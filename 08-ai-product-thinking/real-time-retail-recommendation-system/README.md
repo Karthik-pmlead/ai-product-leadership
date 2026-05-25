@@ -31,6 +31,8 @@ This project demonstrates a **production-style recommendation system MVP** that:
 5. Explainability layer generates reasons
 6. UI updates in real time via WebSocket
 
+👉 Watch demo here: [Real Time Retail Rec Sys Demo]()
+
 ---
 
 # 🧱 Architecture Diagram
