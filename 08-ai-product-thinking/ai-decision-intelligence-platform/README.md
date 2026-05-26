@@ -22,7 +22,7 @@ This platform demonstrates how AI systems can evolve into:
 real-time operational intelligence and decision-support systems
 ```
 
-🎬 Demo Video
+🎬 Watch Demo: [AI Decision Intelligence Platform](https://drive.google.com/file/d/1BHj0T5WeL4iTuwmcPYbn_8026cH6RGnQ/view?usp=drive_link)
 
 🧠 Core Features
 ✅ AI Workflow Orchestration
