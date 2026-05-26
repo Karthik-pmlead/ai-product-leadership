@@ -31,8 +31,7 @@ using graph-based intelligence systems.
 
 # 🎥 Demo Video
 
-## Video Walkthrough
-[Add Loom/YouTube Demo Link Here]
+## Video Walkthrough [Financial Risk Graph Platform Demo]](https://drive.google.com/file/d/1Dtm31bhvmrCkezcF27Ef3bd4MeJ6LWVr/view?usp=drive_link)
 
 Example:
 ```text
