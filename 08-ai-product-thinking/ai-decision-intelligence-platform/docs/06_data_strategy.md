@@ -1,10 +1,3 @@
-
-
----
-
-# 📄 `docs/06_data_strategy.md`
-
-```md
 # AI Decision Intelligence Platform
 
 # 06 — Data Strategy
@@ -124,5 +117,64 @@ Analytics Engines
 AI Orchestration
         ↓
 Recommendations
+```
+
+🧠 Explainability Data
+
+The platform stores:
+
+workflow reasoning
+contributing signals
+recommendation context
+
+Purpose:
+
+improve transparency
+support responsible AI
+increase trust
+🚀 Future Data Architecture
+
+Future versions may integrate:
+
+streaming pipelines
+Kafka event systems
+vector databases
+warehouse integrations
+graph databases
+cloud storage systems
+🔐 Data Governance Goals
+
+The platform aims to support:
+
+explainable workflows
+operational transparency
+responsible AI practices
+secure data handling
+🎯 MVP Data Design Philosophy
+
+The MVP intentionally prioritizes:
+
+simplicity
+modularity
+explainability
+workflow clarity
+
+instead of:
+
+production-scale infrastructure
+distributed data systems
+heavy ETL pipelines
+🚀 Long-Term Vision
+
+Future enterprise versions could evolve into:
+
+real-time operational intelligence platforms
+
+capable of processing:
+
+millions of operational events
+streaming analytics
+AI-driven business monitoring
+autonomous decision-support workflows
         ↓
 Real-Time Dashboard
