@@ -3,7 +3,6 @@
 
 # 📄 `ab-testing/ab_testing_playbook.md`
 
-```md
 # A/B Testing Playbook
 
 ---
@@ -28,3 +27,33 @@ to determine which performs better.
 
 ```text
 User Split → Variant Exposure → Data Collection → Statistical Analysis → Decision
+```
+# 📊 Key Metrics
+
+| Metric          | Purpose            |
+| --------------- | ------------------ |
+| CTR             | Engagement         |
+| Conversion Rate | Business impact    |
+| Retention       | Long-term value    |
+| Latency         | System performance |
+
+# 🧠 AI-Specific A/B Testing
+
+Used for:
+
+- ranking models
+- recommendation systems
+- chatbot responses
+- personalization logic
+
+# ⚠️ Common Pitfalls
+- small sample size
+- biased user groups
+- short test duration
+- noisy metrics
+
+# 🚀 Decision Outcomes
+- Ship variant B
+- Keep variant A
+- Iterate further
+- Run extended test
