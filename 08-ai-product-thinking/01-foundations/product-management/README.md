@@ -1,37 +1,29 @@
-# 01 — Foundations
+# Product Management
 
-This section contains foundational frameworks, leadership principles, execution models, and product management methodologies used for building and scaling AI-powered products and enterprise systems.
+This section contains frameworks, methodologies, and operational models used for managing AI-powered products and enterprise platforms.
 
 ---
 
-# Sections
+# Topics Covered
 
-| Folder | Focus Area |
+| File | Purpose |
 |---|---|
-| product-management | Product operations and lifecycle management |
-| product-strategy | Platform strategy and growth frameworks |
-| leadership | Leadership, stakeholder management, and organizational thinking |
-| execution-frameworks | Agile delivery and operational execution |
+| product_operating_model.md | Product organization and execution model |
+| stakeholder_management.md | Stakeholder alignment frameworks |
+| prioritization_frameworks.md | Product prioritization methodologies |
+| roadmapping_frameworks.md | Strategic roadmap planning |
+| product_lifecycle_management.md | End-to-end product lifecycle |
+| customer_discovery_framework.md | Customer research and discovery |
+| product_requirements_framework.md | PRD and requirements design |
+| feature_evaluation_framework.md | Feature validation and decision-making |
 
 ---
 
-# Goals
+# Core Themes
 
-This section demonstrates:
-- structured product thinking
-- leadership maturity
-- execution rigor
-- enterprise operating models
-- strategic decision-making
-
----
-
-# Key Themes
-
-- AI Product Management
-- Enterprise Product Strategy
-- Leadership & Communication
-- Agile Delivery
-- Operational Execution
-- Organizational Design
-- Experimentation Culture
+- Product Strategy
+- AI Product Thinking
+- Enterprise Execution
+- Stakeholder Alignment
+- Product Delivery
+- Customer-Centric Design
