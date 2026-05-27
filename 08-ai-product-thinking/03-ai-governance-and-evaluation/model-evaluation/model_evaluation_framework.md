@@ -43,3 +43,10 @@ Define how AI models are evaluated before and after deployment.
 
 ```text
 Train → Validate → Test → Deploy → Monitor → Iterate
+```
+
+# 🧠 AI-Specific Considerations
+- hallucination rate
+- bias detection
+- drift monitoring
+- robustness under noise
