@@ -37,3 +37,44 @@ The operating model emphasizes:
 Product Manager
       ↓
 Engineering + Design + Data + Business
+```
+
+# 📊 Product Lifecycle
+```
+Discovery → Validation → Build → Launch → Measure → Iterate
+```
+
+# 🧠 AI Product Considerations
+
+AI systems require additional focus on:
+
+- model evaluation
+- explainability
+- responsible AI
+- experimentation
+- human oversight
+
+
+# 🚀 Decision-Making Principles
+
+- prioritize customer impact
+- optimize for long-term value
+- use data-informed decisions
+- iterate rapidly
+- balance speed and quality
+
+# 📈 Success Metrics
+| Category   | Example Metrics       |
+| ---------- | --------------------- |
+| Growth     | Retention, engagement |
+| AI Quality | Precision, recall     |
+| Business   | Revenue, conversion   |
+| Operations | Reliability, latency  |
+
+# 🎯 Product Manager Responsibilities
+- define vision
+- align stakeholders
+- prioritize roadmap
+- coordinate execution
+- measure outcomes
+- communicate strategy
