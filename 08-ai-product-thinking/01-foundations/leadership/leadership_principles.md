@@ -41,4 +41,4 @@ AI leadership requires:
 
 # 🎯 Outcome
 
-Builds strong leadership foundation for AI product environments.
+- Builds strong leadership foundation for AI product environments.
