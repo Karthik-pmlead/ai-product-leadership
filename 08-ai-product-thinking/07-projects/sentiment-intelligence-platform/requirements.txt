@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+websockets
+transformers
+torch
+langdetect
+python-multipart
+#tiktoken
+#sentencepiece
