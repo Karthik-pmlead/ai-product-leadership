@@ -1,0 +1,20 @@
+graph TD
+    subgraph Funnel["Customer Journey Funnel"]
+        A[Acquisition<br/>100,000 customers<br/>100%] -->|78%| B[Activation<br/>78,000 customers]
+        B -->|75%| C[Retention<br/>58,500 customers]
+        C -->|70%| D[Growth<br/>41,000 customers]
+        D -->|70%| E[Referral<br/>28,700 customers]
+    end
+    
+    subgraph Metric["North-Star Metric"]
+        F["CJCR = 28.7%<br/>(28,700 / 100,000)"]
+    end
+    
+    E -.-> Metric
+    
+    style A fill:#4C72B0,stroke:black,color:white
+    style B fill:#DD8452,stroke:black,color:white
+    style C fill:#55A868,stroke:black,color:white
+    style D fill:#C44E52,stroke:black,color:white
+    style E fill:#8172B2,stroke:black,color:white
+    style Metric fill:#f5f5f5,stroke:#333,stroke-width:2px
