@@ -90,3 +90,42 @@
 ## 🧪 Experimentation Framework
 
 ### A/B Testing Setup
+- Hypothesis: "Adding a progress bar during checkout will increase activation rate by 5%"
+
+- Variant A (Control): Current checkout flow
+- Variant B (Test): Checkout with progress bar
+
+- Metrics: Activation rate (primary), Time to checkout (secondary)
+- Sample size: 10K customers per variant
+- Duration: 2 weeks
+- Success threshold: p-value < 0.05, lift ≥ 5%
+
+
+### Experiment Tracking
+| Experiment | Hypothesis | Result | Learnings | Owner |
+|------------|------------|--------|-----------|-------|
+| Progress bar checkout | +5% activation | +4.2% (p=0.07) | Marginal, not significant | Product |
+| Email retargeting (3 days) | +8% retention | +9.1% (p=0.03) | Significant, scale up | Marketing |
+
+## 📐 Metric Definitions (Data Dictionary)
+
+```sql
+-- CJCR Calculation
+SELECT 
+  COUNT(DISTINCT CASE WHEN stages_completed = 5 THEN customer_id END) * 1.0 / 
+  COUNT(DISTINCT customer_id) AS cjcr
+FROM analytics_funnel
+WHERE cohort_date >= '2026-01-01';
+
+-- 90-Day Retention
+SELECT 
+  COUNT(DISTINCT CASE WHEN days_since_last_order <= 90 THEN customer_id END) * 1.0 / 
+  COUNT(DISTINCT customer_id) AS retention_90day
+FROM cohorts
+WHERE cohort_month = '2026-01';
+```
+
+## 🔗 Related Documents
+- [01_Business_Context.md](01_Business_Context.md)
+- [02_Product_Scope.md](02_Product_Scope.md)
+- [12_Risk_Failure_Success_Criteria.md](12_Risk_Failure_Success_Criteria.md)
