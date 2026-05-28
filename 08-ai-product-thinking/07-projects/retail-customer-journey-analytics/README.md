@@ -70,6 +70,22 @@ This project transforms a **SQL-based retail analytics case study** into a **ful
 
 ---
 
+## Data Visualization
+
+- Tableau Dashboard: ![Customer Funnel Dashboard](./05_dashboards/tableau/customer_funnel_dashboard.png)
+
+---
+
+## Demo Videos
+
+- Watch end-to-end walkthroughs of the pipeline, dashboards, and funnel analytics:
+  
+| Demo                    | Description                                            | Watch Video |
+| ----------------------- | ------------------------------------------------------ | ----------- |
+| Streamlit App           | Login + 5-stage funnel visualization + cohort analysis | ▶️ [Watch](https://drive.google.com/file/d/1JYXBSKATp1KkvxiZ2Bn1OTh4cFK-nGqm/view?usp=drive_link)    |
+| Metabase Dashboard      | 3 KPI dashboards: Orders, Delivery, Payment            | ▶️ [Watch](https://drive.google.com/file/d/1LOrdm_RKv9CzQhMnkj-OzgWxqHqULxEu/view?usp=drive_link)    |
+| KPIs Dashboard          | Executive summary: CJCR, retention, LTV trends         | ▶️ [Watch](https://drive.google.com/file/d/1YbTA32J7wBP1sSDHlG-fXVakyl97fR0-/view?usp=drive_link)    |
+| AWS Redshift Query Demo | Run funnel SQL queries, explain execution plan         | ▶️ [Watch](https://drive.google.com/file/d/1JzPU2zHTlGcZtK_gp3-ODsJDghHWQh6K/view?usp=drive_link)    |
 
 ---
 
