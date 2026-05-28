@@ -1,0 +1,11 @@
+graph LR
+    A[CSV Files<br/>Olist Dataset] -->|Upload CSV| B[Amazon S3<br/>Raw Layer]
+    B -->|ETL Python/SQL Script| C[EC2 Instance<br/>ETL Compute]
+    C -->|COPY Command| D[Amazon Redshift<br/>Analytics Warehouse]
+    D -->|SQL Queries| E[Metabase Dashboard<br/>+ Streamlit App]
+    
+    style A fill:#4C72B0,stroke:black,color:white
+    style B fill:#DD8452,stroke:black,color:white
+    style C fill:#55A868,stroke:black,color:white
+    style D fill:#C44E52,stroke:black,color:white
+    style E fill:#8172B2,stroke:black,color:white
