@@ -5,7 +5,11 @@ A modular **knowledge base of reusable systems** for AI product, business, and e
 Each folder contains frameworks, templates, methodologies, and practical artifacts used for real-world product work.
 
 ---
+## AI Landscape for Product Leaders
 
+[AI Landscape for Product Leaders](./ai_hierarchy_executive_slide.md) 
+
+---
 # Navigation
 
 | Module | Knowledge Base |
