@@ -24,7 +24,7 @@ AI-powered volatility forecasting that predicts market stress 85% of the time wi
 
 ---
 
-## 🚀 Quick Start (2–3 Hour MVP)
+## 🚀 Quick Start
 
 ### Prerequisites
 - Python 3.9+
