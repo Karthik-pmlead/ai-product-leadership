@@ -82,6 +82,7 @@ This project transforms a **SQL-based retail analytics case study** into a **ful
   
 | Demo                    | Description                                            | Watch Video |
 | ----------------------- | ------------------------------------------------------ | ----------- |
+| Demo Intro              | Retail Customer Journey Analytics - Pipeline           | ▶️ [Watch](https://drive.google.com/file/d/1Agh3x3yCNk4ZlKQg0N0yFv-NMYfg2dCj/view?usp=drive_link)    |
 | Streamlit App           | Login + 5-stage funnel visualization + cohort analysis | ▶️ [Watch](https://drive.google.com/file/d/1JYXBSKATp1KkvxiZ2Bn1OTh4cFK-nGqm/view?usp=drive_link)    |
 | Metabase Dashboard      | 3 KPI dashboards: Orders, Delivery, Payment            | ▶️ [Watch](https://drive.google.com/file/d/1LOrdm_RKv9CzQhMnkj-OzgWxqHqULxEu/view?usp=drive_link)    |
 | KPIs Dashboard          | Executive summary: CJCR, retention, LTV trends         | ▶️ [Watch](https://drive.google.com/file/d/1YbTA32J7wBP1sSDHlG-fXVakyl97fR0-/view?usp=drive_link)    |
