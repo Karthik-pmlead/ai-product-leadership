@@ -11,13 +11,17 @@ Executive Introduction (2 Minutes)
 Building the Future of Financial Decision Systems
 
 Watch the executive overview:
-- ▶️ Video: 00_building_the_future_of_financial_decision_systems.mov
+- ▶️ Video: [future_of_financial_decision_systems](https://drive.google.com/file/d/1EVA0-0FS5Qo_s5MIXHhT1tTI9WI3gcYt/view?usp=drive_link)
+- ▶️ Video: [my_leadership_philosophy](https://drive.google.com/file/d/1iB-djfyj-4_IbrqoklJ7i-wqbrsQfXjQ/view?usp=drive_link)
+- ▶️ Video: [future_of_financial_systems](https://drive.google.com/file/d/1yR-Xlax-sBMIbFYeY0Li06QB048kleJX/view?usp=drive_link)
+- ▶️ Video: [my_interests_towards_financial_ai](https://drive.google.com/file/d/1U0zCXZ4ALdR3y1iwwVTf1-BK_PdWeGTr/view?usp=drive_link)
 
 Location:
  -	07_executive_presentations/
      - └── executive_introduction/
      - └── 00_building_the_future_of_financial_decision_systems.mov
-    This video introduces:
+      
+ - This video introduces:
    -	My background and product leadership journey
    -	The Decision Intelligence framework
    -	Why Financial AI
