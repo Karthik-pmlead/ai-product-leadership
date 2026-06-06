@@ -1,123 +1,91 @@
 # Domain Skills Knowledge Base
 
-Welcome to the **Domain Skills Knowledge Base** - curated learning notes, templates, and case studies across 50+ business domains. Bridge technical skills with industry context for data science, analytics, and product roles.
+A curated collection of industry knowledge, business workflows, KPIs, operating models, and case studies across major business domains.
+
+This repository serves as the **foundation layer** for specialized **AI Product Leadership** repositories.
 
 ---
 
-## Table of Contents
+## Repository Ecosystem
 
-| Section | Description | Link |
-|---------|-------------|------|
-| Notes | Domain metrics, KPIs, business workflows | [notes/README.md](notes/README.md) |
-| Templates | Excel models, SQL queries, analysis frameworks | [templates/README.md](templates/README.md) |
-| Case Studies | Real-world implementations, ROI analysis | [case-studies/README.md](case-studies/README.md) |
+### Domain Knowledge
 
-## Domain Categories & Subdomains
+* **[domain-skills](../)** — Business models, workflows, KPIs, operating models, and domain expertise
 
-# Domain Categories & Subdomains
+### AI Product Leadership Repositories
 
-## 01. Ecommerce & Retail
-| Domain | Link |
-|--------|------|
-| Ecommerce | [ecommerce/README.md](ecommerce/README.md) |
-| Retail | [retail/README.md](retail/README.md) |
-| Marketplace | [marketplace/README.md](marketplace/README.md) |
-| D2C | [d2c/README.md](d2c/README.md) |
+| Repository                                                                                             | Domain                              |
+| ------------------------------------------------------------------------------------------------------ | ----------------------------------- |
+| [financial-ai-product-leadership](./financial-ai-product-leadership)       | Banking, FinTech, Wealth Management |
+| [retail-ai-product-leadership](./retail-ai-product-leadership)             | Retail, Ecommerce, Marketplace      |
+| [iot-ai-product-leadership](./iot-ai-product-leadership)                   | Manufacturing, Industrial IoT       |
+| [healthcare-ai-product-leadership](./healthcare-ai-product-leadership)     | Healthcare, Pharma, MedTech         |
+| [supply-chain-ai-product-leadership](./supply-chain-ai-product-leadership) | Logistics, Procurement, Inventory   |
+| [enterprise-ai-product-leadership](./enterprise-ai-product-leadership)     | SaaS, CRM, ERP                      |
+| [marketing-ai-product-leadership](./marketing-ai-product-leadership)       | AdTech, Growth, Customer Analytics  |
+| [insurance-ai-product-leadership](./insurance-ai-product-leadership)       | Claims, Underwriting, Fraud         |
+| [energy-ai-product-leadership](./energy-ai-product-leadership)             | Energy, Utilities, Oil & Gas        |
+| [edtech-ai-product-leadership](./edtech-ai-product-leadership)             | Learning Platforms & AI Tutors      |
 
-## 02. Finance & Banking
-| Domain | Link |
-|--------|------|
-| Banking | [banking/README.md](banking/README.md) |
-| Fintech | [fintech/README.md](fintech/README.md) |
-| Payments | [payments/README.md](payments/README.md) |
-| CreditRisk | [credit-risk/README.md](credit-risk/README.md) |
-| PersonalFinance | [personal-finance/README.md](personal-finance/README.md) |
+---
 
-## 03. Capital Markets
-| Domain | Link |
-|--------|------|
-| Trading | [trading/README.md](trading/README.md) |
-| QuantFinance | [quant-finance/README.md](quant-finance/README.md) |
-| PortfolioMgmt | [portfolio-mgmt/README.md](portfolio-mgmt/README.md) |
-| RiskManagement | [risk-mgmt/README.md](risk-mgmt/README.md) |
-| TechnicalAnalysis | [technical-analysis/README.md](technical-analysis/README.md) |
+## Learning Progression
 
-## 04. Supply Chain & Logistics
-| Domain | Link |
-|--------|------|
-| SupplyChain | [supply-chain/README.md](supply-chain/README.md) |
-| Inventory | [inventory/README.md](inventory/README.md) |
-| Procurement | [procurement/README.md](procurement/README.md) |
-| LastMile | [last-mile/README.md](last-mile/README.md) |
-| Warehouse | [warehouse/README.md](warehouse/README.md) |
+```text
+Domain Knowledge
+       ↓
+Business Problems
+       ↓
+AI Opportunities
+       ↓
+AI Products
+       ↓
+Product Strategy
+       ↓
+Executive Leadership
+```
 
-## 05. Healthcare & Pharma
-| Domain | Link |
-|--------|------|
-| Healthcare | [healthcare/README.md](healthcare/README.md) |
-| Pharma | [pharma/README.md](pharma/README.md) |
-| Insurance | [insurance/README.md](insurance/README.md) |
-| MedTech | [medtech/README.md](medtech/README.md) |
-| ClinicalTrials | [clinical-trials/README.md](clinical-trials/README.md) |
+---
 
-## 06. Enterprise SaaS
-| Domain | Link |
-|--------|------|
-| SaaS | [saas/README.md](saas/README.md) |
-| HRTech | [hrtech/README.md](hrtech/README.md) |
-| EdTech | [edtech/README.md](edtech/README.md) |
-| CRM | [crm/README.md](crm/README.md) |
-| ERP | [erp/README.md](erp/README.md) |
+## Domain Categories
 
-## 07. Marketing & Growth
-| Domain | Link |
-|--------|------|
-| AdTech | [adtech/README.md](adtech/README.md) |
-| Growth | [growth/README.md](growth/README.md) |
-| MarketingAnalytics | [marketing-analytics/README.md](marketing-analytics/README.md) |
-| CustomerSuccess | [customer-success/README.md](customer-success/README.md) |
+* Retail & Ecommerce
+* Finance & Banking
+* Capital Markets & Wealth Management
+* Supply Chain & Logistics
+* Healthcare & Pharma
+* Enterprise SaaS
+* Marketing & Growth
+* Manufacturing & Industrial IoT
+* Energy & Utilities
+* Emerging Technologies
+* Public Sector
 
-## 08. Emerging Tech
-| Domain | Link |
-|--------|------|
-| Crypto | [crypto/README.md](crypto/README.md) |
-| Web3 | [web3/README.md](web3/README.md) |
-| Gaming | [gaming/README.md](gaming/README.md) |
-| NFTs | [nfts/README.md](nfts/README.md) |
+---
 
-## 09. Manufacturing & Energy
-| Domain | Link |
-|--------|------|
-| Manufacturing | [manufacturing/README.md](manufacturing/README.md) |
-| Energy | [energy/README.md](energy/README.md) |
-| OilGas | [oil-gas/README.md](oil-gas/README.md) |
-| Automotive | [automotive/README.md](automotive/README.md) |
+## Contents
 
-## 10. Public Sector
-| Domain | Link |
-|--------|------|
-| Government | [government/README.md](government/README.md) |
-| NonProfit | [nonprofit/README.md](nonprofit/README.md) |
-| Agriculture | [agriculture/README.md](agriculture/README.md) |
+| Section      | Description                |
+| ------------ | -------------------------- |
+| Notes        | Concepts, workflows, KPIs  |
+| Templates    | Frameworks and models      |
+| Case Studies | Real-world implementations |
 
-## Quick Start Priority Domains
+---
 
-High Priority (Job Market Demand):
+## Goal
 
-    Ecommerce (Amazon, Shopify)
+Build expertise across:
 
-    Finance (Fraud, Credit Scoring)
+**Domain Knowledge + AI + Product Management + Strategy**
 
-    Supply Chain (Inventory Optimization)
+to become a:
 
-    SaaS (MRR, Churn Analysis)
+* Senior AI Product Manager
+* Principal Product Manager
+* Director of Product
+* Head of AI Products
+* Chief Product Officer
 
-    Healthcare (Patient Analytics)
-
-Medium Priority (Niche High-Pay):
-
-    Capital Markets (Algo Trading)
-
-    AdTech (Campaign Optimization)
-
-    Gaming (Player Retention)
+```
+```
