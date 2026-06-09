@@ -162,3 +162,8 @@ The project demonstrates how modern AI systems can evolve from:
 
 ```text
 static reporting systems
+```
+to:
+```
+intelligent operational decision-support platforms
+```
