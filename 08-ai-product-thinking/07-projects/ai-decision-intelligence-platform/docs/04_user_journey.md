@@ -77,23 +77,27 @@ The operations team investigates reliability degradation.
 User Action
 
 The user asks:
+```
+Investigate operational anomalies
+```
 
 System Actions
 
 The platform:
 
-checks incident signals
-analyzes latency metrics
-detects anomaly spikes
-correlates operational issues
+- checks incident signals
+- analyzes latency metrics
+- detects anomaly spikes
+- correlates operational issues
+
 User Outcome
 
 The user receives:
 
-operational insights
-infrastructure recommendations
-anomaly summaries
-workflow reasoning
+- operational insights
+- infrastructure recommendations
+- anomaly summaries
+- workflow reasoning
 
 🛍 Journey 3 — Product Manager
 Scenario
