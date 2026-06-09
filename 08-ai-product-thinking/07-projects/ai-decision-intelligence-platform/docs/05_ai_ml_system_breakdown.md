@@ -112,7 +112,7 @@ The anomaly engine identifies:
 - infrastructure instability
 - abnormal operational behavior
 
-Purpose:
+#### Purpose:
 
 - support operational monitoring
 - identify reliability risks
@@ -123,47 +123,50 @@ Purpose:
 The trend engine analyzes:
 
 - regional sales performance
-conversion changes
-engagement patterns
+- conversion changes
+- engagement patterns
 
-Purpose:
+#### Purpose:
 
-detect performance decline
-identify business anomalies
-evaluate regional impact
+- detect performance decline
+- identify business anomalies
+- evaluate regional impact
+
 🤖 Insight Agent
 
 The insight agent:
 
-aggregates analytics outputs
-generates operational observations
-correlates business signals
+- aggregates analytics outputs
+- generates operational observations
+- correlates business signals
 
-Outputs:
+#### Outputs:
 
-business insights
-operational findings
-customer experience observations
+- business insights
+- operational findings
+- customer experience observations
+
 🚀 Recommendation Agent
 
 The recommendation agent generates:
 
-mitigation strategies
-operational actions
-optimization suggestions
+- mitigation strategies
+- operational actions
+- optimization suggestions
 
-Purpose:
+#### Purpose:
 
-reduce manual analysis effort
-support decision-making
-prioritize actions
+- reduce manual analysis effort
+- support decision-making
+- prioritize actions
+
 🧠 Reasoning Agent
 
 The reasoning agent explains:
 
-why conclusions were generated
-which signals influenced outputs
-how workflows produced recommendations
+- why conclusions were generated
+- which signals influenced outputs
+- how workflows produced recommendations
 
 This enables:
 
