@@ -1,10 +1,4 @@
----
-
-# File: 04_product_scope.md
-
-```md
 # Product Scope — Face Recognition Attendance System
-
 ---
 
 # MVP Features
