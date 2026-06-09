@@ -145,27 +145,28 @@ System Actions
 
 The system:
 
-aggregates metrics
-analyzes trends
-evaluates anomalies
-correlates signals
+- aggregates metrics
+- analyzes trends
+- evaluates anomalies
+- correlates signals
+
 User Outcome
 
 The analyst receives:
 
-operational intelligence
-business insights
-workflow explanations
-leadership recommendations
+- operational intelligence
+- business insights
+- workflow explanations
+- leadership recommendations
 
 ⚡ Real-Time Dashboard Journey
 
 The platform continuously updates:
 
-operational dashboards
-workflow timelines
-metrics panels
-recommendation outputs
+- operational dashboards
+- workflow timelines
+- metrics panels
+- recommendation outputs
 
 using WebSockets for live communication.
 
