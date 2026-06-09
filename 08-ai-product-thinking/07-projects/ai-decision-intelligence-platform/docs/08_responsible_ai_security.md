@@ -70,111 +70,118 @@ The AI system acts as:
 
 The platform acknowledges:
 
-AI systems can generate incorrect conclusions
-operational signals may be incomplete
-recommendations may require human validation
+- AI systems can generate incorrect conclusions
+- operational signals may be incomplete
+- recommendations may require human validation
 
 Therefore:
 
-explainability is mandatory
-transparency is prioritized
-operational review remains necessary
+- explainability is mandatory
+- transparency is prioritized
+- operational review remains necessary
+
 🔐 Security Design Goals
 
 The MVP focuses on:
 
-secure API design
-modular architecture
-minimal sensitive data exposure
-safe frontend-backend communication
+- secure API design
+- modular architecture
+- minimal sensitive data exposure
+- safe frontend-backend communication
+
 ⚡ API Security
 
 The backend architecture supports:
 
-controlled API routing
-structured request validation
-modular service boundaries
+- controlled API routing
+- structured request validation
+- modular service boundaries
 
 Future production versions may include:
 
-authentication
-authorization
-API gateways
-rate limiting
+- authentication
+- authorization
+- API gateways
+- rate limiting
+  
 🧠 Data Security Philosophy
 
 The MVP intentionally avoids:
 
-storing sensitive personal information
-persistent customer identities
-regulated financial records
+- storing sensitive personal information
+- persistent customer identities
+- regulated financial records
 
 This reduces:
 
-privacy risk
-compliance complexity
-security exposure
+- privacy risk
+- compliance complexity
+- security exposure
+
 🔒 WebSocket Security
 
 The platform uses WebSockets for:
 
-real-time dashboard updates
-workflow streaming
+- real-time dashboard updates
+- workflow streaming
 
 Future improvements may include:
 
-secure WebSocket authentication
-encrypted event channels
-access-controlled streaming
+- secure WebSocket authentication
+- encrypted event channels
+- access-controlled streaming
+
 🚀 Responsible Recommendation Systems
 
 The recommendation engine is designed to:
 
-assist operations teams
-prioritize investigation areas
-suggest mitigation strategies
+- assist operations teams
+- prioritize investigation areas
+- suggest mitigation strategies
 
 The system avoids:
 
-fully autonomous execution
-high-risk automated actions
-unsupervised operational changes
+- fully autonomous execution
+- high-risk automated actions
+- unsupervised operational changes
+
 📊 Operational Transparency
 
 The workflow timeline provides visibility into:
 
-AI orchestration steps
-analytics execution
-reasoning workflows
+- AI orchestration steps
+- analytics execution
+- reasoning workflows
 
 This improves:
 
-traceability
-observability
-enterprise trust
+- traceability
+- observability
+- enterprise trust
+  
 🚀 Future Responsible AI Enhancements
 
 Potential future improvements include:
 
-bias monitoring
-audit logging
-governance workflows
-AI policy enforcement
-risk scoring frameworks
-model evaluation systems
+- bias monitoring
+- audit logging
+- governance workflows
+- AI policy enforcement
+- risk scoring frameworks
+- model evaluation systems
+
 🎯 MVP Responsible AI Scope
 
 The MVP demonstrates:
 
-explainable workflows
-transparent reasoning
-operational accountability
-modular security-aware design
+- explainable workflows
+- transparent reasoning
+- operational accountability
+- modular security-aware design
 
 without requiring:
 
-enterprise governance infrastructure
-large-scale compliance systems
-production-grade security tooling
-```text id="eqjlwm"
-decision support
+- enterprise governance infrastructure
+- large-scale compliance systems
+- production-grade security tooling
+  
