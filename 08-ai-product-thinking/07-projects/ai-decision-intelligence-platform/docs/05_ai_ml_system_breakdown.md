@@ -93,34 +93,36 @@ Purpose:
 
 The metrics engine analyzes:
 
-conversion rates
-bounce rates
-operational KPIs
-latency metrics
+- conversion rates
+- bounce rates
+- operational KPIs
+- latency metrics
 
 Purpose:
 
-evaluate business performance
-detect operational degradation
-identify KPI instability
+- evaluate business performance
+- detect operational degradation
+- identify KPI instability
+  
 🚨 Anomaly Detection Engine
 
 The anomaly engine identifies:
 
-incident spikes
-infrastructure instability
-abnormal operational behavior
+- incident spikes
+- infrastructure instability
+- abnormal operational behavior
 
 Purpose:
 
-support operational monitoring
-identify reliability risks
-prioritize investigation workflows
+- support operational monitoring
+- identify reliability risks
+- prioritize investigation workflows
+
 📈 Trend Analysis Engine
 
 The trend engine analyzes:
 
-regional sales performance
+- regional sales performance
 conversion changes
 engagement patterns
 
@@ -165,61 +167,66 @@ how workflows produced recommendations
 
 This enables:
 
-explainability
-trust
-transparent AI workflows
+- explainability
+- trust
+- transparent AI workflows
+
 📝 Summarization Agent
 
 The summarization agent produces:
 
-executive summaries
-operational overviews
-business health assessments
+- executive summaries
+- operational overviews
+- business health assessments
 
 Purpose:
 
-simplify complex analytics
-improve leadership visibility
+- simplify complex analytics
+- improve leadership visibility
+  
 ⚡ Real-Time Intelligence Layer
 
 The platform uses WebSockets to:
 
-stream workflow updates
-refresh dashboards live
-simulate operational monitoring systems
+- stream workflow updates
+- refresh dashboards live
+- simulate operational monitoring systems
+  
 🎯 Explainability Importance
 
 Enterprise AI systems require:
 
-transparency
-accountability
-interpretability
+- transparency
+- accountability
+- interpretability
 
 The explainability layer ensures users understand:
 
-recommendations
-operational risks
-workflow reasoning
+- recommendations
+- operational risks
+- workflow reasoning
+
 🚀 Future AI Enhancements
 
 Potential future improvements include:
 
-LLM integration
-vector retrieval
-graph intelligence
-memory systems
-multi-agent planning
-autonomous workflows
+- LLM integration
+- vector retrieval
+- graph intelligence
+- memory systems
+- multi-agent planning
+- autonomous workflows
+  
 🧠 MVP AI Scope
 
 The MVP intentionally uses:
 
-lightweight analytics
-modular orchestration
-explainable workflows
+- lightweight analytics
+- modular orchestration
+- explainable workflows
 
 instead of:
 
-heavy distributed ML systems
-large-scale training pipelines
-production AI infrastructure
+- heavy distributed ML systems
+- large-scale training pipelines
+- production AI infrastructure
