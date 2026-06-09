@@ -58,51 +58,54 @@ Real-Time Dashboard Updates
 
 The frontend is built using:
 
-React
-Recharts
-WebSockets
+- React
+- Recharts
+- WebSockets
 
 Responsibilities:
 
-query submission
-dashboard visualization
-workflow rendering
-real-time updates
+- query submission
+- dashboard visualization
+- workflow rendering
+- real-time updates
+
 ⚡ API Layer
 
 The backend API layer uses:
 
-FastAPI
+- FastAPI
 
 Responsibilities:
 
-request validation
-orchestration triggering
-workflow routing
-response aggregation
+- request validation
+- orchestration triggering
+- workflow routing
+- response aggregation
+
 🧠 AI Orchestration Layer
 
 The orchestrator coordinates:
 
-analytics execution
-agent workflows
-recommendation generation
-explainability logic
+- analytics execution
+- agent workflows
+- recommendation generation
+- explainability logic
 
 Responsibilities:
 
-route queries
-aggregate signals
-manage workflows
-generate unified responses
+- route queries
+- aggregate signals
+- manage workflows
+- generate unified responses
+
 📊 Analytics Layer
 
 The analytics layer processes:
 
-operational signals
-customer sentiment
-business metrics
-anomaly detection
+- operational signals
+- customer sentiment
+- business metrics
+- anomaly detection
 
 | Engine           | Purpose            |
 | ---------------- | ------------------ |
@@ -116,11 +119,11 @@ anomaly detection
 
 The AI agent layer generates:
 
-operational insights
-recommendations
-summaries
-reasoning outputs
-Included Agents
+- operational insights
+- recommendations
+- summaries
+- reasoning outputs
+- Included Agents
 
 | Agent                | Responsibility        |
 | -------------------- | --------------------- |
@@ -133,30 +136,32 @@ Included Agents
 
 The explainability service provides:
 
-reasoning visibility
-signal attribution
-workflow transparency
+- reasoning visibility
+- signal attribution
+- workflow transparency
 
 Purpose:
 
-improve trust
-support responsible AI
-increase operational visibility
+- improve trust
+- support responsible AI
+- increase operational visibility
 
 ⚡ Real-Time Streaming Layer
 
 The platform uses WebSockets for:
 
-live dashboard updates
-operational streaming
-workflow monitoring
+- live dashboard updates
+- operational streaming
+- workflow monitoring
 
 Benefits:
 
-real-time responsiveness
-operational awareness
-interactive workflows
+- real-time responsiveness
+- operational awareness
+- interactive workflows
+
 🚀 Request Lifecycle
+
 Example Workflow
 ```
 User Query
@@ -183,10 +188,10 @@ The system is intentionally modular.
 
 Benefits:
 
-easier debugging
-independent enhancements
-scalable architecture
-reusable services
+- easier debugging
+- independent enhancements
+- scalable architecture
+- reusable services
 
 Each engine and agent operates independently.
 
@@ -194,18 +199,18 @@ Each engine and agent operates independently.
 
 The MVP architecture can evolve into:
 
-distributed services
-event-driven pipelines
-streaming analytics systems
-multi-agent orchestration platforms
+- distributed services
+- event-driven pipelines
+- streaming analytics systems
+- multi-agent orchestration platforms
 
-Potential future additions:
+#### Potential future additions:
 
-Kafka
-Redis
-vector databases
-cloud deployment
-distributed workers
+- Kafka
+- Redis
+- vector databases
+- cloud deployment
+- distributed workers
 
 🎯 Architecture Strengths
 
@@ -221,15 +226,15 @@ distributed workers
 
 The MVP intentionally excludes:
 
-authentication systems
-distributed infrastructure
-persistent databases
-production-grade scaling
-advanced LLM orchestration
+- authentication systems
+- distributed infrastructure
+- persistent databases
+- production-grade scaling
+- advanced LLM orchestration
 
 to prioritize:
 
-workflow clarity
-architecture demonstration
-explainability
-rapid prototyping
+- workflow clarity
+- architecture demonstration
+- explainability
+- rapid prototyping
