@@ -5,6 +5,7 @@
 
 ```md
 # Success Criteria — Face Recognition Attendance System
+```
 
 ---
 
