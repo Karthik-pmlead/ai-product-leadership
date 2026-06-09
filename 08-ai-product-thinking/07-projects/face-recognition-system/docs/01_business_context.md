@@ -1,10 +1,5 @@
----
 
-# File: 01_business_context.md
-
-```md
 # Business Context — Face Recognition Attendance System
-
 ---
 
 # Problem Statement
