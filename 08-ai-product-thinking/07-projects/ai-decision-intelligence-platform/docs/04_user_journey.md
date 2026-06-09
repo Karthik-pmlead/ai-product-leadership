@@ -174,15 +174,16 @@ using WebSockets for live communication.
 
 The explainability layer helps users understand:
 
-why insights were generated
-which signals mattered
-how operational metrics influenced recommendations
+- why insights were generated
+- which signals mattered
+- how operational metrics influenced recommendations
 
 This increases:
 
-trust
-transparency
-decision confidence
+- trust
+- transparency
+- decision confidence
+
 🚀 End-to-End Experience
 
 The overall user experience aims to feel like interacting with:
@@ -191,15 +192,16 @@ an intelligent AI business analyst
 
 rather than:
 
-static dashboards
-disconnected analytics systems
-manual operational workflows
+- static dashboards
+- disconnected analytics systems
+- manual operational workflows
+
 🎯 User Journey Goals
 
 The platform aims to help users:
 
-identify risks faster
-reduce analysis effort
-improve operational awareness
+- identify risks faster
+- reduce analysis effort
+- improve operational awareness
 support strategic decisions
 increase trust in AI-driven insights
