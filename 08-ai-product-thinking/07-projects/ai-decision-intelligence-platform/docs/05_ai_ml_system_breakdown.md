@@ -1,10 +1,4 @@
 
-
----
-
-# 📄 `docs/05_ai_ml_system_breakdown.md`
-
-```md
 # AI Decision Intelligence Platform
 
 # 05 — AI/ML System Breakdown
