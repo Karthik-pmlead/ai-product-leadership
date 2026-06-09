@@ -1,4 +1,4 @@
-# AI Decision Intelligence Platform
+<img width="380" height="291" alt="image" src="https://github.com/user-attachments/assets/cde2ce6c-77db-4474-979e-113ada111246" /># AI Decision Intelligence Platform
 
 # 06 — Data Strategy
 
@@ -123,58 +123,57 @@ Recommendations
 
 The platform stores:
 
-workflow reasoning
-contributing signals
-recommendation context
+- workflow reasoning
+- contributing signals
+- recommendation context
 
-Purpose:
+#### Purpose:
 
-improve transparency
-support responsible AI
-increase trust
+- improve transparency
+- support responsible AI
+- increase trust
+
 🚀 Future Data Architecture
 
 Future versions may integrate:
 
-streaming pipelines
-Kafka event systems
-vector databases
-warehouse integrations
-graph databases
-cloud storage systems
+- streaming pipelines
+- Kafka event systems
+- vector databases
+- warehouse integrations
+- graph databases
+- cloud storage systems
+  
 🔐 Data Governance Goals
 
 The platform aims to support:
 
-explainable workflows
-operational transparency
-responsible AI practices
-secure data handling
+- explainable workflows
+- operational transparency
+- responsible AI practices
+- secure data handling
+  
 🎯 MVP Data Design Philosophy
 
 The MVP intentionally prioritizes:
 
-simplicity
-modularity
-explainability
-workflow clarity
+- simplicity
+- modularity
+- explainability
+- workflow clarity
 
 instead of:
 
-production-scale infrastructure
-distributed data systems
-heavy ETL pipelines
+- production-scale infrastructure
+- distributed data systems
+- heavy ETL pipelines
+
 🚀 Long-Term Vision
 
-Future enterprise versions could evolve into:
-
-real-time operational intelligence platforms
-
-capable of processing:
-
-millions of operational events
-streaming analytics
-AI-driven business monitoring
-autonomous decision-support workflows
-        ↓
-Real-Time Dashboard
+- Future enterprise versions could evolve into:
+- real-time operational intelligence platforms
+-  capable of processing:
+ - millions of operational events
+ - streaming analytics
+ - AI-driven business monitoring
+ - autonomous decision-support workflows
