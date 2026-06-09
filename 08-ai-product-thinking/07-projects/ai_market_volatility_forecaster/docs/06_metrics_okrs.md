@@ -84,7 +84,7 @@
 
 | KPI | Formula | Target | Alert Threshold |
 |-----|---------|--------|-----------------|
-| **Forecast Accuracy** | `1 - |forecast_vol - actual_vol| / actual_vol` | >90% | <85% for 3 days |
+| **Forecast Accuracy** | `1 - forecast_vol - actual_vol / actual_vol` | >90% | <85% for 3 days |
 | **API Success Rate** | `successful_requests / total_requests` | >99.9% | <99% for 1 hour |
 | **Latency (p95)** | 95th percentile response time | <100ms | >200ms for 5min |
 | **Active Users** | Unique users in last 24h | >10/day | <5/day for 3 days |
