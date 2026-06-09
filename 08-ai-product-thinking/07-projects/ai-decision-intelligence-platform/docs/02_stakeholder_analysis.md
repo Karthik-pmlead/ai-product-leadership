@@ -1,10 +1,3 @@
-
-
----
-
-# 📄 `docs/02_stakeholder_analysis.md`
-
-```md
 # AI Decision Intelligence Platform
 
 # 02 — Stakeholder Analysis
