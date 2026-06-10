@@ -1,9 +1,3 @@
-
----
-
-# 📁 `docs/11_tradeoffs.md`
-
-```markdown id="trade1"
 # 11 - Tradeoffs
 
 # Overview
