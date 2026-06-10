@@ -1,9 +1,3 @@
-
----
-
-# 📁 `docs/07_metrics_framework.md`
-
-```markdown id="mf1"
 # 07 - Metrics Framework
 
 # Overview
