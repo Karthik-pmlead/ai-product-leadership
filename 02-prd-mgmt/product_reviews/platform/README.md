@@ -8,6 +8,7 @@
 
 | Product | Focus Area |
 |---|---|
+| [Platform](./platform.md) | What is Platform |
 | [Auth Service](./auth_service_prd_review.md) | Auth Service |
 | [Developer API](./developer_api_gateway_prd_review.md) | Developer API |
 
