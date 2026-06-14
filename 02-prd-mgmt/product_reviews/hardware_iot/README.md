@@ -16,7 +16,7 @@ This section focuses on:
 
 | Product | Focus Area |
 |---|---|
-| [Leica Q3 PRD Review](./leica_q3_prd_review.md) | Premium camera ecosystem, craftsmanship, luxury positioning |
+| [Leica Q3 PRD Review](./leica_camera_prd_review.md) | Premium camera ecosystem, craftsmanship, luxury positioning |
 | [SmartLock IoT PRD Review](./smartlock_iot_prd_review.md) | IoT access control, enterprise security, SaaS platform strategy |
 
 ---
