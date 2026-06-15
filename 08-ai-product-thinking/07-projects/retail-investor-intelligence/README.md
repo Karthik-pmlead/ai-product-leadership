@@ -1,179 +1,194 @@
-# Decision Intelligence Platform
+# 🧠 Decision Intelligence Platform (Hybrid AI + ML System)
 
-> Turning fragmented financial data into real-time, actionable investment insights for retail investors.
+> A real-time hybrid decision intelligence system that combines feature engineering, rule-based analytics, and Isolation Forest anomaly detection to generate actionable investment insights for retail investors.
 
 ---
 
 ## 🚀 Overview
 
-The **Decision Intelligence Platform** is a modular analytics system that transforms raw financial and portfolio data into **ranked, actionable investment insights** in near real time.
+The Decision Intelligence Platform transforms raw financial data into **ranked, actionable investment insights** using a hybrid approach:
 
-Instead of overwhelming users with charts and raw data, the system surfaces:
-- What changed
-- Why it matters
-- What should be looked at first
+- 📊 Feature Engineering (market signals)
+- 🤖 Machine Learning (Isolation Forest anomaly detection)
+- ⚙️ Rule-based intelligence (risk & momentum signals)
+- 🧠 Ranking engine (prioritization logic)
 
-This enables **faster, more confident investment decision-making** for retail investors.
+Instead of showing raw financial data, the system surfaces:
+
+> “What changed, why it matters, and what to look at first.”
 
 ---
 
 ## 🎯 Problem Statement
 
-Retail investors today face:
+Retail investors face:
 
-- Fragmented financial data across multiple sources
-- Static dashboards with no prioritization
-- High cognitive load in interpreting market movements
-- Delayed decision-making due to manual analysis
+- Fragmented financial data sources
+- Lack of real-time interpretation
+- Overload of unprioritized signals
+- Delayed decision-making
 
 ### Result:
-Investors spend more time analyzing data than acting on it.
+Users spend more time analyzing data than making decisions.
 
 ---
 
 ## 💡 Solution
 
-This platform introduces a **Decision Intelligence Layer** that:
+This system introduces a **Decision Intelligence Layer** that:
 
-- Aggregates financial data streams
-- Detects meaningful signals (risk, momentum, anomalies)
-- Prioritizes insights using ranking logic
-- Converts raw data into actionable narratives
-
----
-
-## 🧠 Key Capabilities
-
-### 📊 Signal Detection
-- Price movement anomalies
-- Portfolio concentration risk
-- Trend shifts over time
-
-### ⚙️ Intelligence Layer
-- Rule-based + heuristic signal detection
-- Context-aware prioritization
-- Noise filtering and deduplication
-
-### 📈 Insight Generation
-- Converts signals into human-readable insights
-- Explains "what changed" and "why it matters"
-
-### 🧭 Decision Support
-- Surfaces Top 3 insights per portfolio
-- Reduces time-to-insight significantly
+- Converts raw data into engineered features
+- Detects anomalies using ML (Isolation Forest)
+- Applies rule-based financial intelligence
+- Prioritizes signals using ranking logic
+- Generates human-readable insights
 
 ---
 
-## 🧱 System Architecture
+## 🧠 System Architecture
 ```
-Raw Data (Market + Portfolio)
+Raw Market + Portfolio Data
 ↓
 Feature Engineering Layer
 ↓
-Signal Detection Engine
+ML Layer (Isolation Forest Anomaly Detection)
 ↓
-Ranking & Prioritization Engine
+Rule-Based Signal Engine
 ↓
-Insight Generation Layer
+Ranking Engine
 ↓
-Dashboard (Streamlit UI)
-```
+Insight Generator
+↓
+Streamlit Dashboard
 
 
 ---
 
-## ⚙️ Tech Stack
+```
 
-- Python
-- Pandas
-- Streamlit
-- CSV-based data layer (MVP)
-- Modular analytics pipeline design
+---
+
+## ⚙️ Key Capabilities
+
+### 📊 Feature Engineering
+- Price change %
+- Volatility trends
+- Moving averages
+
+### 🤖 Machine Learning Layer
+- Isolation Forest (unsupervised anomaly detection)
+- Detects abnormal stock movements
+
+### ⚙️ Rule-Based Intelligence
+- Price spike detection
+- Portfolio concentration risk
+- Trend-based signals
+
+### 🧠 Ranking Engine
+- Prioritizes high-impact signals
+- Filters noise
+- Produces Top 3 insights
+
+### 💡 Insight Layer
+- Converts signals into human-readable insights
+- Explains “what changed and why it matters”
 
 ---
 
 ## 📊 Example Output
 
-Instead of raw data:
-
+### Raw Data:
 ```
-Stock A: +8%
-Stock B: -5%
+AAPL: +8%
+TSLA: -5%
 Tech exposure: 42%
 ```
-System outputs:
+### System Output:
 ```
 Portfolio is heavily concentrated in Tech (42%)
-Stock A shows unusual upward momentum (+8%)
-Stock B shows sustained downward trend
+AAPL shows unusual upward momentum (+8%) [Rule-based]
+TSLA flagged as statistical anomaly [ML - Isolation Forest]
 ```
 
 
 ---
 
-## 🧠 What Makes This “Intelligent”
+## 🧠 What Makes This “AI + Intelligence System”
 
-This system is not just a dashboard.
+This is NOT just a dashboard.
 
-It uses:
-- Signal detection logic
-- Ranking heuristics
-- Context-aware filtering
-- Aggregation of multiple financial inputs
+It combines:
 
-to create a **decision-first experience** rather than a data-first interface.
+- 🧠 ML-based anomaly detection (Isolation Forest)
+- ⚙️ Rule-based financial intelligence
+- 📊 Feature engineering for signal extraction
+- 🧭 Ranking system for decision prioritization
+
+Together, they form a **Decision Intelligence System**.
 
 ---
 
 ## 📈 Impact (MVP Simulation)
 
-- Improved time-to-insight for users
-- Reduced manual analysis effort
-- Adopted by 100+ retail investor users (simulated MVP cohort)
-- Enabled faster portfolio decision cycles
+- Reduces time-to-insight for retail investors
+- Improves decision-making speed
+- Highlights hidden anomalies in financial data
+- Enables faster portfolio awareness
+
+---
+
+## 🧱 Tech Stack
+
+- Python
+- Pandas
+- Scikit-learn (Isolation Forest)
+- Streamlit
+- Modular analytics pipeline architecture
+
+---
+
+## 🔍 Key Design Principles
+
+- Explainability over black-box models
+- Hybrid intelligence (ML + rules)
+- Modular pipeline design
+- Signal prioritization over raw data display
+
+---
+
+## ⚖️ Trade-offs
+
+- Rule-based + ML hybrid vs full deep learning model
+- Interpretability vs predictive complexity
+- Near real-time processing vs batch accuracy
+- Simplicity vs personalization depth
+
+---
+
+## ⚠️ Non-Goals
+
+- No trade execution
+- No brokerage integration
+- No financial advisory automation
+- No deep learning forecasting models
 
 ---
 
 ## 🔮 Future Enhancements
 
 ### Phase 2
-- ML-based anomaly detection
-- Personalized investment insights
-- User behavior learning loop
+- LLM-based insight explanation layer
+- Personalized investor profiles
+- Behavioral feedback loop
 
 ### Phase 3
 - Predictive portfolio risk scoring
 - Market sentiment integration
-- Real-time streaming ingestion
+- Streaming real-time ingestion
 
 ### Phase 4
-- Institutional-grade analytics layer
 - Multi-asset class expansion
-
----
-
-## ⚠️ Design Principles
-
-- Explainability over complexity
-- Signal prioritization over data overload
-- Modular architecture for extensibility
-- No black-box financial decisions
-
----
-
-## 🧩 Key Trade-offs
-
-- Rule-based logic vs ML models (chosen for interpretability)
-- Near real-time vs perfect accuracy
-- Simplicity vs personalization depth
-
----
-
-## 🛡️ Non-Goals
-
-- No trade execution
-- No automated financial advising
-- No brokerage integrations
+- Institutional analytics layer
 
 ---
 
@@ -181,27 +196,27 @@ to create a **decision-first experience** rather than a data-first interface.
 
 This project demonstrates:
 
-- Product thinking for decision systems
-- Ability to translate data into user value
-- Systems design thinking
-- AI/analytics interpretation without over-engineering
-- End-to-end ownership of product architecture
+- Hybrid AI system design (ML + rules)
+- End-to-end decision system thinking
+- Feature engineering + anomaly detection
+- Product thinking for financial decision support
+- Explainable AI architecture
 
 ---
 
 ## 👤 Author Context
 
-Built as part of a broader portfolio of work spanning:
+Built as part of a broader portfolio spanning:
 
 - Enterprise IoT platforms
+- Real-time telemetry systems
 - Decision intelligence systems
 - Analytics modernization initiatives
-- Large-scale data and operational systems
 
 ---
 
 ## 📌 Summary
 
-> This is a Decision Intelligence System that transforms raw financial data into prioritized, actionable insights—helping retail investors make faster and better decisions.
+> A hybrid Decision Intelligence System that combines feature engineering, Isolation Forest anomaly detection, and rule-based analytics to convert raw financial data into ranked, actionable investment insights for retail investors.
 
 ---
