@@ -1,6 +1,5 @@
 # 🔐 SmartLock IoT — Product Review (L7 PM Artifact)
 
-## Author: Product Manager (L7)
 ## Type: PRD Review
 ## Classification: Internal Product Strategy Review
 
