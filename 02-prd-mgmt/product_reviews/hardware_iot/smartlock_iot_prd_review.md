@@ -1,4 +1,4 @@
-# 🔐 SmartLock IoT — Product Review (L7 PM Artifact)
+# 🔐 SmartLock IoT — Product Review
 
 ## Type: PRD Review
 ## Classification: Internal Product Strategy Review
