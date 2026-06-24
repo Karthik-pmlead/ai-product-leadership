@@ -90,9 +90,19 @@ Camera → WebRTC → Backend AI → Fatigue Engine → UI Dashboard
 - Alert escalation system
 
 ## How to Run
+
+Install requirements
 ```bash
 pip install -r requirements.txt
-python backend/main.py
-open frontend/index.html
-python -m http.server 5500
+```
+
+How to run Backend
+```
+uvicorn backend.main:app --reload --port 8000
+```
+
+How to run Frontend
+```
+cd frontend
+python3.11 -m http.server 5500
 ```
