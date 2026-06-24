@@ -1,0 +1,9 @@
+Summarize the business situation clearly.
+
+Focus on:
+- operational impact
+- customer impact
+- business risk
+- likely root causes
+
+Keep response concise and executive-friendly.

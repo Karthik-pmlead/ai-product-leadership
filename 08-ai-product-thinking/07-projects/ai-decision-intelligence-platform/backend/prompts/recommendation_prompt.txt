@@ -1,0 +1,11 @@
+Generate business recommendations based on:
+- operational metrics
+- customer sentiment
+- anomaly detection
+- trend analysis
+
+Recommendations should:
+- be actionable
+- concise
+- business-oriented
+- operationally relevant
