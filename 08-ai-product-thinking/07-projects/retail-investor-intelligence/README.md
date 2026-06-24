@@ -45,6 +45,15 @@ This system introduces a **Decision Intelligence Layer** that:
 
 ---
 
+#### How to Run
+```
+pip install -r requirements.txt
+
+streamlit run app.py
+```
+
+---
+
 ## 🧠 System Architecture
 ```
 Raw Market + Portfolio Data
