@@ -7,7 +7,7 @@
 ---
 
 #### Read the full Medium article:
-👉 [Groww Simple Smart Evovling Fin OS](https://medium.com/@karthik_prdmgr/groww-review-simple-smart-and-evolving-into-a-financial-os-e402bde1bdf2) 
+👉 [Groww Simple Smart Evolving Fin OS](https://medium.com/@karthik_prdmgr/groww-review-simple-smart-and-evolving-into-a-financial-os-e402bde1bdf2) 
 
 ---
 
