@@ -6,6 +6,8 @@ GE Vernova is an energy infrastructure and industrial technology platform spanni
 
 In PRD terms, GE Vernova is a **mission-critical industrial platform operating at global energy scale**.
 
+<img src="../images/GE_vernova.png" alt="GE Vernova" width="250" height="250">
+
 | Area | Review |
 |---|---|
 | Product | Energy generation, grid management, and renewable optimization platform |
@@ -15,6 +17,7 @@ In PRD terms, GE Vernova is a **mission-critical industrial platform operating a
 | Review type | PRD review with infrastructure + AI transformation lens |
 
 ---
+
 
 ## What is the Platform?
 
