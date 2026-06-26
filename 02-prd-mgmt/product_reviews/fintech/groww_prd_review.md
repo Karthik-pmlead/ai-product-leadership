@@ -1,7 +1,6 @@
 # 📊 Groww App — Product Review
 
-## Reviewer: Product Manager (L7)
-## Type: Product Review (PRD Evaluation)
+## Type: Product Review
 ## Scope: Product Strategy, Platform, UX, AI Evolution, and Future State
 
 ---
