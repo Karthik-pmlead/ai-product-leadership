@@ -6,6 +6,11 @@
 
 ---
 
+#### Read the full Medium article:
+👉 [Groww Simple Smart Evovling Fin OS](https://medium.com/@karthik_prdmgr/groww-review-simple-smart-and-evolving-into-a-financial-os-e402bde1bdf2) 
+
+---
+
 # 1. Executive Summary
 
 Groww is a **multi-asset retail investment and trading platform** evolving into India’s retail financial operating system.
