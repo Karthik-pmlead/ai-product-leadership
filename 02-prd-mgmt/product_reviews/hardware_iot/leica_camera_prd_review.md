@@ -1,7 +1,12 @@
 # 📷 Leica Camera — Product Review
 
-## Type: Product Review (Not PRD)
+## Type: Product Review
 ## Scope: Strategic Product + Market + Execution Assessment
+
+---
+
+#### Read the full Medium article:
+👉 [Leica Q3 product philosophy and constraint-based design breakdown](https://medium.com/@karthik_prdmgr/leica-q3-review-the-power-of-one-lens-less-baggage-and-more-meaning-3d53082258cb) 
 
 ---
 
