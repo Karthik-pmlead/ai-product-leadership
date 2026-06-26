@@ -16,6 +16,7 @@ This section focuses on:
 
 | Product | Focus Area |
 |---|---|
+| [GE Vernova PRD Review](./ge_vernova_prd_review.md) | IoT Energy Infrastructure platform |
 | [Leica Q3 PRD Review](./leica_camera_prd_review.md) | Premium camera ecosystem, craftsmanship, luxury positioning |
 | [SmartLock IoT PRD Review](./smartlock_iot_prd_review.md) | IoT access control, enterprise security, SaaS platform strategy |
 
