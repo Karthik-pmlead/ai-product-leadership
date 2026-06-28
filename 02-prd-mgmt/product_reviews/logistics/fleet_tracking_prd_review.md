@@ -1,8 +1,8 @@
-# PRD Review Artifact: Fleet Tracking Platform
+## PRD Review Artifact: Fleet Tracking Platform
 
 ---
 
-## Overview
+### Overview
 
 A fleet tracking platform is a B2B logistics intelligence system that enables real-time visibility, safety monitoring, route optimization, and predictive fleet operations. In 2026, fleet systems are evolving from passive GPS tracking tools into AI-driven operational intelligence platforms combining telematics, video analytics, and predictive maintenance.
 
@@ -16,7 +16,12 @@ A fleet tracking platform is a B2B logistics intelligence system that enables re
 
 ---
 
-## Core Job to Be Done (JTBD)
+#### Read the full Medium article:
+👉 [Fleet Tracking Platform](github.com/Karthik-pmlead/ai-product-leadership/edit/main/02-prd-mgmt/product_reviews/logistics/fleet_tracking_prd_review.md) 
+
+---
+
+### Core Job to Be Done (JTBD)
 
 Help fleet operators continuously answer:
 
@@ -25,14 +30,14 @@ Help fleet operators continuously answer:
 - How can I reduce fuel cost, downtime, and delays?
 - What issues need immediate intervention?
 
-### JTBD Breakdown
+#### JTBD Breakdown
 - **Monitor** → real-time vehicle + driver visibility  
 - **Optimize** → routes, utilization, dispatch efficiency  
 - **Prevent** → accidents, breakdowns, inefficiencies  
 
 ---
 
-## Visual and Experience
+### Visual and Experience
 
 Fleet systems are inherently **map-centric operational dashboards** designed for fast decision-making.
 
@@ -46,7 +51,7 @@ Fleet systems are inherently **map-centric operational dashboards** designed for
 
 ---
 
-## Mission and Vision
+### Mission and Vision
 
 | Element | Statement |
 |---|---|
@@ -69,7 +74,7 @@ Fleet systems are inherently **map-centric operational dashboards** designed for
 
 ---
 
-## Customer Segments
+### Customer Segments
 
 | Segment | Primary Needs | Product Implication |
 |---|---|---|
@@ -94,11 +99,11 @@ Fleet systems are inherently **map-centric operational dashboards** designed for
 
 ---
 
-## Market Analysis
+### Market Analysis
 
 Fleet tracking is shifting from **monitoring → intelligence → automation**.
 
-### Key Market Shifts
+#### Key Market Shifts
 
 - GPS tracking is now **commodity infrastructure**
 - AI telematics is becoming standard for safety insights
@@ -107,7 +112,7 @@ Fleet tracking is shifting from **monitoring → intelligence → automation**.
 - Fleet platforms are converging with logistics optimization systems
 - Enterprises prefer **unified fleet + logistics visibility platforms**
 
-### Market Drivers
+#### Market Drivers
 
 - Rising fuel and operational costs
 - Safety compliance pressure
@@ -117,7 +122,7 @@ Fleet tracking is shifting from **monitoring → intelligence → automation**.
 
 ---
 
-## Competition Landscape
+### Competition Landscape
 
 | Category | Examples | Strength |
 |---|---|---|
@@ -127,7 +132,7 @@ Fleet tracking is shifting from **monitoring → intelligence → automation**.
 | Safety-focused systems | Motive (KeepTruckin) | Driver safety + compliance |
 | Emerging AI platforms | Startup ecosystem | AI-first optimization |
 
-### Competitive Gap
+#### Competitive Gap
 
 Most players excel in either:
 - **Tracking (GPS + visibility)** OR  
@@ -138,7 +143,7 @@ Few unify:
 
 ---
 
-## Pain Points
+### Pain Points
 
 | Pain Point | Operational Impact | Product Risk |
 |---|---|---|
@@ -150,60 +155,60 @@ Few unify:
 
 ---
 
-## AI Opportunities
+### AI Opportunities
 
-### 1. Real-time Fleet Intelligence Engine
+#### 1. Real-time Fleet Intelligence Engine
 - Dynamic rerouting based on traffic + delays
 - Live ETA recalculation
 - Exception prediction before breakdown
 
-### 2. Driver Safety Intelligence
+#### 2. Driver Safety Intelligence
 - Behavior scoring (speeding, braking, fatigue)
 - Video-based incident detection
 - AI coaching recommendations
 
-### 3. Predictive Maintenance AI
+#### 3. Predictive Maintenance AI
 - Failure prediction using engine + usage data
 - Maintenance scheduling optimization
 - Downtime reduction planning
 
-### 4. Operational Optimization AI
+#### 4. Operational Optimization AI
 - Fleet utilization balancing
 - Route cost optimization
 - Dispatch automation suggestions
 
-### 5. Autonomous Fleet Ops Layer (Future)
+#### 5. Autonomous Fleet Ops Layer (Future)
 - AI-driven dispatch decisions
 - Self-adjusting routes and schedules
 - Minimal human intervention operations
 
 ---
 
-## Future Evolution
+### Future Evolution
 
-### Phase 1: Visibility Platform (Current)
+#### Phase 1: Visibility Platform (Current)
 - GPS tracking
 - Alerts and dashboards
 - Manual dispatch optimization
 
-### Phase 2: AI-Assisted Operations
+#### Phase 2: AI-Assisted Operations
 - Predictive ETAs
 - Safety coaching insights
 - Route optimization suggestions
 
-### Phase 3: Semi-Autonomous Fleet
+#### Phase 3: Semi-Autonomous Fleet
 - AI dispatch recommendations
 - Predictive maintenance scheduling
 - Automated exception handling
 
-### Phase 4: Autonomous Fleet Intelligence
+#### Phase 4: Autonomous Fleet Intelligence
 - Self-optimizing fleet operations
 - Continuous learning from route + driver data
 - Integrated logistics + demand response system
 
 ---
 
-## Metrics
+### Metrics
 
 | Metric | Why It Matters |
 |---|---|
@@ -216,7 +221,7 @@ Few unify:
 
 ---
 
-## Risks and Tradeoffs
+### Risks and Tradeoffs
 
 | Risk | Tradeoff | Implication |
 |---|---|---|
@@ -228,7 +233,7 @@ Few unify:
 
 ---
 
-## Final Assessment
+### Final Assessment
 
 | Rating Area | Score |
 |---|---|
@@ -242,6 +247,6 @@ Few unify:
 
 ---
 
-## One-Line Summary
+### One-Line Summary
 
 Fleet tracking is evolving from a GPS visibility tool into a **real-time AI-driven fleet intelligence system that predicts, optimizes, and eventually autonomously manages logistics operations.**
