@@ -1,6 +1,5 @@
 # 🤖 AI Agent Workspace — Product Review Artifact (L7 PM)
 
-## Reviewer: Product Manager (L7)
 ## Domain: AI Systems / Agentic Workflows / Enterprise Productivity
 ## Type: PRD Review (Strategy + AI + Risk + Future Systems)
 
@@ -22,6 +21,11 @@ The core paradigm shift:
 In 2026, this category evolves into the foundational layer for:
 
 > AI-driven work management across knowledge, operations, and engineering domains
+
+---
+
+#### Read the full Medium article:
+👉 [AI Agent workspace control plane](https://medium.com/@karthik_prdmgr/ai-agent-workspace-the-control-plane-for-the-ai-workforce-ccf644c61e8f) 
 
 ---
 
