@@ -1,0 +1,297 @@
+import { useState } from "react";
+
+export default function Dashboard() {
+
+  const [query, setQuery] = useState("");
+  const [result, setResult] = useState(null);
+  const [trace, setTrace] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  const analyze = () => {
+
+    if (!query.trim()) return;
+
+    setLoading(true);
+    setError("");
+    setResult(null);
+    setTrace([]);
+
+    const eventSource = new EventSource(
+      `http://localhost:8000/stream-analyze?query=${encodeURIComponent(query)}`
+    );
+
+    eventSource.onmessage = (event) => {
+
+      try {
+
+        const data = JSON.parse(event.data);
+
+        console.log("EVENT:", data);
+
+        // -------------------------
+        // TRACE UPDATE (ALL AGENTS)
+        // -------------------------
+        if (data.trace) {
+
+          setTrace(prev => [...prev, data.trace]);
+        }
+
+        // -------------------------
+        // FINAL RESPONSE
+        // -------------------------
+        if (data.agent === "Complete") {
+
+          setResult(data);
+
+          setLoading(false);
+          eventSource.close();
+        }
+
+      } catch (err) {
+
+        console.error("Parse error:", err);
+      }
+    };
+
+    eventSource.onerror = () => {
+
+      setError("Streaming connection failed");
+
+      setLoading(false);
+      eventSource.close();
+    };
+  };
+
+
+  return (
+    <div style={{
+      padding: 20,
+      maxWidth: 1100,
+      margin: "0 auto",
+      fontFamily: "Arial"
+    }}>
+
+      {/* HEADER */}
+      <h1>Agentic Market Intelligence Platform</h1>
+
+      <p>
+        Multi-Agent AI System with Reasoning + Evaluation + Streaming
+      </p>
+
+      {/* INPUT */}
+      <div style={{ display: "flex", gap: 10 }}>
+
+        <input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Analyze Tesla or Tesla vs BYD"
+          style={{
+            flex: 1,
+            padding: 12,
+            fontSize: 14
+          }}
+        />
+
+        <button onClick={analyze}>
+          Analyze
+        </button>
+
+      </div>
+
+      {/* LOADING */}
+      {loading && (
+        <p style={{ marginTop: 10 }}>
+          🔄 Running multi-agent reasoning system...
+        </p>
+      )}
+
+      {/* ERROR */}
+      {error && (
+        <p style={{ color: "red" }}>
+          {error}
+        </p>
+      )}
+
+      {/* =========================
+          LIVE TRACE
+      ========================== */}
+      {trace.length > 0 && (
+        <div style={{ marginTop: 20 }}>
+
+          <h2>Live Execution Trace</h2>
+
+          <div style={{
+            background: "#111",
+            color: "#0f0",
+            padding: 12,
+            borderRadius: 8,
+            fontFamily: "monospace"
+          }}>
+
+            {trace.map((t, i) => (
+              <div key={i}>
+                {t.agent} → {t.status}
+                {t.latency_ms && (
+                  <> | {t.latency_ms} ms</>
+                )}
+              </div>
+            ))}
+
+          </div>
+        </div>
+      )}
+
+      {/* =========================
+          REASONING PANEL (KEY FEATURE)
+      ========================== */}
+      {trace.length > 0 && (
+        <div style={{ marginTop: 30 }}>
+
+          <h2>🧠 Agent Reasoning Panel</h2>
+
+          {trace.map((t, i) => (
+            <div
+              key={i}
+              style={{
+                border: "1px solid #ddd",
+                margin: "10px 0",
+                padding: 12,
+                borderRadius: 8
+              }}
+            >
+
+              <h3>
+                {t.agent} ({t.latency_ms || 0} ms)
+              </h3>
+
+              {/* EVALUATION */}
+              {t.evaluation && (
+                <div style={{
+                  background: "#f0f8ff",
+                  padding: 8,
+                  borderRadius: 6,
+                  marginBottom: 10
+                }}>
+                  <b>Evaluation</b>
+                  <pre>{JSON.stringify(t.evaluation, null, 2)}</pre>
+                </div>
+              )}
+
+              {/* PROMPT */}
+              <details>
+                <summary>🧠 Prompt</summary>
+                <pre style={{ whiteSpace: "pre-wrap" }}>
+                  {t.prompt || "N/A"}
+                </pre>
+              </details>
+
+              {/* CONTEXT */}
+              <details>
+                <summary>📚 Context</summary>
+                <pre style={{ whiteSpace: "pre-wrap" }}>
+                  {t.context || "N/A"}
+                </pre>
+              </details>
+
+              {/* INPUT */}
+              <details>
+                <summary>📥 Input</summary>
+                <pre>
+                  {JSON.stringify(t.input, null, 2)}
+                </pre>
+              </details>
+
+              {/* OUTPUT */}
+              <details>
+                <summary>📤 Output</summary>
+                <pre>
+                  {JSON.stringify(t.output, null, 2)}
+                </pre>
+              </details>
+
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* =========================
+          COMPETITOR VIEW
+      ========================== */}
+      {result?.comparison && (
+        <div style={{ marginTop: 20 }}>
+
+          <h2>Competitor Analysis</h2>
+
+          <pre style={{
+            background: "#f5f5f5",
+            padding: 10,
+            borderRadius: 6
+          }}>
+            {JSON.stringify(result.comparison, null, 2)}
+          </pre>
+
+        </div>
+      )}
+
+      {/* =========================
+          EXECUTIVE SUMMARY
+      ========================== */}
+      {result?.summary && (
+        <div style={{ marginTop: 20 }}>
+
+          <h2>Executive Summary</h2>
+
+          <p>{result.summary}</p>
+
+        </div>
+      )}
+
+      {/* RISKS */}
+      {result?.risks?.length > 0 && (
+        <div>
+
+          <h2>Risks</h2>
+
+          <ul>
+            {result.risks.map((r, i) => (
+              <li key={i}>{r}</li>
+            ))}
+          </ul>
+
+        </div>
+      )}
+
+      {/* OPPORTUNITIES */}
+      {result?.opportunities?.length > 0 && (
+        <div>
+
+          <h2>Opportunities</h2>
+
+          <ul>
+            {result.opportunities.map((o, i) => (
+              <li key={i}>{o}</li>
+            ))}
+          </ul>
+
+        </div>
+      )}
+
+      {/* RECOMMENDATIONS */}
+      {result?.recommendations?.length > 0 && (
+        <div>
+
+          <h2>Recommendations</h2>
+
+          <ul>
+            {result.recommendations.map((r, i) => (
+              <li key={i}>{r}</li>
+            ))}
+          </ul>
+
+        </div>
+      )}
+
+    </div>
+  );
+}
