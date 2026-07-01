@@ -1,0 +1,19 @@
+Competitive Analysis: AWS vs Azure
+
+AWS Strengths:
+- Market leadership
+- Broad service portfolio
+- Developer adoption
+
+Azure Strengths:
+- Enterprise integration
+- Microsoft ecosystem
+- AI platform adoption
+
+Competitive Dynamics:
+- AI platform competition
+- Enterprise cloud migration
+- Security and compliance requirements
+
+Key Strategic Question:
+Will AI workloads reshape cloud market leadership?

@@ -1,0 +1,33 @@
+Company: Tesla
+
+Overview:
+Tesla is a global electric vehicle and clean energy company operating across automotive, energy storage, solar energy, and autonomous driving technologies.
+
+Core Businesses:
+- Electric Vehicles
+- Energy Storage
+- Solar Energy
+- Autonomous Driving Software
+
+Strategic Strengths:
+- Strong global brand recognition
+- Vertical integration across battery and vehicle manufacturing
+- Leadership in EV software and charging infrastructure
+- Growing energy storage business
+
+Key Risks:
+- Margin pressure due to aggressive pricing
+- Increasing competition from BYD and traditional automakers
+- Regulatory and trade policy uncertainty
+- Supply chain dependence on battery materials
+
+Growth Opportunities:
+- Expansion of energy storage deployments
+- Robotaxi and autonomous driving initiatives
+- Emerging market EV adoption
+- Manufacturing localization
+
+Recent Market Themes:
+- Focus on Full Self Driving development
+- Expansion of Gigafactory network
+- Growth in utility-scale battery deployments

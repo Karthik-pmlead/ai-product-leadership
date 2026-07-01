@@ -1,0 +1,33 @@
+Company: Amazon
+
+Overview:
+Amazon operates across e-commerce, cloud infrastructure, logistics, advertising, and AI services.
+
+Core Businesses:
+- AWS
+- E-Commerce
+- Advertising
+- Logistics
+
+Strategic Strengths:
+- Scale advantages
+- Market-leading cloud platform
+- Extensive logistics network
+- Strong advertising business
+
+Key Risks:
+- Regulatory pressure
+- Margin variability
+- Cloud competition
+- Labor cost increases
+
+Growth Opportunities:
+- Generative AI services
+- AWS modernization
+- International expansion
+- Advertising growth
+
+Recent Market Themes:
+- AI infrastructure investment
+- Logistics optimization
+- Cloud transformation demand

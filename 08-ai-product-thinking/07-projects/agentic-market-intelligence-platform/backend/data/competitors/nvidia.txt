@@ -1,0 +1,19 @@
+Competitive Analysis: NVIDIA vs AMD
+
+NVIDIA Strengths:
+- CUDA ecosystem
+- AI leadership
+- Hyperscaler adoption
+
+AMD Strengths:
+- Competitive pricing
+- Growing AI portfolio
+- Diversified compute offerings
+
+Competitive Dynamics:
+- AI infrastructure spending
+- Enterprise AI demand
+- Custom accelerator competition
+
+Key Strategic Question:
+Can NVIDIA sustain its AI leadership as competition increases?
