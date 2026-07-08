@@ -12,6 +12,8 @@
 | [AI Agent](./ai_agent_workspace_prd_review.md) | AI Agent |
 | [GitHub Copilot](./GitHubCopilot_prd_review.md) | Github Copilot Agent |
 | [Cursor](./cursor_prd_review.md) | Cursor |
+| [Palantir](./palantir_prd_review.md) | Palantir |
+| [Glean](./glean_prd_review.md) | Glean |
 
 ---
 
