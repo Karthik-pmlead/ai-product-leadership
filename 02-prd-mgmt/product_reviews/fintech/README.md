@@ -10,6 +10,7 @@
 |---|---|
 | [UPI App](./bankUPI_app_prd_review.md) | UPI App |
 | [Groww](./groww_prd_review.md) | Fintech Investment platform |
+| [LSEG](./lseg_prd_review.md) | LSEG |
 
 ---
 
