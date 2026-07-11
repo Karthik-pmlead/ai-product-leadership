@@ -302,10 +302,4 @@ This repository is intended for:
 
 ---
 
-## Author
-
-**Karthik Rao**
-
-Senior Product Leader — Enterprise AI, Data & Decision Intelligence Platforms
-
 Focused on building enterprise products that transform fragmented information into intelligent decisions through AI, data platforms, and modern product strategy.
