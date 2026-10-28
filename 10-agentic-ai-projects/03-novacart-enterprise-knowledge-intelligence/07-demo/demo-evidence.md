@@ -5,7 +5,7 @@ Demonstrates NovaCart's RAG-based knowledge assistant, from document ingestion t
 
 ## Demo Assets
 - **Video:** [Add demo video link]
-- **Screenshots:** `screenshots/`
+- **Screenshots:** `screenshots/RAG Knowledge Assistant.png`
 - **Workflow exports:** `04-implementation/n8n/`
 
 ## Demonstration Flow
