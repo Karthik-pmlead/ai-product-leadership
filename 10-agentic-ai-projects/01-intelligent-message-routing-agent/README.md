@@ -2,6 +2,10 @@
 
 **LLM-Powered Intent Classification and Workflow Automation**
 
+## 0. Demo Video
+
+Watch the workflow demonstration: [Intelligent Message Routing Agent — Demo Video](https://drive.google.com/file/d/1Am6hdrIeOCMiCb31CuQor5tdtPwIZ0XW/view?usp=drive_link)
+
 ## 1. Overview
 
 An AI-powered agent that classifies inbound messages, extracts key information, and routes each message to the appropriate Google Sheets destination using n8n.
