@@ -139,21 +139,6 @@ Proposed evaluation metrics:
 
 Revenue protected, incident-resolution speed, and operating-cost savings require representative measurements. They should not be presented as achieved outcomes without supporting evidence.
 
-## Current Status
-
-**Functional workflow prototype; reliability and production-readiness validation required.**
-
-The exported workflow has a manual trigger and is marked inactive. It includes the core integration components, but the configuration alone does not establish deterministic tool execution, duplicate-free processing, successful delivery for every command, or safe recovery from partial failures.
-
-## Next Steps
-
-1. Define precise thresholds and a valid failure-rate calculation.
-2. Replace inclusive timestamp filtering with reliable event identity or cursor semantics.
-3. Enforce command creation, webhook delivery, and state advancement through explicit workflow control.
-4. Add idempotency, retry handling, and failure-path observability.
-5. Run and document tests for duplicates, partial failures, and webhook delivery.
-6. Validate performance and business impact before making production-scale claims.
-
 ## Key Takeaways
 
 - Stateful event processing requires more than storing a timestamp.
