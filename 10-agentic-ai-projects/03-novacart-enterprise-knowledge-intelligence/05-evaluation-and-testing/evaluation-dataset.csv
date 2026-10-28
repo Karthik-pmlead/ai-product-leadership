@@ -1,0 +1,9 @@
+test_id,category,question,expected_behavior,expected_evidence,actual_result,status
+TC001,Factual,What are the specifications of NovaFit Active Watch?,Answer from relevant indexed content,Product specification document,Not evaluated,Pending
+TC002,Factual,What was the revenue from NovaPhone X1 in Q4?,Answer only if revenue and timeframe are supported,Verified revenue source,Not evaluated,Pending
+TC003,Factual,How many NovaHome SmartHub Pro units were sold last year?,Answer only if sales quantity and period are supported,Verified sales source,Not evaluated,Pending
+TC004,Factual,What is the churn rate for NovaCart Essentials Subscription?,Answer only if churn rate is available,Verified subscription metrics,Not evaluated,Pending
+TC005,Missing evidence,What was NovaPhone X1 revenue in 2035?,Abstain if supporting evidence is unavailable,No supporting evidence,Not evaluated,Pending
+TC006,Irrelevant retrieval,What is the subscription churn rate?,Do not answer from unrelated product documents,Relevant subscription metrics,Not evaluated,Pending
+TC007,Timeframe mismatch,What was NovaPhone X1 revenue in Q4?,Do not use evidence for a different period,Revenue data for the requested Q4,Not evaluated,Pending
+TC008,Grounding,What features does NovaFit Active Watch support?,Ensure factual claims match retrieved content,Product specification document,Not evaluated,Pending
