@@ -104,10 +104,6 @@ The downstream system should validate the payload before acting on it. Successfu
 
 The current workflow reads the state sheet and filters checkout events against the stored timestamp. The agent prompt instructs it to update the checkpoint after processing the available events.
 
-The current filter uses an inclusive timestamp comparison (`afterOrEquals`). Consequently, an event whose timestamp equals the checkpoint may be processed again.
-
-A reliable production design should use a stable unique event identifier or another unambiguous cursor, advance state only after the required processing steps succeed, and handle retries and partial failures explicitly.
-
 ## Evaluation Plan
 
 Validate the workflow against representative test cases, including:
