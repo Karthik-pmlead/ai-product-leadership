@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Checkout Incident Command",
+  "type": "object",
+  "required": [
+    "command_id",
+    "action",
+    "severity",
+    "reason",
+    "checkout_step",
+    "cart_value",
+    "device",
+    "baseline_rate",
+    "timestamp"
+  ],
+  "properties": {
+    "command_id": {
+      "type": "string",
+      "description": "Unique command identifier"
+    },
+    "action": {
+      "type": "string",
+      "enum": ["ALERT", "LOG"]
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["HIGH", "LOW"]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "checkout_step": {
+      "type": "string"
+    },
+    "cart_value": {
+      "type": ["number", "null"]
+    },
+    "device": {
+      "type": "string"
+    },
+    "baseline_rate": {
+      "type": ["number", "string", "null"]
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
