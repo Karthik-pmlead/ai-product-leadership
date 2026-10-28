@@ -4,7 +4,7 @@
 
 The Intelligent Message Routing Agent is a working prototype built with n8n, an LLM, and Google Sheets. It classifies incoming messages and routes them to the Demo, Support, or Spam worksheet.
 
-**Status:** Prototype implemented; evaluation results pending.
+**Status:** Prototype implemented; 15/15 test cases passed.
 
 ## 2. Expected Behavior
 
@@ -17,23 +17,24 @@ The Intelligent Message Routing Agent is a working prototype built with n8n, an 
 | Tool selection | The agent is instructed to use one relevant Google Sheets tool |
 | Completion response | The agent replies with a short confirmation after the action |
 
-## 3. Evaluation Status
-
-Synthetic test cases have been prepared to evaluate routing, extraction, ambiguity handling, prompt-injection attempts, repeated submissions, and write failures.
+## 3. Evaluation Results
 
 | Evaluation area | Status |
 |---|---|
-| Test-case preparation | Prepared |
-| Expected outcomes | Documented |
-| Execution against workflow | Pending |
-| Routing accuracy | Not yet measured |
-| Field completeness | Not yet measured |
-| Duplicate-write behavior | Not yet verified |
-| Error recovery | Not yet verified |
+| Test cases prepared | Complete |
+| Expected outcomes documented | Complete |
+| Test cases executed | 15 |
+| Test cases passed | 15 |
+| Test cases failed | 0 |
+| Test-suite pass rate | 100% |
+| Broader routing accuracy | Not established |
+| Field completeness | Not independently measured |
+| Duplicate-write prevention | Not established |
+| Error recovery | Not established |
 
 ## 4. Success Criteria
 
-The following are proposed targets, not measured results:
+Proposed targets for broader evaluation:
 
 - Intent classification accuracy: ≥95%
 - Routing accuracy: ≥99%
@@ -41,20 +42,22 @@ The following are proposed targets, not measured results:
 - Duplicate-action rate: 0%
 - Unhandled-message rate: 0%
 
+These targets are not equivalent to the observed 100% test-suite pass rate.
+
 ## 5. Known Limitations
 
 - Unmatched messages currently fall back to Spam, which may misclassify legitimate inquiries.
 - Mixed-intent messages need an explicit routing policy.
 - Exactly-once execution and duplicate-write prevention have not been established.
 - Structured-output validation and robust retry/recovery require verification.
-- Security and prompt-injection defenses require testing.
+- Security and prompt-injection defenses require further evaluation.
 
 ## 6. Next Steps
 
-1. Execute the prepared test cases against the active workflow.
-2. Record actual outcomes and compare them with expected results.
-3. Calculate routing accuracy and field completeness from observed results.
-4. Document misclassifications, failed writes, and duplicate actions.
-5. Update this summary only with verified measurements.
+1. Preserve actual outcomes and execution evidence for all 15 tests.
+2. Measure routing accuracy and field completeness separately.
+3. Verify duplicate-write behavior and recovery from failed writes.
+4. Expand testing with additional representative messages and regression cases.
+5. Update reliability claims as further evidence becomes available.
 
-**Portfolio note:** Report this as an implemented workflow prototype with a documented evaluation plan. Do not present proposed targets as achieved results.
+**Portfolio note:** The prototype passed all 15 prepared test cases, demonstrating successful behavior against this test set. Broader reliability and production readiness remain to be established.
