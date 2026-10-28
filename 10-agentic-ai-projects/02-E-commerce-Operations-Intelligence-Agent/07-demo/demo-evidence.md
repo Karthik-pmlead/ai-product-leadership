@@ -43,6 +43,3 @@
 - [ ] Google Sheets command records verified
 - [ ] Webhook delivery response captured
 - [ ] Test results and limitations documented
-
-## Current Status
-Functional workflow prototype; business impact, reliability targets, and production readiness remain to be validated.
