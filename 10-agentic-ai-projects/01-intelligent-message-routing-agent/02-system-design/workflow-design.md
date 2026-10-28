@@ -2,54 +2,54 @@
 
 ## 1. Objective
 
-Automate the classification and routing of inbound messages using an LLM-powered agent orchestrated through n8n.
+Classify inbound messages and append the extracted information to the appropriate Google Sheets destination.
 
-## 2. Workflow
+## 2. Workflow Steps
 
-1. **Receive:** Capture an inbound message through the n8n chat trigger.
-2. **Interpret:** The AI Agent uses an OpenRouter language model to identify intent and extract relevant details.
-3. **Classify:** Assign one category: Demo/Sales, Support, or Spam.
-4. **Route:** Append the message to the corresponding Google Sheets destination.
-5. **Verify:** Inspect the execution and confirm the expected record was created.
+1. **Receive:** The n8n Chat Trigger receives the message.
+2. **Interpret:** The AI Agent passes the message to the connected OpenRouter model.
+3. **Classify:** The agent determines whether the message concerns Demo/Sales, Support, or Spam.
+4. **Select tool:** The agent chooses the corresponding Google Sheets tool.
+5. **Write record:** The selected tool appends destination-specific fields.
+6. **Respond:** The agent returns a short confirmation of the action.
 
-## 3. System Components
+## 3. Routing Configuration
 
-| Component | Responsibility |
+| Intent | Tool | Destination fields |
+|---|---|---|
+| Demo/Sales | `Append to demo request` | User name, user email, message content, reason for demo |
+| Support | `Append to Support` | User name, user email, issue title, issue description, priority, additional information |
+| Spam or unmatched | `Append to spam` | Name, email, message content, reason for spam |
+
+The current workflow uses the Spam category as its fallback for messages that do not clearly fit the other two categories.
+
+## 4. Execution Rules
+
+- Select one intended destination tool.
+- Preserve the original message content.
+- Extract only supported information.
+- Leave unavailable fields empty rather than inventing values.
+- Confirm successful writes only when execution evidence supports the confirmation.
+
+## 5. Failure and Edge Cases
+
+| Scenario | Required verification |
 |---|---|
-| n8n Chat Trigger | Receives inbound messages |
-| AI Agent | Interprets intent and determines the appropriate action |
-| OpenRouter LLM | Provides language understanding |
-| Google Sheets tools | Store routed messages |
-| n8n execution logs | Support debugging and workflow inspection |
+| Missing sender details | Confirm empty fields are handled correctly |
+| Mixed-intent message | Check whether the selected destination matches the primary need |
+| Unmatched message | Verify the current Spam fallback |
+| Model failure | Inspect how n8n surfaces the error |
+| Google Sheets write failure | Verify the execution does not falsely report success |
+| Repeated execution | Test whether duplicate records can occur |
 
-## 4. Data Contract
+## 6. Future Improvements
 
-Each routed record should contain:
+- Add structured-output parsing and validation.
+- Introduce a review path for ambiguous messages.
+- Implement duplicate-write protection using a stable message identifier.
+- Define explicit retry and error-handling behavior.
+- Evaluate routing accuracy using labeled test cases.
 
-- Message ID
-- Name and email, when available
-- Classified intent
-- Message summary
-- Priority, where applicable
-- Received timestamp
+## 7. Implementation Status
 
-Missing information should remain empty or be explicitly marked as unavailable, rather than invented.
-
-## 5. Routing Rules
-
-| Intent | Destination |
-|---|---|
-| Demo/Sales | Sales sheet |
-| Support | Support sheet |
-| Spam | Spam sheet |
-
-Each message should produce exactly one intended destination write. Ambiguous messages should follow a defined fallback policy rather than being routed arbitrarily.
-
-## 6. Design Considerations
-
-- Validate classification and required fields before writing.
-- Prevent duplicate writes when an execution is retried.
-- Handle model errors and Google Sheets failures.
-- Avoid including credentials or unnecessary personal data in logs.
-
-**Implementation note:** The current prototype uses an AI Agent with Google Sheets tools. Validation, fallback behavior, and duplicate-write protection must be tested before they can be considered enforced guarantees.
+The trigger, AI Agent, model connection, three destination tools, and field mappings are present in the exported workflow. The additional reliability controls listed above should be marked complete only after implementation and testing.
