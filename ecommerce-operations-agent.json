@@ -1,0 +1,536 @@
+{
+  "name": "Checkout Incident Detection Agent - PM",
+  "nodes": [
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA",
+          "mode": "list",
+          "cachedResultName": "Checkout_Incident_Detection_agent",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1575383790,
+          "mode": "list",
+          "cachedResultName": "baseline_metric",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA/edit#gid=1575383790"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        1024,
+        288
+      ],
+      "id": "482c2424-6b63-461d-baf7-621af3e73df5",
+      "name": "Get baseline metrics",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Tbyc6EjwTMMrPotu",
+          "name": "Google Sheets account 5"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA",
+          "mode": "list",
+          "cachedResultName": "Checkout_Incident_Detection_agent",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 477253716,
+          "mode": "list",
+          "cachedResultName": "agent",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA/edit#gid=477253716"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "command_id": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('command_id', ``, 'string') }}",
+            "action": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('action', ``, 'string') }}",
+            "checkout_step": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('checkout_step', ``, 'string') }}",
+            "reason": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('reason', ``, 'string') }}",
+            "severity": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('severity', ``, 'string') }}",
+            "baseline_rate": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('baseline_rate', ``, 'string') }}",
+            "device": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('device', ``, 'string') }}",
+            "cart_value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('cart_value', ``, 'string') }}",
+            "timestamp": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('timestamp', ``, 'string') }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "command_id",
+              "displayName": "command_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "action",
+              "displayName": "action",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "severity",
+              "displayName": "severity",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "reason",
+              "displayName": "reason",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "checkout_step",
+              "displayName": "checkout_step",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cart_value",
+              "displayName": "cart_value",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "device",
+              "displayName": "device",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "baseline_rate",
+              "displayName": "baseline_rate",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "timestamp",
+              "displayName": "timestamp",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        1216,
+        288
+      ],
+      "id": "3e7cd039-a7ff-4cf7-a58c-ea0eda8f5c70",
+      "name": "Append action to sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Tbyc6EjwTMMrPotu",
+          "name": "Google Sheets account 5"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA",
+          "mode": "list",
+          "cachedResultName": "Checkout_Incident_Detection_agent",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1558229648,
+          "mode": "list",
+          "cachedResultName": "state",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA/edit#gid=1558229648"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        224,
+        0
+      ],
+      "id": "bbe22909-43f4-441f-8e4f-f29937a81870",
+      "name": "Get State",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Tbyc6EjwTMMrPotu",
+          "name": "Google Sheets account 5"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "c5fdd88a-88df-4e6a-970c-096a36e41848",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA",
+          "mode": "list",
+          "cachedResultName": "Checkout_Incident_Detection_agent",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "cart_event",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA/edit#gid=0"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        448,
+        0
+      ],
+      "id": "d5a17684-dfb1-4872-8da8-d1e3e568677a",
+      "name": "Get Cart Event",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Tbyc6EjwTMMrPotu",
+          "name": "Google Sheets account 5"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are an analyst looking at checkout data to see if there is an issue with our check out solution. Each cart event below represents a checkout failure at the \"checkout_step\", which can be PAYMENT, ADDRESS, or SHIPPING.\n\nFirst calculate the failure rate per checkout_step by counting how many rows per type of checkout_step, which can only be PAYMENT, ADDRESS, and SHIPPING. This is the failure rate for that checkout_step. Use the cart events that you have access too.\n\nSecond, evaluate each cart events below based on the following business rules using the appropriate tools to get the baseline metrics and any other information you need. Call the baseline metrics tool only once and reuse the result for all events.\n\nSeverity High: If the issue occurs during the PAYMENT step (critical revenue impact).\nSeverity High: If the cart_value is significantly high.\nSeverity High: If the failure rate exceeds the baseline_rate.\nSeverity High: If multiple mobile failures occur (potential app bug).\n\n## Cart Events\n{{ $input.all().map(i => i.json).toJsonString() }}\n\nTake the following action by updating the Action sheet using the appropriate tool.\n\nAction:\nALERT: If severity is HIGH.\nLOG: If severity is LOW (e.g., low value, isolated incident).\n\nFor each cart event, append a row to the Action sheet with these fields: command_id (use row_number), action, severity, reason, checkout_step, cart_value, device, baseline_rate, timestamp. After appending each row, immediately broadcast the same data using the Broadcast webhook tool.\n\nAfter processing all cart events, update the state sheet with the last processed timestamp. The state sheet should only have one row.\n\nFinally, output a JSON array containing all the actions you took. Each item should have: command_id, action, severity, reason, checkout_step, cart_value, device, baseline_rate, timestamp.",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        1088,
+        0
+      ],
+      "id": "8149c256-30ed-45b6-8d1e-d70d34df3635",
+      "name": "Checkout agent",
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "gpt-4o-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        816,
+        256
+      ],
+      "id": "21cb650d-ec49-4039-9f56-502dcd90392c",
+      "name": "The brain",
+      "credentials": {
+        "openAiApi": {
+          "id": "6jNzh7RUn9O9gSY6",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "8a5670cd-f495-45d8-9ccf-c88a4918da15",
+              "leftValue": "={{ $json.timestamp }}",
+              "rightValue": "={{ $('Get State').item.json.Value }}",
+              "operator": {
+                "type": "dateTime",
+                "operation": "afterOrEquals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.3,
+      "position": [
+        672,
+        0
+      ],
+      "id": "a437970d-7e07-41e5-a408-04917c5581bb",
+      "name": "Filter1"
+    },
+    {
+      "parameters": {
+        "toolDescription": "Broadcasts alert data to the webhook endpoint. Provide all fields: command_id, action, severity, reason, checkout_step, cart_value, device, baseline_rate, timestamp",
+        "method": "POST",
+        "url": "https://agentic168.app.n8n.cloud/webhook/98a307d1-774b-4b53-ae6f-a21caaa1f420",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('payload', 'JSON object with fields: command_id, action, severity, reason, checkout_step, cart_value, device, baseline_rate, timestamp') }}",
+        "options": {}
+      },
+      "id": "f369cc4f-d449-4dbf-93d9-3bebc56c7c33",
+      "name": "Broadcast webhook",
+      "type": "n8n-nodes-base.httpRequestTool",
+      "typeVersion": 4.4,
+      "position": [
+        1360,
+        416
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA",
+          "mode": "list",
+          "cachedResultName": "Checkout_Incident_Detection_agent",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1558229648,
+          "mode": "list",
+          "cachedResultName": "state",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1GDtiKvzPuMnuwwS5KngbrT4EYm6oAQRqBdO8EaHbvdA/edit#gid=1558229648"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Key": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Key', ``, 'string') }}",
+            "Value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Value', ``, 'string') }}"
+          },
+          "matchingColumns": [
+            "Key"
+          ],
+          "schema": [
+            {
+              "id": "Key",
+              "displayName": "Key",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Value",
+              "displayName": "Value",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "row_number",
+              "displayName": "row_number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "number",
+              "canBeUsedToMatch": true,
+              "readOnly": true,
+              "removed": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        1456,
+        256
+      ],
+      "id": "7b7f7ceb-eadb-4578-8988-4dd741cd8819",
+      "name": "Update State",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Tbyc6EjwTMMrPotu",
+          "name": "Google Sheets account 5"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Get baseline metrics": {
+      "ai_tool": [
+        [
+          {
+            "node": "Checkout agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append action to sheet": {
+      "ai_tool": [
+        [
+          {
+            "node": "Checkout agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get State",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get State": {
+      "main": [
+        [
+          {
+            "node": "Get Cart Event",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Cart Event": {
+      "main": [
+        [
+          {
+            "node": "Filter1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "The brain": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Checkout agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter1": {
+      "main": [
+        [
+          {
+            "node": "Checkout agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Broadcast webhook": {
+      "ai_tool": [
+        [
+          {
+            "node": "Checkout agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update State": {
+      "ai_tool": [
+        [
+          {
+            "node": "Checkout agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "379eb08a-17ad-460a-a6f2-ae2508f3143b",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "c295f6f98381a021951f1d320a61c2666c3b8bff93cad2c92edad2a5182a2f97"
+  },
+  "nodeGroups": [],
+  "id": "d56szoG5ZEh13AIw",
+  "tags": []
+}
