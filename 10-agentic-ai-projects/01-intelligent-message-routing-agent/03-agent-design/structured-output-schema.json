@@ -1,46 +1,95 @@
 
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "InboundMessageRouting",
-  "type": "object",
-  "additionalProperties": false,
-  "required": [
-    "name",
-    "email",
-    "intent",
-    "summary",
-    "priority",
-    "message_id",
-    "received_at"
-  ],
-  "properties": {
-    "name": {
-      "type": ["string", "null"],
-      "description": "Sender name, if available"
+  "title": "MessageRoutingDataContracts",
+  "description": "Documents the fields currently mapped by the three Google Sheets tools in the n8n prototype.",
+  "oneOf": [
+    {
+      "title": "DemoSalesRecord",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "User name",
+        "User email",
+        "Message content",
+        "Reason for Demo"
+      ],
+      "properties": {
+        "User name": {
+          "type": "string",
+          "description": "Sender name, if available; otherwise empty"
+        },
+        "User email": {
+          "type": "string",
+          "description": "Sender email, if available; otherwise empty"
+        },
+        "Message content": {
+          "type": "string"
+        },
+        "Reason for Demo": {
+          "type": "string",
+          "description": "Reason for the demo or sales inquiry"
+        }
+      }
     },
-    "email": {
-      "type": ["string", "null"],
-      "format": "email"
+    {
+      "title": "SupportRecord",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "User name",
+        "User email",
+        "Issue title",
+        "Issue description",
+        "Priority",
+        "Additional Information"
+      ],
+      "properties": {
+        "User name": {
+          "type": "string"
+        },
+        "User email": {
+          "type": "string"
+        },
+        "Issue title": {
+          "type": "string"
+        },
+        "Issue description": {
+          "type": "string"
+        },
+        "Priority": {
+          "type": "string",
+          "description": "Priority assigned according to the agent's assessment"
+        },
+        "Additional Information": {
+          "type": "string"
+        }
+      }
     },
-    "intent": {
-      "type": "string",
-      "enum": ["DEMO_SALES", "SUPPORT", "SPAM"]
-    },
-    "summary": {
-      "type": "string",
-      "minLength": 1
-    },
-    "priority": {
-      "type": "string",
-      "enum": ["HIGH", "NORMAL", "LOW"]
-    },
-    "message_id": {
-      "type": ["string", "null"],
-      "description": "Stable identifier used for tracking and deduplication"
-    },
-    "received_at": {
-      "type": ["string", "null"],
-      "format": "date-time"
+    {
+      "title": "SpamRecord",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "Name",
+        "Email",
+        "Message content",
+        "Reason for spam"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string"
+        },
+        "Email": {
+          "type": "string"
+        },
+        "Message content": {
+          "type": "string"
+        },
+        "Reason for spam": {
+          "type": "string"
+        }
+      }
     }
-  }
+  ]
 }
