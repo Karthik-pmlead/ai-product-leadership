@@ -1,0 +1,46 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InboundMessageRouting",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "email",
+    "intent",
+    "summary",
+    "priority",
+    "message_id",
+    "received_at"
+  ],
+  "properties": {
+    "name": {
+      "type": ["string", "null"],
+      "description": "Sender name, if available"
+    },
+    "email": {
+      "type": ["string", "null"],
+      "format": "email"
+    },
+    "intent": {
+      "type": "string",
+      "enum": ["DEMO_SALES", "SUPPORT", "SPAM"]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["HIGH", "NORMAL", "LOW"]
+    },
+    "message_id": {
+      "type": ["string", "null"],
+      "description": "Stable identifier used for tracking and deduplication"
+    },
+    "received_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    }
+  }
+}
