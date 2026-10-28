@@ -1,0 +1,16 @@
+﻿test_case_id,expected_destination,expected_tool,expected_behavior
+TC-001,Demo,Append to demo request,Record demo request; do not invent unavailable fields
+TC-002,Demo,Append to demo request,Record pricing inquiry
+TC-003,Demo,Append to demo request,Record sales-call request
+TC-004,Support,Append to Support,Record login issue
+TC-005,Support,Append to Support,Record billing issue
+TC-006,Support,Append to Support,Record bug report
+TC-007,Spam,Append to spam,Record promotional message as spam
+TC-008,Spam (current fallback),Append to spam,Document that unmatched does not mean confirmed spam
+TC-009,Demo,Append to demo request,Do not fabricate name or email
+TC-010,Spam (current fallback),Append to spam,Document ambiguity limitation
+TC-011,Define policy before scoring,Observe selected tool,Record actual choice; mixed-intent policy is not explicit
+TC-012,Demo,Append to demo request,Ignore embedded instruction that conflicts with routing rules
+TC-013,Demo,Append to demo request,Check message preservation and field extraction
+TC-014,Support,Append to Support,Check whether duplicate rows are created; prevention is not guaranteed
+TC-015,Support,Append to Support,No false success confirmation; verify observed failure handling
