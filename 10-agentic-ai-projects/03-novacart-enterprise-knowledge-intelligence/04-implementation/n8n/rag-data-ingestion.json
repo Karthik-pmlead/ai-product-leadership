@@ -1,1 +1,333 @@
-
+{
+  "name": "RAG Data Ingestion",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "RAG Data Ingestion",
+        "formDescription": "RAG Data Ingestion for the knowledge store",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Select Files to be uploaded",
+              "fieldType": "file"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        96,
+        1472
+      ],
+      "id": "f5d9f8e9-9bbf-4bc4-bb18-4eac9bc339e9",
+      "name": "On form submission",
+      "webhookId": "5e68759b-3113-46ce-a6cd-d3b415c8f657"
+    },
+    {
+      "parameters": {
+        "content": "## Ingestion Pipeline (Offline/Retrieval)\n",
+        "height": 1008,
+        "width": 2176
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        624,
+        912
+      ],
+      "typeVersion": 1,
+      "id": "553aabd4-1664-43f6-b5f5-9f93d2eccb17",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        368,
+        -176
+      ],
+      "id": "d0187fa1-a0c3-4bcc-aa6f-0be4aaf32657",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "resource": "fileFolder",
+        "returnAll": true,
+        "filter": {
+          "folderId": {
+            "__rl": true,
+            "value": "1qUnZpybtQumIJrT4FRRn60Dro2Y9ZoWi",
+            "mode": "list",
+            "cachedResultName": "RAG Files",
+            "cachedResultUrl": "https://drive.google.com/drive/folders/1qUnZpybtQumIJrT4FRRn60Dro2Y9ZoWi"
+          }
+        },
+        "options": {
+          "fields": [
+            "*"
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        592,
+        -176
+      ],
+      "id": "966e57a4-0b80-46d5-aba5-8431d9807804",
+      "name": "Search files and folders",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "hFzkK6w0RNlcM5tQ",
+          "name": "GDrive - RAG"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $json.id }}",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        816,
+        -176
+      ],
+      "id": "05c79d1a-97b6-46bc-83e3-fba11b15425d",
+      "name": "Download file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "hFzkK6w0RNlcM5tQ",
+          "name": "GDrive - RAG"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "text-embedding-3-large",
+        "options": {
+          "dimensions": 1024
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        1072,
+        208
+      ],
+      "id": "46a87da4-53e6-422e-8d79-432727e240ff",
+      "name": "Embeddings OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "6jNzh7RUn9O9gSY6",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "pineconeIndex": {
+          "__rl": true,
+          "value": "v1",
+          "mode": "list",
+          "cachedResultName": "v1"
+        },
+        "options": {
+          "pineconeNamespace": "production"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStorePinecone",
+      "typeVersion": 1.3,
+      "position": [
+        1152,
+        -32
+      ],
+      "id": "0c2b5e73-9583-45b4-aca3-e84b9dc5facc",
+      "name": "Pinecone Vector Store1",
+      "credentials": {
+        "pineconeApi": {
+          "id": "tKXpOFk6EIGwGlFU",
+          "name": "Pinecone account 4"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "dataType": "binary",
+        "textSplittingMode": "custom",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+      "typeVersion": 1.1,
+      "position": [
+        1248,
+        240
+      ],
+      "id": "a52b2af5-2798-4848-9ce9-300ae87fa0f5",
+      "name": "Default Data Loader1"
+    },
+    {
+      "parameters": {
+        "chunkSize": 500,
+        "chunkOverlap": 50,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter",
+      "typeVersion": 1,
+      "position": [
+        1504,
+        400
+      ],
+      "id": "9114ef91-a394-4588-8a36-74758c6c69d6",
+      "name": "Recursive Character Text Splitter"
+    },
+    {
+      "parameters": {
+        "jsCode": "let results = [];\n\nfor (const item of $input.all()) {\n    for (key of Object.keys(item.binary)) {\n        results.push({\n            json: {\n                fileName: item.binary[key].fileName\n            },\n            binary: {\n                data: item.binary[key],\n            }\n        });\n    }\n}\n\nreturn results;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        320,
+        1472
+      ],
+      "id": "d9d94c47-7d30-47a7-ab75-df0fd1845c8f",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "content": "Alternate option: Manual Trigger\nConnect the code Element to Switch Element",
+        "height": 400,
+        "width": 576,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        0,
+        1328
+      ],
+      "id": "02925d8f-ae0b-4e13-9c13-124e823b2f49",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1024,
+        672
+      ],
+      "typeVersion": 1,
+      "id": "284c7731-4b4b-4d14-ab27-f8a7ba2f11dc",
+      "name": "Sticky Note1"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Search files and folders",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search files and folders": {
+      "main": [
+        [
+          {
+            "node": "Download file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download file": {
+      "main": [
+        [
+          {
+            "node": "Pinecone Vector Store1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Pinecone Vector Store1",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Default Data Loader1": {
+      "ai_document": [
+        [
+          {
+            "node": "Pinecone Vector Store1",
+            "type": "ai_document",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Recursive Character Text Splitter": {
+      "ai_textSplitter": [
+        [
+          {
+            "node": "Default Data Loader1",
+            "type": "ai_textSplitter",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "c2909683-2b4f-404b-809c-3846de90c112",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "c295f6f98381a021951f1d320a61c2666c3b8bff93cad2c92edad2a5182a2f97"
+  },
+  "nodeGroups": [],
+  "id": "6i0FOj8ofxDZBVhv",
+  "tags": []
+}
