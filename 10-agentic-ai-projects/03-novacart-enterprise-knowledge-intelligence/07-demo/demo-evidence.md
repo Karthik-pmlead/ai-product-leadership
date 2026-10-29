@@ -4,7 +4,7 @@
 Demonstrates NovaCart's RAG-based knowledge assistant, from document ingestion to natural-language question answering using retrieved enterprise knowledge.
 
 ## Demo Assets
-- **Video:** [Add demo video link]
+- **Video:** [RAG Knowledge Assistant Demo](https://drive.google.com/file/d/1RamN-UuEbE4zypvSzoPcmF6WKkNP9vQ3/view?usp=drive_link)
 - **Screenshots:** `screenshots/RAG Knowledge Assistant.png`
 - **Workflow exports:** `04-implementation/n8n/`
 
