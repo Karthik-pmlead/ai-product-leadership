@@ -17,7 +17,7 @@ The demonstration covers the complete workflow:
 
 ## 2. Demo Video
 
-**Video:** [Insert demo video link]
+**Video:** [Demo video](https://drive.google.com/file/d/1-fqxo_QJATEtHuA6EZjI-uvtm68dUSml/view?usp=drive_link)
 
 The video should demonstrate:
 
