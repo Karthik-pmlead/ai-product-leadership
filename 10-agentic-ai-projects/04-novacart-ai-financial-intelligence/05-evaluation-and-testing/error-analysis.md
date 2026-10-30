@@ -1,17 +1,55 @@
-test_id,test_category,test_scenario,input_or_condition,expected_result,actual_result,status
-T01,Ingestion,Internal PDF ingestion,Valid internal PDF document,Content extracted and stored in internal namespace,,
-T02,Ingestion,Internal DOCX ingestion,Valid internal DOCX document,Content extracted and stored in internal namespace,,
-T03,Ingestion,External document ingestion,Valid external market intelligence document,Content stored in external namespace,,
-T04,Chunking,Chunk configuration,200 character chunk size and 20 character overlap,Configured chunking applied,,
-T05,Namespace,Internal data retrieval,Query internal financial performance,Results retrieved from internal namespace,,
-T06,Namespace,External data retrieval,Query external market intelligence,Results retrieved from external namespace,,
-T07,Retrieval,Relevant information retrieval,Question about monthly financial performance,Relevant internal evidence retrieved,,
-T08,Retrieval,Multi-source retrieval,Question requiring internal and external context,Both knowledge sources queried,,
-T09,Accuracy,Financial figure validation,Report figure compared with source document,Reported figure matches source evidence,,
-T10,Grounding,Unsupported information,Question about unavailable financial data,Unavailable information explicitly identified,,
-T11,Analysis,Market context analysis,Internal performance and relevant market evidence,Analysis distinguishes evidence from potential drivers,,
-T12,Report,Report completeness,Monthly report generation,All required report sections included,,
-T13,Report,HTML formatting,Generated HTML report,Report is readable and properly structured,,
-T14,Delivery,Gmail delivery,Generated HTML report,Report successfully delivered through Gmail,,
-T15,Scheduling,Monthly execution,Monthly schedule trigger,Workflow initiates report generation,,
-T16,End-to-end,Complete reporting workflow,Valid source documents and monthly trigger,Report generated and delivered successfully,,
+# Error Analysis
+
+## Objective
+Identify and classify errors that may affect ingestion, retrieval, analysis, report generation, and email delivery.
+
+## Potential Failure Scenarios
+
+| Area | Potential Error | Expected Handling |
+|---|---|---|
+| Ingestion | Document extraction failure | Identify the affected document and investigate processing. |
+| Ingestion | Unsupported document format | Exclude unsupported files from processing. |
+| Embeddings | Embedding generation failure | Investigate the failed ingestion execution. |
+| Vector storage | Incorrect namespace assignment | Verify namespace configuration and stored records. |
+| Retrieval | Relevant information not retrieved | Review retrieval queries and source coverage. |
+| Retrieval | Incomplete evidence | Identify missing information in the report. |
+| Analysis | Unsupported conclusion | Review the finding against retrieved evidence. |
+| Analysis | Incorrect financial figure | Compare the reported value with the original source. |
+| Report generation | Missing report section | Validate the generated HTML against the report structure. |
+| Delivery | Gmail failure | Review workflow execution and email configuration. |
+| Scheduling | Missed monthly execution | Verify schedule trigger configuration and execution history. |
+
+## Error Classification
+
+- **Data errors:** Missing, incomplete, or incorrectly extracted source information.
+- **Retrieval errors:** Irrelevant or insufficient evidence returned by Pinecone.
+- **AI analysis errors:** Unsupported conclusions or incorrect interpretation.
+- **Output errors:** Incomplete or incorrectly formatted reports.
+- **Operational errors:** Workflow, scheduling, or email delivery failures.
+
+## Root Cause Analysis
+
+For each identified failure, record:
+
+1. Test or workflow execution reference.
+2. Expected behavior.
+3. Actual behavior.
+4. Error category.
+5. Root cause.
+6. Corrective action.
+7. Retest outcome.
+
+## Improvement Priorities
+
+- Improve document extraction and ingestion reliability.
+- Validate retrieval relevance across both namespaces.
+- Strengthen evidence-grounding checks.
+- Evaluate financial figure accuracy.
+- Improve workflow failure handling.
+- Introduce automated report-quality evaluation.
+
+## Evaluation Principle
+
+Every identified error should lead to a documented corrective action and retest.
+
+*This document defines a proposed error-analysis approach. Actual defects, root causes, and resolution outcomes should be added as testing is performed.*
