@@ -35,13 +35,10 @@ Add screenshots under `07-demo/screenshots/`.
 
 | Screenshot | Suggested File Name | Evidence |
 |---|---|---|
-| Overall system architecture | `01-system-architecture.png` | End-to-end workflow design |
-| Internal ingestion workflow | `02-internal-ingestion.png` | PDF/DOCX processing |
-| External ingestion workflow | `03-external-ingestion.png` | Market intelligence ingestion |
-| Monthly report agent | `05-monthly-report-agent.png` | AI Agent and connected retrieval tools |
-| Agent execution | `06-agent-execution.png` | Multi-source retrieval and report generation |
-| Generated report | `07-html-report.png` | Structured financial report |
-| Gmail delivery | `08-gmail-delivery.png` | Automated report delivery |
+| Internal ingestion workflow | `screenshots/RAG-Ingestion-internal.png` | PDF/DOCX processing |
+| External ingestion workflow | `screenshots/RAG-Ingestion-External.png` | Market intelligence ingestion |
+| Monthly report agent | `screenshots/RAG-Monthly Report.png` | AI Agent and connected retrieval tools |
+| Gmail delivery | `screenshots/Email-Monthly-Report.png` | Automated report delivery |
 
 ## 4. Product Approach and Solution
 
