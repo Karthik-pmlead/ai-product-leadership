@@ -1,0 +1,17 @@
+
+test_id,category,scenario,origin,destination,departure_date,return_date,travelers,budget,travel_style,preferences,expected_behavior,expected_validation
+EV-001,Happy Path,Complete domestic trip,Chennai,Bengaluru,2026-12-10,2026-12-14,1,30000,mid-range,"food; sightseeing","Generate flight hotel and activity recommendations","All required fields extracted; all three agents return usable results"
+EV-002,Happy Path,Complete international trip,Chennai,Singapore,2026-12-10,2026-12-16,2,120000,mid-range,"family activities; shopping","Generate a consolidated itinerary","Dates and traveler context retained across agents"
+EV-003,Preferences,Budget-focused trip,Coimbatore,Goa,2026-12-05,2026-12-09,2,25000,budget,"beaches; local food","Prioritize budget-aligned recommendations","Recommendations reflect stated budget and travel style"
+EV-004,Preferences,Luxury trip,Chennai,Jaipur,2026-12-12,2026-12-16,2,100000,luxury,"heritage hotels; fine dining","Return premium travel options","Hotel recommendations reflect luxury preference"
+EV-005,Missing Input,Origin missing,,Singapore,2026-12-10,2026-12-15,1,50000,mid-range,"sightseeing","Ask user for missing origin","Execution should not proceed with incomplete mandatory input"
+EV-006,Missing Input,Destination missing,Chennai,,2026-12-10,2026-12-15,1,50000,mid-range,"sightseeing","Ask user for missing destination","Execution should not proceed with incomplete mandatory input"
+EV-007,Missing Input,Departure date missing,Chennai,Delhi,,2026-12-15,1,40000,mid-range,"food","Ask user for missing departure date","Execution should not proceed with incomplete mandatory input"
+EV-008,Missing Input,Return date missing,Chennai,Delhi,2026-12-10,,1,40000,mid-range,"food","Ask user for missing return date","Execution should not proceed with incomplete mandatory input"
+EV-009,Defaults,Traveler count omitted,Chennai,Mumbai,2026-12-10,2026-12-13,,35000,mid-range,"business travel","Default traveler count to one","Coordinator applies configured default"
+EV-010,Activities,Experience-focused trip,Coimbatore,Mysuru,2026-12-10,2026-12-13,2,30000,mid-range,"culture; nature; local experiences","Return a diverse set of activities","Activities are relevant and not obviously duplicated"
+EV-011,Cross-Agent,Hotel duration mismatch,Chennai,Delhi,2026-12-10,2026-12-15,2,60000,mid-range,"sightseeing","Review hotel dates against trip dates","Validator identifies obvious duration inconsistency"
+EV-012,Cross-Agent,Activity schedule conflict,Chennai,Jaipur,2026-12-10,2026-12-14,2,50000,mid-range,"heritage; museums","Review activity timing and schedule","Validator identifies obvious timing conflicts when visible in supplied results"
+EV-013,Cross-Agent,Flight date mismatch,Chennai,Goa,2026-12-10,2026-12-14,2,40000,budget,"beaches","Review flight dates against requested dates","Validator identifies date mismatch when visible in supplied results"
+EV-014,External Dependency,Incomplete search results,Chennai,Singapore,2026-12-10,2026-12-15,2,100000,mid-range,"sightseeing","Assess whether available results can support a useful response","Missing information is not presented as verified"
+EV-015,End-to-End,Complex preference-driven trip,Coimbatore,Kochi,2026-12-10,2026-12-17,4,80000,mid-range,"family; nature; food; accessible activities","Generate a coherent consolidated itinerary","Trip context is retained and recommendations are relevant"
