@@ -1,8 +1,8 @@
-# Agentic AI Multi-Agent Travel Planning Platform
+# Agentic AI Multi-Agent Travel Planner
 
 ## 1. Overview
 
-The Agentic AI Multi-Agent Travel Planning Platform is a low-code, multi-agent system built using **n8n, LangChain, OpenAI, SerpApi, and Tavily**.
+The Agentic AI Multi-Agent Travel Planner is a low-code, multi-agent system built using **n8n, OpenAI, SerpApi, and Tavily**.
 
 It simplifies travel planning by coordinating specialized AI agents responsible for flight research, hotel discovery, and activity recommendations.
 
