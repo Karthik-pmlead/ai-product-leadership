@@ -8,7 +8,7 @@
 
 | Evidence | Screenshot |
 |---|---|
-| Complete Multi-Agent Workflow | [Add link] |
+| Complete Multi-Agent Workflow | [MultiModal_Workflow](MultiModal_Nightingale_Workflow.png) |
 
 ## Demo Scenarios
 
